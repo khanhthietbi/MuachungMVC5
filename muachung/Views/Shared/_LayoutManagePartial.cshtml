@@ -1,0 +1,20 @@
+﻿@* Created by KhanhThietbi - www.fb.com/NeedleKane & Minh Khủng Long www.fb.com/lienminhcongnong *@
+
+<div class="big-cate no-sub" style="padding: 10px 20px; font-weight: 600; font-size: 1.23077em; float: right">
+    Quick Navigation: <select name="menu1" id="menu1">
+        <option value="">Vui lòng chọn</option>
+        <option value="@Url.Action("Index", "Home")">- Trang chủ</option>
+        <option value="@Url.Action("Index","AccountManager")">- Quản lý người dùng</option>
+        <option value="@Url.Action("Index","MuaChungManage")">- Quản lý sản phẩm</option>
+        <option value="@Url.Action("LogOff","AccountLogin")">- Đăng xuất</option>
+    </select>
+    <script type="text/javascript">
+        var urlmenu = document.getElementById('menu1');
+        urlmenu.onchange = function () {
+            window.open(this.options[this.selectedIndex].value,"_self");
+        };
+    </script>
+
+</div>
+
+@* Created by KhanhThietbi - www.fb.com/NeedleKane & Minh Khủng Long www.fb.com/lienminhcongnong *@

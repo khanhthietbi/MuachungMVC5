@@ -1,0 +1,1404 @@
+table.list {
+    border: 1px solid #ccc;
+    width: 100%
+}
+
+tr.bg1 {
+    background: #f4f9ff
+}
+
+tr.bg2 {
+    background: #fff
+}
+
+td.item {
+    border-top: 1px solid #ddd;
+    color: #000;
+    font-size: 13px;
+    padding: 5px 4px
+}
+
+.bRight {
+    border-right: 1px solid #ddd
+}
+
+.bBottom {
+    border-bottom: 1px solid #ddd
+}
+
+td.head, th.head {
+    background: #436088 url(images/bg/tab_bg.gif) repeat-x top left;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 5px 5px 5px 8px
+}
+
+td.head a, th.head a {
+    color: #fff
+}
+
+td.head a:hover, th.head a:hover {
+    text-decoration: none
+}
+
+#cartRegisterForm {
+    padding: 0
+}
+
+#cartRegisterForm .fl {
+    margin: 5px 25px
+}
+
+#cartRegisterForm .label {
+    font-size: 12px;
+    color: #0a9cca;
+    font-weight: bold
+}
+
+.verify-account .title {
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase
+}
+
+.verify-account #note {
+    width: 435px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid #ffc26e
+}
+
+.box-gradien {
+    border: 1px solid #abd5e3;
+    background: #fff url(images/popup/xbgPopup.png.pagespeed.ic.bE_hYDbU2b.png) repeat-x left -92px;
+    padding: 20px
+}
+
+#box-gradien2 {
+    padding: 0
+}
+
+.box-gradien .title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #301b00;
+    text-transform: uppercase
+}
+
+.cff9200 {
+    color: green
+}
+
+.cart-finish .head {
+    background: #00a0dc;
+    font-weight: bold;
+    color: #fff;
+    font-size: 12px
+}
+
+.cart-finish .bRight {
+    border-color: #abd5e3
+}
+
+.cart-finish td.item {
+    border-color: #abd5e3;
+    color: #4e2d00;
+    font-size: 12px
+}
+
+.cart-finish td.total-all {
+    font-size: 14px;
+    font-weight: bold;
+    color: #00a0dc
+}
+
+.donga_bank, .vc_bank, .mb_bank, .vib_bank, .acb_bank, .techcom_bank, .bidv_bank, .agribank, .vietinbank {
+    background: url(images/bank/xdonga-bank.gif.pagespeed.ic.iHOLD_fvZv.png) no-repeat center center;
+    width: 100px;
+    height: 55px;
+    display: block;
+    overflow: hidden;
+    margin: 10px 10px 0 0;
+    float: left;
+    text-align: center
+}
+
+.vc_bank {
+    background-image: url(images/bank/xvietcom-bank.gif.pagespeed.ic.WUkVPO0W1o.png)
+}
+
+.mb_bank {
+    background-image: url(images/bank/xmb.png.pagespeed.ic.EsV7YZJ3Yg.png)
+}
+
+.vib_bank {
+    background-image: url(images/bank/xvib-bank.gif.pagespeed.ic.IlB4ZODBL0.png)
+}
+
+.acb_bank {
+    background-image: url(images/bank/xacb.png.pagespeed.ic.3NCWcflby-.png)
+}
+
+.techcom_bank {
+    background-image: url(images/bank/xtechcombank.gif.pagespeed.ic.3k-qhCgd9H.png)
+}
+
+.bidv_bank {
+    background-image: url(images/bank/xbidv.gif.pagespeed.ic.YEZU7tjJIM.png)
+}
+
+.vietinbank {
+    background-image: url(images/bank/xvietinbank.gif.pagespeed.ic.1dIWxLITVh.png)
+}
+
+.agribank {
+    background-image: url(images/bank/xagribank.gif.pagespeed.ic.11G7SpBM3C.png)
+}
+
+.bankInfo {
+    padding: 10px;
+    margin-left: 30px
+}
+
+.orderTable td {
+    padding: 10px;
+    vertical-align: top
+}
+
+.bank {
+    padding-left: 20px
+}
+
+.bank a, .card_type a {
+    background: url(images/payment/xbgbank.png.pagespeed.ic.kpRd7fiRSo.png) left top no-repeat;
+    width: 100px;
+    height: 24px;
+    padding: 3px 2px;
+    display: block;
+    margin: 10px 5px 0 0
+}
+
+.bank a:hover, .bank a.active, .card_type a:hover, .card_type a.active {
+    background-position: left -30px
+}
+
+.bank a span, .card_type a span {
+    background: url(images/payment/xbank8.png,qv=1.pagespeed.ic.sselqCu25p.png) no-repeat center center;
+    height: 24px;
+    width: 96px;
+    overflow: hidden;
+    display: block;
+    cursor: pointer
+}
+
+.bank #vcb {
+    background-position: center 0
+}
+
+.bank #donga {
+    background-position: center -24px
+}
+
+.bank #techcom {
+    background-position: center -48px
+}
+
+.bank #agri {
+    background-position: center -72px
+}
+
+.bank #bidv {
+    background-position: center -96px
+}
+
+.bank #vietin {
+    background-position: center -120px
+}
+
+.bank #mb {
+    background-position: center -144px
+}
+
+.bank #acb {
+    background-position: center -168px
+}
+
+.bank #vib {
+    background-position: center -192px
+}
+
+.bank #hd {
+    background-position: center -216px
+}
+
+.bankPay #shb {
+    background-position: center -264px
+}
+
+.bankPay #exim {
+    background-position: center -288px
+}
+
+.bankPay #mari {
+    background-position: center -312px
+}
+
+.bankPay #vieta {
+    background-position: center -336px
+}
+
+.bank #nama {
+    background-position: center -360px
+}
+
+.bank #sacom {
+    background-position: center -384px
+}
+
+.bank #saigon {
+    background-position: center -408px
+}
+
+.bank #gpbank {
+    background-position: center -432px
+}
+
+.bank #pgbank {
+    background-position: center -456px
+}
+
+.bank #sea {
+    background-position: center -480px
+}
+
+.bank #baca {
+    background-position: center -504px
+}
+
+.bank #vpbank {
+    background-position: center -528px
+}
+
+.paymentChooseType {
+    border-top: 1px solid #dfdfdf;
+    background: url(images/newCart/payment_type/xonline.png,qv=1.pagespeed.ic.-cG41XEnMe.png) no-repeat 14px 0;
+    padding: 0 0 10px 90px;
+    cursor: pointer
+}
+
+.amtOnline {
+    background-image: url(images/newCart/payment_type/xsohapay3.png,qv=3.pagespeed.ic.87qkFhNutR.png)
+}
+
+.sendGold {
+    background-image: url(images/newCart/payment_type/xgold.png,qv=1.pagespeed.ic.KIOSEgWWoN.png)
+}
+
+.goBankDirect {
+    min-height: 70px;
+    background-image: url(images/newCart/payment_type/xbidvs.png,qv=1.pagespeed.ic.OF3foCy6K5.png)
+}
+
+.sendAtm {
+    background-image: url(images/newCart/payment_type/xatm.png,qv=1.pagespeed.ic.TkC-3uc3tX.png)
+}
+
+.sendCop {
+    background-image: url(images/newCart/payment_type/xcop.png,qv=1.pagespeed.ic.xd1KuOEMPI.png)
+}
+
+.sendCoo {
+    background-image: url(images/newCart/payment_type/xcoo.png,qv=1.pagespeed.ic.bYjKnwSEzT.png)
+}
+
+.sendCod {
+    background-image: url(images/newCart/payment_type/xcop.png,qv=1.pagespeed.ic.xd1KuOEMPI.png)
+}
+
+.atmOnlineNoActive, .visaNoActive, .mcardNoActive, .atmNoActive, .copNoActive, .cooNoActive, .codNoActive {
+    background-color: #eee
+}
+
+.atmOnlineNoActive, .visaNoActive {
+    background-image: url(images/newCart/payment_type/xonline_no.png,qv=1.pagespeed.ic.5cItj6ydWk.png)
+}
+
+.mcardNoActive {
+    background-image: url(images/newCart/payment_type/xgold_no.png,qv=1.pagespeed.ic.JW3Jr2nnMd.png)
+}
+
+.atmNoActive {
+    background-image: url(images/newCart/payment_type/xatm_no.png,qv=1.pagespeed.ic.sr7RV4m9OF.png)
+}
+
+.copNoActive {
+    background-image: url(images/newCart/payment_type/xcop_no.png,qv=1.pagespeed.ic.fEETrxKR7n.png)
+}
+
+.cooNoActive {
+    background-image: url(images/newCart/payment_type/xcoo_no.png,qv=1.pagespeed.ic.c_qcVQK6bR.png)
+}
+
+.codNoActive {
+    background-image: url(images/newCart/payment_type/xcop_no.png,qv=1.pagespeed.ic.fEETrxKR7n.png)
+}
+
+.arrowRight {
+    padding: 10px 30px 0 0;
+    background: none;
+    margin-right: 2px
+}
+
+.pay_active .arrowRight {
+    background: url(images/newCart/xarrow_select.png.pagespeed.ic.vNdr_PExqX.png) no-repeat right center
+}
+
+.clicked .arrowRight {
+    background: url(images/newCart/xchecked.png.pagespeed.ic.toxcvX_sn1.jpg) no-repeat right center
+}
+
+.atmOnlineNoActive .arrowRight, .visaNoActive .arrowRight, .mcardNoActive .arrowRight, .atmNoActive .arrowRight, .copNoActive .arrowRight, .cooNoActive .arrowRight, .codNoActive .arrowRight {
+    background: url(images/newCart/xnot_avail.png.pagespeed.ic.JbItneN1Ud.png) no-repeat right top;
+    margin-right: 0
+}
+
+.atmOnlineNoActive .bankPay a span {
+    background: url(images/payment/xbank4.gif.pagespeed.ic.8LA9jRcG7-.png)
+}
+
+.radioBox {
+    float: left
+}
+
+.radioBox input {
+    margin: 0;
+    padding: 0
+}
+
+.paymentContent {
+    width: 550px;
+    float: left;
+    margin-left: 5px
+}
+
+.paymentTitle {
+    font-weight: bold;
+    color: #2c2c2c;
+    line-height: 100%;
+    font-size: 12px
+}
+
+.paymentTitle span {
+    font-weight: normal;
+    color: #be0d0d;
+    font-size: 11px
+}
+
+.paymentNotice {
+    margin-top: 3px;
+    font-weight: bold;
+    color: #fa0000
+}
+
+.paymentText {
+    margin: 5px 0;
+    font-size: 11px;
+    color: #888
+}
+
+ul.paymentText {
+    padding-left: 33px;
+    line-height: 150%;
+    margin: 5px 0 0
+}
+
+ul.paymentText li {
+    list-style: disc
+}
+
+.paymentLinkMore {
+    background: url(images/newCart/xarrow.png.pagespeed.ic.VZmTlFL4dd.png) no-repeat left 50%;
+    padding-left: 10px
+}
+
+.paymentLinkMore a {
+    font-size: 11px
+}
+
+.paymentLinkMore a:hover {
+    text-decoration: underline
+}
+
+.paymentGuide {
+}
+
+.bankPay a {
+    height: 24px;
+    padding: 5px 0;
+    display: block;
+    margin: 10px 0 0 0
+}
+
+.bankPay a span {
+    background: url(images/payment/xbank8.png,qv=1.pagespeed.ic.sselqCu25p.png) no-repeat center center;
+    height: 24px;
+    width: 60px;
+    overflow: hidden;
+    display: block
+}
+
+.bankPay #vcb {
+    background-position: center 0
+}
+
+.bankPay #donga {
+    background-position: center -24px
+}
+
+.bankPay #techcom {
+    background-position: center -48px
+}
+
+.bankPay #agri {
+    background-position: center -72px;
+    width: 96px
+}
+
+.bankPay #bidv {
+    background-position: center -96px;
+    width: 70px
+}
+
+.bankPay #vietin {
+    background-position: center -120px;
+    width: 96px
+}
+
+.bankPay #mb {
+    background-position: center -144px;
+    width: 56px
+}
+
+.bankPay #acb {
+    background-position: center -168px;
+    width: 70px
+}
+
+.bankPay #vib {
+    background-position: center -192px
+}
+
+.bankPay #hd {
+    background-position: center -216px;
+    width: 65px
+}
+
+.bankPay #tp {
+    background-position: center -240px;
+    width: 50px
+}
+
+.bankPay #shb {
+    background-position: center -264px;
+    width: 80px
+}
+
+.bankPay #exim {
+    background-position: center -288px;
+    width: 90px
+}
+
+.bankPay #mari {
+    background-position: center -312px;
+    width: 80px
+}
+
+.bankPay #vieta {
+    background-position: center -336px;
+    width: 96px
+}
+
+.bankPay #nama {
+    background-position: center -360px;
+    width: 30px
+}
+
+.bankPay #sacom {
+    background-position: center -384px;
+    width: 96px
+}
+
+.bankPay #saigon {
+    background-position: center -408px;
+    width: 96px
+}
+
+.bankPay #gpbank {
+    background-position: center -432px;
+    width: 96px
+}
+
+.bankPay #pgbank {
+    background-position: center -456px;
+    width: 96px
+}
+
+.bankPay #sea {
+    background-position: center -480px;
+    width: 96px
+}
+
+.bankPay #baca {
+    background-position: center -504px;
+    width: 85px
+}
+
+.bankPay #vpbank {
+    background-position: center -528px;
+    width: 90px
+}
+
+.bankPay a span#vinaphone {
+    background-image: url(images/payment/xvinaphone.png.pagespeed.ic.IzuJ4WEWlk.png);
+    width: 85px
+}
+
+.bankPay a span#mobiphone {
+    background-image: url(images/payment/xmobiphone.png.pagespeed.ic.QJmwo2IOWs.png);
+    width: 70px
+}
+
+.bankPay a span#ico_muachung {
+    background-image: url(images/xicon2.png.pagespeed.ic.o2r4Jnypgn.png);
+    width: 42px;
+    height: 44px
+}
+
+.bankPay a span#icon_sohapay {
+    background-image: url(images/newCart/payment_type/xsohapay3.png.pagespeed.ic.87qkFhNutR.png);
+    width: 70px;
+    height: 70px
+}
+
+.creditPay span {
+    background: url(images/newCart/xcreditPay.png.pagespeed.ic.pm077gwnUv.png) no-repeat center top;
+    height: 24px;
+    width: 100px;
+    overflow: hidden;
+    display: block;
+    float: left
+}
+
+.creditPay #visa {
+    background-position: center -29px
+}
+
+.gold-right .bankPay a, .paymentChooseType .bankPay a {
+    margin: 0;
+    padding: 0 5px 5px
+}
+
+.gold-right .creditPay span, .paymentChooseType .creditPay span {
+    width: 67px
+}
+
+.gold-right .creditPay #visa, .paymentChooseType .creditPay #visa {
+    background: url(images/newCart/xvisa.png,qv=1.pagespeed.ic.JyqBfaIzhS.png) no-repeat center center
+}
+
+.gold-right .creditPay #master, .paymentChooseType .creditPay #master {
+    background: url(images/newCart/xmaster.png,qv=1.pagespeed.ic.6alCxpUw0H.png) no-repeat center center
+}
+
+.cartNewForm {
+    background: url(images/newCart/xwhite.png.pagespeed.ic.YuHg-JMSvJ.png) repeat-y 301px
+}
+
+.infoInputLeft {
+    width: 300px;
+    float: left
+}
+
+.infoInputRight {
+    float: left;
+    margin-left: 28px
+}
+
+.infoInputTxt, .infoTextareaTxt {
+    border: 1px solid #abd5e3;
+    height: 28px;
+    margin: 5px 0;
+    width: 270px
+}
+
+.infoTextareaTxt {
+    height: 90px
+}
+
+.newLabel {
+    font-size: 16px;
+    color: #0a9cca;
+    font-weight: bold
+}
+
+.infoInputText {
+    color: #787878;
+    font-size: 12px;
+    margin: 5px 0;
+    width: 270px;
+    text-align: justify
+}
+
+.infoInputCheck {
+    color: #0c92bc;
+    font-size: 16px;
+    font-weight: bold
+}
+
+.newCartNotice {
+    width: 255px;
+    background-color: #fffede;
+    border: 1px solid #ffedbe;
+    padding: 10px;
+    line-height: 150%
+}
+
+.codeSendSMS {
+    text-transform: uppercase;
+    color: #fe0000;
+    font-weight: bold
+}
+
+.icon_pay {
+    height: 75px;
+    background: url(images/newCart/xicon_pay.png.pagespeed.ic.KU0vKPTkyn.jpg) no-repeat center center
+}
+
+.sms_style {
+    color: red;
+    font-size: 16px;
+    font-weight: bold
+}
+
+.bank_title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #00f
+}
+
+#formQuantity {
+    font-size: 14px;
+    font-weight: bold
+}
+
+.bank_list {
+    margin: 0 0 10px 10px
+}
+
+.bank_info {
+    width: 510px;
+    display: none
+}
+
+.bank_info .bank_detail {
+    background: #fff;
+    padding: 0 20px 0 0;
+    width: 490px
+}
+
+.bank_info a.bank_go, .bank_info a.bank_go:hover {
+    width: 155px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000;
+    float: right;
+    background: url(images/payment/xreturn.jpg.pagespeed.ic.bkrlCQHql2.jpg) no-repeat left center
+}
+
+.bank_info a.bank_go:hover {
+    text-decoration: underline
+}
+
+.bgAllPrice {
+    height: 22px;
+    line-height: 22px;
+    padding: 7px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0a97c4;
+    border-top: 1px solid #ebebeb
+}
+
+.bank_atm_online .bank_title {
+    font-size: 16px;
+    color: #03739c
+}
+
+.bank_atm_online .bank_content {
+    background: #fff;
+    padding: 12px;
+    margin-top: 10px
+}
+
+.bank_atm_online .bankPay {
+    width: 370px;
+    border-right: 1px solid #d9d9d9;
+    overflow: hidden;
+    float: left
+}
+
+.bank_atm_online .bankInfomation {
+    float: left;
+    padding-left: 15px;
+    color: #000;
+    width: 320px;
+    font-size: 14px
+}
+
+.mt300 {
+    margin-top: 300px
+}
+
+a.bank_more_link {
+    color: #007ab9;
+    font-size: 12px;
+    float: left;
+    line-height: 40px;
+    text-align: center;
+    width: 90px;
+    font-weight: bold
+}
+
+a.bank_more_link:hover {
+    text-shadow: 0 0 1px #00a0dc
+}
+
+.newCustomerInfo {
+    border: 1px solid #f1f1f1;
+    background: #fafafa;
+    padding: 10px
+}
+
+.newCustomerInfo .input {
+    font-size: 16px;
+    color: #0a9cca;
+    font-weight: bold;
+    height: 26px;
+    line-height: 26px;
+    position: relative
+}
+
+.newCustomerInfo .listDistrict {
+    right: 32px;
+    width: 143px
+}
+
+.newCustomerInfo .listDistrict a {
+    width: 115px
+}
+
+.newCustomerInfo input {
+    height: 20px;
+    line-height: 20px
+}
+
+.newCustomerInfo textarea {
+    width: 270px;
+    height: 50px;
+    font-family: arial;
+    font-size: 12px
+}
+
+.newCustomerInfo .description {
+    font-size: 11px;
+    color: #787878;
+    text-align: justify;
+    padding-top: 5px
+}
+
+.cartNewForm #cError {
+    margin: 0
+}
+
+.bgCartInfo {
+    height: 45px;
+    background: #fffee6 url(images/newCart/xbgCartInfo.png.pagespeed.ic.FStW35UwrC.png) repeat-x left bottom;
+    font-size: 14px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 25px 0;
+    line-height: 18px;
+    overflow: hidden
+}
+
+.bgCartInfo a {
+    color: #0783aa;
+    text-decoration: underline
+}
+
+#cartRechargeForm .newCustomerInfo .input {
+    font-size: 14px;
+    color: #472900
+}
+
+.xprice {
+    margin: 6px 0 0 80px;
+    padding: 5px 0 0
+}
+
+#cart-check-out-step1 .content {
+    padding: 15px 20px 10px
+}
+
+.goldRecharge, .goldRecharge2, .goldRecharge3_online, .goldRecharge3_card {
+    color: #000
+}
+
+.ff5a00 {
+    color: #ff5a00
+}
+
+.gold-right {
+    float: left;
+    margin: 0 0 20px 5px;
+    width: 505px;
+    overflow: hidden
+}
+
+.gold-title label {
+    font-weight: bold;
+    font-size: 14px;
+    height: 24px;
+    line-height: 24px;
+    cursor: pointer
+}
+
+.gold-title label span {
+    color: #065cec
+}
+
+.gold-title input {
+    line-height: 14px;
+    border: 1px solid #ccc;
+    width: 216px;
+    padding: 5px;
+    margin: 0;
+    font-size: 11px;
+    color: #8a8a8a;
+    background: #f9f9f9
+}
+
+.gold-title input.gold_email_active {
+    padding: 4px;
+    border: 2px solid #8a2825;
+    color: #8a2825
+}
+
+.gold-title input.gold_email_black {
+    color: #000
+}
+
+.gold-title input.radio_info {
+    border: 0;
+    height: auto;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    background: none
+}
+
+.gold-content ul li {
+    line-height: 150%
+}
+
+.gold-content .paymentText {
+    margin: 0
+}
+
+.goldRecharge3_online .gold-right {
+    float: none;
+    margin: 0;
+    width: auto;
+    overflow: hidden
+}
+
+.goldRecharge3_online .gold-title input, .goldRecharge3_card .gold-title input#gold_recharge_code, .goldRecharge3_card .gold-title input#gold_recharge_seri {
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    width: 150px
+}
+
+.goldRecharge3_card .gold-title input#gold_recharge_code, .goldRecharge3_card .gold-title input#gold_recharge_seri {
+    width: 245px
+}
+
+.lineSoha {
+    border-top: 1px solid #ccc;
+    margin: 15px 0;
+    padding-top: 15px
+}
+
+.sohaInfo {
+    width: 500px;
+    float: left;
+    margin-left: 20px
+}
+
+.titleStepSuccess, .titleStepError {
+    color: #0174a4;
+    font-weight: bold;
+    text-align: center
+}
+
+.titleStepError {
+    color: #e10000
+}
+
+.oderCode {
+    margin: 10px 0;
+    font-weight: bold;
+    text-align: center
+}
+
+.listFinishStep {
+    margin-left: 30px;
+    line-height: 20px
+}
+
+.listFinishStep li {
+    list-style: disc outside;
+    margin: 10px 0
+}
+
+.successMail {
+    color: #003eda
+}
+
+.successPrice {
+    color: #db0000;
+    font-size: 14px
+}
+
+.successBank a {
+    background: none
+}
+
+.shortcut {
+    float: left;
+    margin: 0 3px;
+    position: relative;
+    z-index: 3
+}
+
+.shortcut a {
+    display: block;
+    width: 45px;
+    height: 40px;
+    background: #fff no-repeat center center
+}
+
+.shortcut .tool_tip_arrow {
+    position: absolute;
+    z-index: 100;
+    top: 40px;
+    left: 15px;
+    width: 16px;
+    height: 9px;
+    background: url(images/icon/arrow_tip.png) no-repeat top left
+}
+
+.shortcut .tool_tip {
+    position: absolute;
+    z-index: 99;
+    top: 48px;
+    padding: 8px;
+    border: 1px solid #ffcd36;
+    background: #fffdde;
+    color: #fe8800;
+    font-weight: bold
+}
+
+.shortcut a.sc_online {
+    background-image: url(images/newCart/payment_type/xonline_s.png.pagespeed.ic.hgH-tbbfqM.png);
+    background-position: center 1px
+}
+
+.shortcut a.sc_atm {
+    background-image: url(images/newCart/payment_type/xatm_s.png.pagespeed.ic._YhhVyCWPR.png);
+    background-position: center -3px
+}
+
+.shortcut a.sc_gold {
+    background-image: url(images/newCart/payment_type/xgold_s.png.pagespeed.ic.MRJQNPF1bq.png);
+    background-position: center -1px
+}
+
+.shortcut a.sc_cod {
+    background-image: url(images/newCart/payment_type/xcop_s.png.pagespeed.ic.FONCuMkh2N.png);
+    background-position: center 1px
+}
+
+.shortcut a.sc_cop {
+    background-image: url(images/newCart/payment_type/xcop_s.png.pagespeed.ic.FONCuMkh2N.png);
+    background-position: center -1px
+}
+
+.shortcut a.sc_coo {
+    background-image: url(images/newCart/payment_type/xcoo_s.png.pagespeed.ic.4_6kGwhObL.png)
+}
+
+.blueTit {
+    color: #00a0dc;
+    font-weight: bold;
+    margin: 10px 0 5px
+}
+
+.gold-customer-re {
+    margin: 0 10px 10px;
+    padding: 10px;
+    border: 2px solid #ffcd36;
+    background: #fffdde;
+    color: #fe8800
+}
+
+.cartNewForm {
+    background: none
+}
+
+.text_tit {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0093d0;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 35px
+}
+
+.infoUser .text_tit {
+    background: url(images/newCart/xicon_user.png.pagespeed.ic.1gBJ2CajDs.jpg) no-repeat 8px 0
+}
+
+.infoAddress .text_tit {
+    background: url(images/newCart/xicon_book.png.pagespeed.ic.g5JBvCxNhy.jpg) no-repeat 0 0
+}
+
+.cartNewForm table {
+    color: #3c3c3c
+}
+
+.cartNewForm table input, .nice_input {
+    width: 210px;
+    height: 17px;
+    padding: 2px 7px;
+    font-size: 12px;
+    color: #000;
+    border: 1px solid #a6a6a6
+}
+
+.cartNewForm table select {
+    padding: 4px;
+    width: 225px
+}
+
+.infoNumber .text_tit {
+    background: url(images/newCart/xicon_cart.png.pagespeed.ic.dhyWw0Ua4H.png) no-repeat 0 0;
+    padding-left: 45px
+}
+
+.infoCart .text_tit {
+    background: url(images/newCart/xoto.png.pagespeed.ic.T1fb4PoJMg.jpg) no-repeat 0 0;
+    padding-left: 45px
+}
+
+.infoTotal .text_tit {
+    background: url(images/newCart/xicon_arrow.png.pagespeed.ic.FqqH3qAsJZ.jpg) no-repeat 4px 0;
+    padding-left: 45px
+}
+
+.infoNumber {
+    height: 80px;
+    background: url(images/newCart/xbg.png.pagespeed.ic.AtY5IO2eQ0.png) repeat-x 0 0;
+    padding: 10px 0 0 14px
+}
+
+.infoCart, .infoTotal {
+    padding: 0 14px 0
+}
+
+.infoTotal #bgAllPrice {
+    color: #ea0000;
+    font-size: 24px
+}
+
+#ship_coupon, #ship_office, #ship_product {
+    padding: 0;
+    margin: 0;
+    height: 13px;
+    width: 13px
+}
+
+.txt_tit {
+    font-weight: bold;
+    color: #000
+}
+
+.cRed {
+    color: #e00000
+}
+
+.cGreen {
+    color: #2aa001
+}
+
+.shipGuide textarea {
+    width: 485px;
+    padding: 5px;
+    height: 50px;
+    border: 1px solid #a6a6a6;
+    font-size: 11px;
+    color: #7d7d7d;
+    font-family: arial
+}
+
+.shipGuide textarea.black {
+    color: #000
+}
+
+.infoShipType {
+    margin: 0 0 0 47px;
+    padding: 0 0 20px;
+    background: url(images/newCart/xbg2.png.pagespeed.ic.47hvvxEhqF.png) repeat-x left bottom;
+    width: 565px
+}
+
+.infoShipType .rightInfo {
+    width: 535px
+}
+
+.addBookCtrl {
+    height: 16px;
+    line-height: 16px;
+    color: #0159d0;
+    text-decoration: underline;
+    padding: 0 0 0 16px;
+    display: block;
+    font-weight: bold;
+    background: url(images/newCart/xicon_add.png.pagespeed.ic.UvBcvdVGLj.png) no-repeat 0 center
+}
+
+.rightInfoActive {
+    background: #f4f4f4
+}
+
+.province_notice {
+    padding: 10px;
+    background: #fff9d7;
+    color: red;
+    text-align: center
+}
+
+.province_notice span {
+    font-weight: bold;
+    font-size: 16px
+}
+
+.box-httt-heading, .box-buy-heading {
+    background: url(images/background/xorder_httt.png.pagespeed.ic.KfDFALYoFr.png) no-repeat;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 45px;
+    font-size: 18px;
+    color: #333
+}
+
+.box-buy-heading-httt {
+}
+
+.box-buy-heading-info {
+    background-position: left 0px top -38px
+}
+
+.box-buy-heading-notCOO {
+    background-position: left 0px top -76px
+}
+
+.box-buy-heading-coo {
+    background-position: left 0px top -114px
+}
+
+.box-httt-option {
+    padding: 8px 0px 8px 45px
+}
+
+.box-address-btn-select {
+    cursor: pointer;
+    text-decoration: none;
+    height: 40px;
+    display: block;
+    float: left
+}
+
+.box-address-btn-select:hover {
+    text-decoration: none
+}
+
+.box-address-btn-select span.babsLeft {
+    display: block;
+    float: left;
+    height: 40px;
+    width: 5px;
+    background: url(images/background/xbutton_bg_ye.png.pagespeed.ic.36L5SX783V.png)
+}
+
+.box-address-btn-select span.babsMiddle {
+    display: block;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    background: url(images/background/xbutton_bg_ye.png.pagespeed.ic.36L5SX783V.png) 0 -40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    padding: 0px 10px;
+    text-align: center
+}
+
+.box-address-btn-select span.babsRight {
+    display: block;
+    float: left;
+    height: 40px;
+    width: 5px;
+    background: url(images/background/xbutton_bg_ye.png.pagespeed.ic.36L5SX783V.png) right -80px
+}
+
+.box-buy-btn {
+    cursor: pointer;
+    text-decoration: none;
+    height: 55px;
+    float: left;
+    display: block
+}
+
+.box-buy-btn:hover {
+    text-decoration: none
+}
+
+.box-buy-btn span.bbbLeft {
+    display: block;
+    background: url(images/background/xbutton_bg_buy.png.pagespeed.ic.5vkRqQrhoE.png) 0px -165px;
+    width: 5px;
+    height: 55px;
+    float: left
+}
+
+.box-buy-btn:hover span.bbbLeft {
+    background-position: 0px 0px
+}
+
+.box-buy-btn span.bbbMiddle {
+    display: block;
+    background: url(images/background/xbutton_bg_buy.png.pagespeed.ic.5vkRqQrhoE.png) 0px -220px;
+    width: 262px;
+    text-align: center;
+    line-height: 55px;
+    height: 55px;
+    float: left;
+    color: #fff;
+    font-size: 20px
+}
+
+.box-buy-btn:hover span.bbbMiddle {
+    background-position: 0px -55px
+}
+
+.box-buy-btn span.bbbRight {
+    display: block;
+    background: url(images/background/xbutton_bg_buy.png.pagespeed.ic.5vkRqQrhoE.png) 0px -275px;
+    width: 5px;
+    height: 55px;
+    float: left
+}
+
+.box-buy-btn:hover span.bbbRight {
+    background-position: 0px -110px
+}
+
+.box-next-btn {
+    cursor: pointer;
+    text-decoration: none;
+    height: 45px;
+    display: block;
+    float: left
+}
+
+.box-next-btn:hover {
+    text-decoration: none
+}
+
+.box-next-btn span.bnbLeft {
+    display: block;
+    float: left;
+    height: 45px;
+    width: 5px;
+    background: url(images/background/xbutton_bg.png.pagespeed.ic._mwAA_9XLO.png) 0 -180px
+}
+
+.box-next-btn:hover span.bnbLeft {
+    background-position: 0 0px
+}
+
+.box-next-btn span.bnbMiddle {
+    display: block;
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    background: url(images/background/xbutton_bg.png.pagespeed.ic._mwAA_9XLO.png) 0 -225px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center
+}
+
+.box-next-btn:hover span.bnbMiddle {
+    background-position: 0 -45px
+}
+
+.box-next-btn span.bnbRight {
+    display: block;
+    float: left;
+    height: 45px;
+    width: 45px;
+    background: url(images/background/xbutton_bg.png.pagespeed.ic._mwAA_9XLO.png) 0 -135px
+}
+
+.box-next-btn:hover span.bnbRight {
+    background-position: 0 -90px
+}
+
+.box-facebook-btn {
+    display: block;
+    width: 256px;
+    height: 45px;
+    background: url(images/background/xbutton_login_fb.png.pagespeed.ic.4zu62odo7D.png) no-repeat 0 -45px
+}
+
+.box-facebook-btn:hover {
+    background-position: 0px 0px
+}
+
+.box-change-btn {
+    display: block;
+    background: url(images/background/xchange.png.pagespeed.ic.dhG_DTXT8J.png) no-repeat;
+    width: 91px;
+    height: 32px;
+    text-decoration: none
+}
+
+.box-change-btn:hover {
+    text-decoration: none
+}

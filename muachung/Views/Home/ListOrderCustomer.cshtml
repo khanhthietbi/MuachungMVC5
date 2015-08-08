@@ -1,0 +1,130 @@
+﻿@model IEnumerable<muachung.Models.SP_GET_LIST_ORDER_Result>
+@{
+    ViewBag.Title = "Thông tin đơn hàng";
+    ViewBag.Heading = "Trang thông tin đơn hàng";
+    Layout = "~/Views/Shared/_LayoutMuaChung_Details.cshtml";
+}
+
+@* Created by KhanhThietbi - www.fb.com/NeedleKane & Minh Khủng Long www.fb.com/lienminhcongnong *@
+
+    <div class="mp-pusher" id="mp-pusher" style="background: #ebeced; margin-top: -20px;">
+        <div id="wrapper" style="padding-top:10px;">
+            <section id="page-content" class="in-profile-page">
+                <div class="main-layout clearfix">
+                    <div class="wrap-container">
+                        <div class="mod-profile clearfix">
+                            <div class="col-pro-left">
+
+                                <div class="main_view mTop10">
+                                    <div class="main-boxcontFull">
+                                        <div class="boxTopLeft fixPNG"><div class="boxTop"></div><div class="boxTopRight fixPNG"></div><div class="c"></div></div>
+                                        <div class="boxConner">
+                                            <div class="contentBoxNew2">
+                                                <div class="contentBox">
+                                                    <div class="contentOrderStep">
+                                                        <div class="oderCode">Quý khách vừa đặt mua thành công cho đơn hàng sử dụng số điện thoại: @ViewBag.Phone</div>
+                                                        <!-- Chon mau sac, size -->
+                                                        <!-- Chon mau sac, size -->
+                                                        <div style="line-height: 160%">
+                                                            <div>
+                                                                <div class="mTop10">
+                                                                    <div>Quý khách có thể đến các <b>văn phòng giao dịch của Muachung tại Hà Nội</b> thanh toán và nhận mã số phiếu điện tử:</div>
+                                                                    <div class="mTop5"><i>1. 15 Hàng Bún, Ba Đình - (04)73068386</i></div>
+                                                                    <div class="mTop5"><i>2. Tầng 17, Tòa nhà Hapulico T24, số 85 Vũ Trọng Phụng - (04)73068386</i></div>
+                                                                    <div class="mTop5"><i>3. Số 27, Mai Hắc Đế, Hai Bà Trưng, Hà Nội - (04)73068386</i></div>
+                                                                    <div class="mTop5"><i>4. Lô A31 - tổ 59 - ngõ 48 Nguyễn Chánh, Cầu Giấy, HN - 047 306 8386</i></div>
+                                                                    <div class="mTop5"><i>5. 123 Trương Định, Quận Hoàng Mai, Hà Nội - (04)73068386</i></div>
+                                                                    <div class="mTop5"><i>6. 461 phố Vũ Tông Phan, phường Khương Đình, quận Thanh Xuân, TP.Hà Nội - (04)73068386</i></div>
+                                                                    <div class="mTop5"><i>7. 110 Thái Thịnh (Khách sạn Hacinco), Đống Đa, HN - (04)73068386</i></div>
+                                                                    <div class="mTop5"> Thời gian làm việc: 9h:00 - 18h:00 từ thứ 2 đến sáng thứ 7.</div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div style="margin-top:30px" class="titleBookSuccess">Thông tin đơn hàng</div>
+                                                            <table cellpadding="0" cellspacing="0" border="0" width="100%" class="tableSuccess">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th style="width:44px" align="center">STT</th>
+                                                                        <th style="width:300px;" align=left>Sản phẩm</th>
+                                                                        <th style="width:108px;" align=center>Giá</th>
+                                                                        <th style="width:100px;" align="right">Số Lượng</th>
+                                                                        <th style="width:124px;" align="right">Thành tiền</th>
+                                                                        <th style="width:80px;" align="center">Thao tác</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                @{
+                                                                    int i = 1;
+                                                                    foreach (var item in Model)
+                                                                      {
+                                                                        decimal sum = Convert.ToDecimal(item.CostSale * item.Amount);
+                                                                        item.Total += sum;
+                                                                    <tr>
+                                                                        <td align="center" valign="top">@i</td>
+                                                                        <td align="left" valign="top">
+                                                                            <a href="@Url.Action("Details", "Home", new { id = item.Id })" style="color:#005bb0;text-decoration:none" target="_blank">@item.Name</a>
+                                                                        </td>
+                                                                        <td align="center" valign="top">@item.CostSale.ToString("#,##")đ</td>
+                                                                        <td align="right" valign="top">@item.Amount</td>
+                                                                        <td align="right" valign="top">@sum.ToString("#,##")đ</td>
+                                                                        <td align="center" valign="top"><a href="@Url.Action("DeletefromCart", "Home", new { id = @item.Id, phone = @ViewBag.phone })">Xóa</a></td>
+                                                                    </tr>
+                                                                        i++;
+                                                                      }
+                                                                }
+                                                                    <tr>
+                                                                        <td align="right" colspan="6" style="padding:10px;color:#404040;border-width:0">
+                                                                            <b><span style="padding-right:35px;">Tổng tiền </span>@Model.Sum(item => item.Total).ToString("#,##")</b>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <div class="mTop20">
+                                                                <strong>Xin khách hàng lưu ý:</strong> Email xác nhận đơn hàng sẽ được gửi đến địa chỉ email quý khách đã đăng ký và Muachung.vn sẽ không thực hiện cuộc gọi để xác nhận về đơn hàng này. Nếu không tìm thấy trong email hộp thư đến, Quý khách vui lòng kiểm tra hòm thư spam. Chúng tôi sẽ tiến hàng giao hàng cho quý khách hàng trong vòng từ 2-7 ngày làm việc tới.
+                                                            </div>
+                                                            <div style="font-style: italic;">
+                                                                <div class="mTop20"> Nếu Quý khách cần hỗ trợ, vui lòng liên hệ với Muachung.vn:</div>
+                                                                <div>
+                                                                    Điện thoại: (04) 73068386<br />
+                                                                    E-mail: <a href="mailto:hotro@muachung.vn">hotro@muachung.vn</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="boxBottomLeft fixPNG"><div class="boxBottom"></div><div class="boxBottomRight fixPNG"></div><div class="c"></div></div>
+                                    </div>
+                                </div>
+                                <!--Đo lượng quảng cáo Bên admicro -->
+                            </div>
+                            <div class="col-pro-right" style="margin-top: 10px;">
+
+                                <div class="box-white">
+                                    <div class="fs-16 title-box"><i class="icon-mc mcATMRed"></i>Hỗ trợ thanh toán </div>
+                                    <div class="link-action">
+                                        <span class="wrap-icon"><i class="icon-mc mcWallet"></i></span>
+                                        <a class="fc-blue" href="#">Thanh toán bằng Ví</a>
+                                    </div>
+                                    <div class="link-action">
+                                        <span class="wrap-icon"><i class="icon-mc mcWallet2"></i></span>
+                                        <a class="fc-blue" href="#">Hướng dẫn nạp tiền vào Ví</a>
+                                    </div>
+                                    <div class="link-action">
+                                        <span class="wrap-icon"><i class="icon-mc mcATM"></i></span>
+                                        <a class="fc-blue" href="#">Thẻ Visa/Master/ATM</a>
+                                    </div>
+                                    <div class="link-action">
+                                        <span class="wrap-icon"><i class="icon-mc mcHome"></i></span>
+                                        <a class="fc-blue" href="#">Thu tiền tận nơi (COD)</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+@* Created by Khanh Thiet bi - www.fb.com/NeedleKane & Minh Khủng Long www.fb.com/lienminhcongnong *@

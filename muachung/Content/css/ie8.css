@@ -1,0 +1,36 @@
+.magic-width #page-content {
+    max-width: 1096px
+}
+
+.magic-width #page-content.in-detail-page {
+    max-width: 1500px
+}
+
+.main-layout .wrap-container {
+    margin-right: 0
+}
+
+.magic-width .in-home-page .sidebar-right {
+    display: none
+}
+
+.magic-width .in-home-page .wrap-content-mg-width {
+    padding-right: 0
+}
+
+.classic-popup-login .wrap-check {
+    padding-left: 20px
+}
+
+.classic-popup-login .chk-style, .mod-detail .address-item .icon-radio-p {
+    display: none
+}
+
+.classic-popup-login .input-chk, .mod-detail .address-item .radio-opt {
+    opacity: 1;
+    filter: alpha(Opacity=100)
+}
+
+.mod-detail .popup-address .address-item {
+    padding-left: 22px
+}

@@ -1,0 +1,56 @@
+﻿@* Created by Minh Khủng Long www.fb.com/lienminhcongnong *@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Trang chủ Muachung</title>
+    <link href="~/Content/mystyle.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Content/plugins/jQuery/jQuery-2.1.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+    <script src="//cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.js"></script>
+    <script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
+</head>
+<body>
+
+    <!-- Code for Paging Bootstrap -->
+    <script>
+        $(document).ready(function () {
+            $('#example').dataTable();
+        } );
+    </script>
+
+    <!--HEADER SECTION-->
+
+    <div id="header" class="mod-header">
+        <div class="top-head" id="top-header">
+                <div class="row">
+                    <div class="col-md-12">
+                                <img src="~/Content/images/left.png" style="float: left;"/>
+                                <div id="logo-main" class="wrap-logo-main">
+                                    <a id="logo-main" href="@Url.Action("Index","Home")" <img class="default-logo icon-v4 i4Mc"></a>
+                                </div>
+
+                                @Html.Partial("_LayoutManagePartial")
+                    </div>
+                </div>
+        </div>
+        <!--end: .top-head -->
+        <div class="bottom-menu">
+
+        </div>
+    </div>
+
+    <!--MAIN SECTION-->
+    <div class="main-content" style="margin-top: 76px;">
+            @RenderBody()
+    </div>
+
+    <div class="footer">
+    </div>
+</body>
+</html>
+
+@* Created by Minh Khủng Long www.fb.com/lienminhcongnong *@

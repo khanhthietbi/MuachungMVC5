@@ -1,0 +1,68 @@
+﻿@model  muachung.Models.Order
+@{
+    ViewBag.Title = "Đơn hàng";
+    ViewBag.Heading = "Đơn hàng";
+    Layout = null; @*"~/Views/Shared/_LayoutManage.cshtml"*@;
+}
+
+@* Created by Minh Khủng Long, Modified by KhanhThietbi - www.fb.com/NeedleKane *@
+
+<style>
+    /* Customize code by khanhthietbi - For reason of not touching v7-style original css */
+    .wrap-btn-size-mau > i {
+        position: absolute;
+        top: 4px;
+        left: 4px;
+        width: 26px;
+        height: 28px;
+        background: #00111d;
+        border-top: 1px solid #390c00;
+        border-bottom: 1px solid #ffab95;
+        border-radius: 3px;
+    }
+
+
+    .wrap-btn-size-mau > i::before {
+        content: "";
+        position: absolute;
+        top: 3px;
+        left: 4px;
+        width: 18px;
+        height: 18px;
+        background: url('../../Content/images/xv3-icon.png') -368px 0;
+        background-color: black;
+        }
+</style>
+
+@using (Html.BeginForm("Order", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+<div class="form-order">
+    <form class="order-form">
+        <div class="form-order-control" style="margin-top:-10px;">
+            Điện thoại:
+            @Html.TextBoxFor(model => model.CustomerPhone, new { @class = "form-control", @placeholder = "Nhập số điện thoại của bạn ..." })
+        </div>
+        <div class="form-order-control" style="margin-bottom:6px;">
+            Số lượng:<br />
+            @{
+                List<SelectListItem> items = new List<SelectListItem>();
+                for (int i = 1; i <= 20; i++) 
+                {
+                    items.Add(new SelectListItem() { Text = Convert.ToString(i), Value = Convert.ToString(i) });
+                }
+            }
+            @Html.DropDownListFor(model => model.Amount, items , new { @class="form-control"})
+        </div>
+        <div class="form-order-control">
+            
+        </div>
+        <div class="wrap-btn-size-mau">
+            <input class="btn-order" type="submit" value="Mua ngay" style="width:100%;" /><i></i>
+            <div class="desc-btn-order">
+                Đặt mua online,
+                giao phiếu tận nơi
+            </div>
+        </div>
+</form>
+</div>
+}

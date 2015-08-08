@@ -1,0 +1,143 @@
+﻿@model IEnumerable<muachung.Models.SP_GET_PRODUCTS_HOT_Result>
+
+@* Created by KhanhThietbi - www.fb.com/NeedleKane *@
+
+<div class="home-feature-deals">
+    <div id="sys_slide_feature_deal" class="slide-feature-deal">
+        <div class="topdeal-slideshow">
+
+            <!-- 4 sets (tabs) x 2 sản phẩm, lưu ý tab đầu có thuộc tính active và hiển thị đầu tiên nên phải dùng lệnh if -->
+
+            @for (int i=0; i< Model.Count()/2; i++)
+            {
+                <!-- Đây là set sản phẩm thứ @(i+1) -->
+    <div style="display: @if (i == 0)
+                         { <text>block</text>;
+                         }
+                         else
+                         { <text>none</text>;
+                         } ; opacity: 1;" class="topdeal-slideshow-item blockSlide @if (i == 0)
+                        { <text>active</text>;
+                        }" rel="@(i + 1)">
+        <div class="deal-item x2">
+            <div class="inner-deal">
+                <div class="wrap-imgdesc">
+                    <div class="clearfix">
+                        <a rel="nofollow" class="img-thumb-deal"
+                           href="@Url.Action("Details", "Home", new { id = Model.ElementAt(i).Id }) ">
+                            <img src="~/Content/Upload/@Model.ElementAt(i).Images1"
+                                 alt="@Model.ElementAt(i).Name">
+                        </a>
+                    </div>
+                </div>
+                <div class="grp-bottom-content">
+                    <h3 class="rs deal-name">
+                        <a class="cl-trans"
+                           href="@Url.Action("Details", "Home", new { id = Model.ElementAt(i).Id })">
+                            @Model.ElementAt(i).Name
+                        </a>
+                    </h3>
+
+                    <div class="wrap-extend-info clearfix">
+                        <div class="right-extend-info">
+                            <a rel="nofollow"
+                               href="@Url.Action("Details", "Home", new { id = Model.ElementAt(i).Id })"
+                               class="btn-go-detail">
+                                <i class="icon-v3 iDetail3"></i>
+                                <span>Xem ngay</span>
+                            </a>
+                        </div>
+                        <div class="left-extend-info">
+                            <span>
+                                <span class="ex-price-sale">@Model.ElementAt(i).CostSale.ToString("#,##")<span class="ex-price-sale-unit">đ</span></span>
+                            </span>
+                            <span class="ex-discount-percent">(-@Convert.ToDecimal(100 * (1 - Model.ElementAt(i).CostSale / Model.ElementAt(i).Cost)).ToString("#")<span class="ex-percent-unit">%</span>)</span>
+                            <span>
+                                <span class="ex-price-origin">@Model.ElementAt(i).Cost.ToString("#,##")<span class="ex-price-origin-unit">đ</span></span>
+                            </span>
+
+                            <div class="ex-wrap-rating">
+                                <span class="ex-count-solded">328 đã mua</span>
+                            </div>
+                            <div class="selling-point hide-text-over">
+                                @Model.ElementAt(i).ShopName
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="deal-item f-small">
+            <div class="inner-deal">
+                <div class="wrap-imgdesc">
+                    <div class="clearfix">
+                        <a class="img-thumb-deal"
+                           href="@Url.Action("Details", "Home", new { id = Model.ElementAt(7 - i).Id })">
+                            <img src="~/Content/Upload/@Model.ElementAt(7 - i).Images1"
+                                 alt="@Model.ElementAt(7 - i).Name">
+                        </a>
+
+                        <div class="deal-use-location hide-text-over">
+                            <span>@Model.ElementAt(7 - i).Address</span>
+                        </div>
+                        <div class="rs shop-name-sg"><span>@Model.ElementAt(7 - i).ShopName</span></div>
+                    </div>
+                </div>
+                <div class="grp-bottom-content">
+                    <h3 class="rs deal-name hide-text-over">
+                        <a class="cl-trans"
+                           href="@Url.Action("Details", "Home", new { id = Model.ElementAt(7 - i).Id })">
+                            @Model.ElementAt(7 - i).Name
+                        </a>
+                    </h3>
+
+                    <div class="wrap-extend-info clearfix">
+                        <div class="right-extend-info">
+                            <a rel="nofollow"
+                               href="#"
+                               class="btn-go-detail">
+                                <i class="icon-v3 iDetail2"></i>
+                            </a>
+                        </div>
+                        <div class="left-extend-info">
+                            <span>
+                                <span class="ex-price-sale">@Model.ElementAt(7 - i).CostSale.ToString("#,##")<span class="ex-price-sale-unit">đ</span></span>
+                            </span>
+                            <span class="ex-discount-percent">(-@Convert.ToDecimal(100 * (1 - Model.ElementAt(7 - i).CostSale / Model.ElementAt(7 - i).Cost)).ToString("#")<span class="ex-percent-unit">%</span>)</span>
+                            <span>
+                                <span class="ex-price-origin">@Model.ElementAt(7 - i).Cost.ToString("#,##")<span class="ex-price-origin-unit">đ</span></span>
+                            </span>
+
+                            <div class="ex-wrap-rating">
+                                <span class="ex-count-solded">@Model.ElementAt(7 - i).Views đã xem</span>
+                            </div>
+                            <div class="selling-point hide-text-over">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            }
+        </div>
+        <div style="display: block;" id="bullets" class="bullets clearfix">
+            <i class="active" rel="1" onclick="changeSlide(this.getAttribute('rel'));">
+            </i>
+            <i class="" rel="2" onclick="changeSlide(this.getAttribute('rel'));">
+            </i>
+            <i class="" rel="3" onclick="changeSlide(this.getAttribute('rel'));">
+            </i>
+            <i class="" rel="4" onclick="changeSlide(this.getAttribute('rel'));">
+            </i>
+        </div>
+    </div>
+    <div id="slide-arrow-left" class="slide-arrow">
+        <a rel="nofollow" class="arrow ar-prev btn-disabled" href="#" id="slide-prev-arrow"><i class="icon-v3 iArPrev"></i></a>
+    </div>
+    <div id="slide-arrow-right" class="slide-arrow">
+        <a rel="nofollow" class="arrow" href="#" id="slide-next-arrow"><i class="icon-v3 iArNext"></i></a>
+    </div>
+</div>
+
+@* Created by KhanhThietbi - www.fb.com/NeedleKane *@

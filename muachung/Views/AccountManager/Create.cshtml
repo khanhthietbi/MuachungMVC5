@@ -1,0 +1,63 @@
+﻿@model muachung.Models.User
+
+@{
+    ViewBag.Title = "Tạo người dùng mới";
+    Layout = "~/Views/Shared/_LayoutPortals.cshtml";
+}
+
+@* Created by KhanhThietbi - www.fb.com/NeedleKane *@
+
+<h2 align="center" style="text-transform: uppercase; line-height:40px;">@ViewBag.Title</h2>
+
+@using (Html.BeginForm("Create", "AccountManager", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Username, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Username)
+                @Html.ValidationMessageFor(model => model.Username)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Password, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Password)
+                @Html.ValidationMessageFor(model => model.Password)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Active, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Active)
+                @Html.ValidationMessageFor(model => model.Active)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Avatar, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Avatar, null, new { type = "file", name = "Avatar", id = "Avatar" })
+                <h3><img style="border: 1px solid gray; padding: 3px;" src="~/Content/UserAvatar/default.png" alt="" height="80" width="80" /></h3>
+                @Html.ValidationMessageFor(model => model.Avatar)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Quay lại danh sách", "Index")
+</div>

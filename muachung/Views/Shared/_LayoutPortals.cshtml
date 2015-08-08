@@ -1,0 +1,248 @@
+﻿@* Created by iMIC CMS *@
+
+@if (Session["S_objUsers"] == null)
+{
+    Response.RedirectLocation = "/AccountLogin/Login";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Trang chủ quản trị</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <!-- Bootstrap 3.3.2 -->
+    <link href="/Content/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome Icons -->
+    <link href="/Content/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Ionicons -->
+    <link href="http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <!-- Theme style -->
+    <link href="/Content/dist/css/AdminLTE.min.css" rel="stylesheet" />
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <link href="/Content/dist/css/skins/_all-skins.min.css" rel="stylesheet" />
+    <link href="/Content/plugins/iCheck/all.css" rel="stylesheet" />
+    <link href="/Content/plugins/iCheck/square/blue.css" rel="stylesheet" />
+    <link href="/Content/plugins/daterangepicker/daterangepicker-bs3.css" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="skin-blue">
+    <div class="wrapper">
+
+        <header class="main-header">
+            <a href="@Url.Action("Index","Home")" class="logo"><b style="font-family: cursive;">MuaChung CMS</b></a>
+
+            <!-- Header Navbar: style can be found in header.less -->
+            <nav class="navbar navbar-static-top" role="navigation">
+                <!-- Sidebar toggle button-->
+                <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+                        <!-- Tasks: style can be home -->
+                        <li class="dropdown tasks-menu">
+                            <a href="@Url.Action("Index","Home")" class="dropdown-toggle" title="Trang chủ" data-toggle="dropdown">
+                                <i class="fa fa-home"></i>
+                            </a>
+                        </li>
+
+                        <!-- User Account: style can be found in dropdown.less -->
+                        <li class="dropdown user user-menu">
+                            @{ Html.RenderAction("GetAvatar", "AccountLogin", new { view = "_LoginPartial" });}
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- Left side column. contains the logo and sidebar -->
+        <aside class="main-sidebar">
+            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar">
+                <!-- Sidebar user panel -->
+                <div class="user-panel">
+                    @{ Html.RenderAction("GetAvatar", "AccountLogin", new { view = "_LoginPartialLeft" });}
+                </div>
+
+                <!-- /.search form -->
+                <!-- sidebar menu: : style can be found in sidebar.less -->
+                <ul class="sidebar-menu">
+                    <li class="header">THIẾT LẬP - QUẢN LÝ</li>
+                    <li class="treeview active">
+                        <a href="@Url.Action("Index","Home")">
+                            <i class=" fa fa-dashboard">
+                            </i> <span>Trang chủ MuaChung.vn</span>
+                        </a>
+                    </li>
+
+                    <!-- Step 05 - Thông qua nghiệp vụ CheckMenuLeft trong PortalsControllers để kiểm tra vai trò và hiển thị 1 PartialView tương ứng -->
+                    <!--<li class="treeview" id="hienthi">
+                        <a href="#">
+                            <i class="fa fa-users"></i>
+                            <span>Quản lý người dùng</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="#"><i class="fa fa-circle-o"></i> Danh sách người dùng</a></li>
+                            <li><a href="#"><i class="fa fa-circle-o"></i> Thêm mới người dùng</a></li>
+                        </ul>
+                    </li>-->
+
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-money"></i>
+                            <span>Quản lý người dùng</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="@Url.Action("Index", "AccountManager")"><i class="fa fa-circle-o"></i> Người dùng hiện hành</a></li>
+                            <li><a href="@Url.Action("DeletedUser", "AccountManager")"><i class="fa fa-circle-o"></i> Người dùng đã bị xóa</a></li>
+                            <li class="active"><a href="@Url.Action("Create", "AccountManager")"><i class="fa fa-circle-o"></i> Thêm người dùng mới</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-file-text-o"></i> <span>Quản lý sản phẩm</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="@Url.Action("Index", "MuaChungManage")"><i class="fa fa-circle-o"></i> Sản phẩm hiện hành</a></li>
+                            <li><a href="@Url.Action("DeletedProduct", "MuaChungManage")"><i class="fa fa-circle-o"></i> Sản phẩm đã bị xóa</a></li>
+                            <li class="active"><a href="@Url.Action("Create", "MuaChungManage")"><i class="fa fa-circle-o"></i> Thêm sản phẩm mới</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-file-text-o"></i> <span>Quản lý quảng cáo</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li><a href="@Url.Action("Index", "Adverts")"><i class="fa fa-circle-o"></i> Danh sách quảng cáo</a></li>
+                            <li><a href="@Url.Action("DeletedAdverts", "Adverts")"><i class="fa fa-circle-o"></i> quảng cáo đã bị xóa</a></li>
+                            <li class="active"><a href="@Url.Action("Create", "Adverts")"><i class="fa fa-circle-o"></i> Thêm quảng cáo mới</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <!-- /.sidebar -->
+        </aside>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <section class="content-header">
+                <h1>
+                    <span style="text-transform: uppercase;">@ViewBag.Title</span>
+                    <small>Preview</small>
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="#"><i class="fa fa-dashboard"></i> Bảng điều khiển</a></li>
+                    @RenderSection("SlideBar", required: false)
+
+                </ol>
+            </section>
+
+            <!-- Main content -->
+            <section class="content">
+                <div class="row">
+
+                    <!-- Dữ liệu sẽ được ghi vào đây từ trang Index -->
+                    @RenderBody()
+
+                </div>   <!-- /.row -->
+            </section><!-- /.content -->
+        </div><!-- /.content-wrapper -->
+        <footer class="main-footer">
+            <div class="pull-right hidden-xs">
+                <b>Version</b> 1.1
+            </div>
+            <strong>Copyright &copy; 2015 by <a href="http://www.facebook.com/NeedleKane" target="_blank">KhanhThietBi</a>.</strong> All rights reserved.
+        </footer>
+    </div><!-- ./wrapper -->
+    <!-- jQuery 2.1.3 -->
+    <script src="/Content/plugins/jQuery/jQuery-2.1.3.min.js"></script>
+    <!-- Bootstrap 3.3.2 JS -->
+    <script src="/Content/bootstrap/js/bootstrap.min.js"></script>
+    <!-- InputMask -->
+    <script src="/Content/plugins/input-mask/jquery.inputmask.js"></script>
+    <script src="/Content/plugins/input-mask/jquery.inputmask.date.extensions.js"></script>
+    <script src="/Content/plugins/input-mask/jquery.inputmask.extensions.js"></script>
+    <!-- datepicker -->
+    <script src="/Content/plugins/datepicker/bootstrap-datepicker.js"></script>
+    <script src="/Content/plugins/datepicker/locales/bootstrap-datepicker.vi.js"></script>
+    <script src="/Content/plugins/daterangepicker/daterangepicker.js"></script>
+    <!-- datatables -->
+    <script src="/Content/plugins/datatables/jquery.dataTables.js"></script>
+    <script src="/Content/plugins/datatables/dataTables.bootstrap.js"></script>
+    <!-- SlimScroll 1.3.0 -->
+    <script src="/Content/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+    <!-- iCheck 1.0.1 -->
+    <script src="/Content/plugins/iCheck/icheck.min.js"></script>
+    <!-- FastClick -->
+    <script src="/Content/plugins/fastclick/fastclick.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="/Content/dist/js/app.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="/Content/dist/js/demo.js"></script>
+    <!-- popup notification delete -->
+    <script src="/Content/plugins/bootbox/bootbox.js"></script>
+
+
+    <!-- Phân trang Bootstrap Table With Sorting, Searching and Paging Using DataTable (Responsive) -->
+    <!-- Link tham khảo: http://www.c-sharpcorner.com/UploadFile/d158ca/bootstrap-table-with-sorting-searching-and-paging-using-dat/ -->
+    <!-- Link tham khảo: http://www.codeproject.com/Articles/155422/jQuery-DataTables-and-ASP-NET-MVC-Integration-Part  -->
+    <!-- Link tham khảo: http://www.codeproject.com/Tips/823490/Bootstrap-Table-With-Sorting-Searching-and-Paging  -->
+    <!-- Link tham khảo: http://www.codeguru.com/csharp/.net/net_asp/mvc/implementing-sorting-and-paging-in-asp.net-mvc.html  -->
+
+    <script type="text/javascript">
+        $(function () {
+            $('#example1').dataTable();
+            $('#example2').dataTable({
+                "bPaginate": true,
+                "bLengthChange": false,
+                "bFilter": false,
+                "bSort": true,
+                "bInfo": true,
+                "bAutoWidth": false
+            });
+        });
+    </script>
+
+
+    <script type="text/javascript">
+        $(function () {
+            //Timepicker
+            $(".datepicker").datepicker({
+                format: 'dd/mm/yyyy',
+                //language: 'vi',
+                showInputs: false
+            });
+        });
+
+        $('#reservation').daterangepicker({
+            format: 'DD/MM/YYYY',
+            language: 'vi',
+            showInputs: false
+        });
+
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
+@* Created by iMIC CMS *@

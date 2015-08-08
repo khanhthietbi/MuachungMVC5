@@ -1,0 +1,111 @@
+﻿@model muachung.Models.Product
+@using muachung.Models
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_LayoutPortals.cshtml";
+}
+
+@* Created by KhanhThietbi - www.fb.com/NeedleKane *@
+
+<h2 id="create">Create</h2>
+
+@using (Html.BeginForm("Create", "MuaChungManage", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true)
+
+    <div class="col-md-12">
+        <div class="box box-warning">
+            <div class="box-body">
+                <form role="form">
+
+                    <div class="form-group">
+                        <label>@Html.LabelFor(model => model.ProductId)</label>
+                        @Html.TextBoxFor(model => model.ProductId, new { @class = "form-control", @id = "productid", @placeholder = "Nhập mã sản phẩm" })
+                        @Html.ValidationMessageFor(model => model.ProductId, "", new { @class = "errorrmessage" })
+                        <p id="result"></p>
+                    </div>
+
+                    <div class="form-group">
+                        <label>@Html.LabelFor(model => model.Name)</label>
+                        @Html.TextBoxFor(model => model.Name, new { @class = "form-control", @placeholder = "Nhập tên sản phẩm" })
+                        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "errorrmessage" })
+                    </div>
+
+
+                    <div class="form-group">
+                        <label>@Html.LabelFor(model => model.Cost)</label>
+                        @Html.TextBoxFor(model => model.Cost, new { @class = "form-control", @placeholder = "Nhập giá sản phẩm", @pkid = "cost" }) <p class="vnd">VND</p>
+                        @Html.ValidationMessageFor(model => model.Cost, "", new { @class = "errorrmessage" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>@Html.LabelFor(model => model.CostSale)</label>
+                        @Html.TextBoxFor(model => model.CostSale, new { @class = "form-control", @placeholder = "Nhập giá đã giảm", @pkid = "cost" }) <p class="vnd">VND</p>
+                        @Html.ValidationMessageFor(model => model.CostSale, "", new { @class = "errorrmessage" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>@Html.LabelFor(model => model.ShopName)</label>
+                        @Html.TextBoxFor(model => model.ShopName, new { @class = "form-control", @placeholder = "Nhập tên cửa hàng" })
+                        @Html.ValidationMessageFor(model => model.ShopName, "", new { @class = "errorrmessage" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>@Html.LabelFor(model => model.Address)</label>
+                        @Html.TextAreaFor(model => model.Address, new { @class = "form-control", @placeholder = "Nhập địa chỉ", @rows = 10 })
+                        @Html.ValidationMessageFor(model => model.Address, "", new { @class = "errorrmessage" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>@Html.LabelFor(model => model.Information)</label>
+                        @Html.TextAreaFor(model => model.Information, new { @class = "form-control", @placeholder = "Nhập thông tin sản phẩm" })
+                        @Html.ValidationMessageFor(model => model.Information, "", new { @class = "errorrmessage" })
+                    </div>
+
+
+                    <div class="form-group">
+                        <label>@Html.LabelFor(model => model.Images1)</label>
+                        @Html.TextBoxFor(model => model.Images1, null, new { type = "file", name = "Images", id = "Images" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>@Html.LabelFor(model => model.Images2)</label>
+                        @Html.TextBoxFor(model => model.Images2, null, new { type = "file", name = "Images", id = "Images" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>@Html.LabelFor(model => model.Images3)</label>
+                        @Html.TextBoxFor(model => model.Images3, null, new { type = "file", name = "Images", id = "Images" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>@Html.LabelFor(model => model.ProductHot)</label>
+                        @Html.CheckBoxFor(model => model.ProductHot, new { @class = "iCheck-helper" })
+                        <em>(Select product hot)</em>
+                    </div>
+
+    <input type="submit" class="btn btn-info btn-flat" id="taomoi" value="Create" />
+    <a href="@Url.Action("Index", "MuaChungManage")" class="btn btn-default btn-flat" id="taomoi">Back to Manage page</a>
+</form>
+            </div>
+        </div>
+    </div>
+}
+
+<script src="/Content/plugins/jQuery/jQuery-2.1.3.min.js"></script>
+<script>
+    $("#productid").change(function () {
+        var name = $("#productid").val();
+        var status = $("#result");
+        status.html("Check ProductId....");
+        $.post("/MuaChungManage/CheckProductId", { productid: name },
+                function (data) {
+                    if (data == true) {
+                        status.html("OK").addClass("text-green");
+                    } else {
+                        status.html("ProductID used").addClass("text-red");
+                    }
+                });
+    });
+</script>

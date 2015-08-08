@@ -1,0 +1,102 @@
+.comments_new_design {
+    transition: 500ms;
+    position: fixed;
+    left: -120px;
+    bottom: 100px;
+    z-index: 9999;
+    cursor: pointer
+}
+
+.comments_new_design .content {
+    transition: 400ms;
+    opacity: 0;
+    background: #fff;
+    box-shadow: 0 2px 11px 1px #dae1e9;
+    width: 155px;
+    height: 45px;
+    color: #333;
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 18px;
+    border-radius: 3px;
+    border: 1px solid #d7d7d7;
+    padding: 15px 0px 0px 10px;
+    white-space: nowrap
+}
+
+.comments_new_design .top {
+    transition: 600ms;
+    background: url(http://static6.zamba.vn/frontEnd/images/xicon-comment.png.pagespeed.ic.URkCI42EwS.png) center no-repeat;
+    background-size: 100%;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: -8px;
+    right: -26px;
+    border-radius: 300px;
+    z-index: 99999;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 600ms;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: 3;
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 600ms;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: 3;
+    animation-name: blinker;
+    animation-duration: 600ms;
+    animation-timing-function: linear;
+    animation-iteration-count: 3
+}
+
+.comments_new_design:hover {
+    left: 0px
+}
+
+.comments_new_design:hover .content {
+    opacity: 1;
+    display: block;
+    border: 1px solid #bbb;
+    border-left: 0px
+}
+
+.comments_new_design:hover .top {
+    right: -16px;
+    top: -16px
+}
+
+@-moz-keyframes blinker {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@-webkit-keyframes blinker {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}
+
+@keyframes blinker {
+    0% {
+        opacity: 1.0;
+    }
+    50% {
+        opacity: 0.0;
+    }
+    100% {
+        opacity: 1.0;
+    }
+}

@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+/*a{color:#003eda}
+a:hover{color:#f19e03}*/
+
+.contentOrderStep {
+	font-size: 14px
+}
+
+.navStep{position:relative}
+.blueTitleCheckOut{color:#636363;padding-left: 15px;background:#fff url(images/payment/blueTitleCheckOut.png) no-repeat 0 center;font-weight:bold;height:25px;line-height:18px;font-size:16px}
+.allStep {position:absolute;right:-3px;top:-5px}
+
+.allStep li{float:left}
+.allStep li a{color:#adadad;font-size:11px; font-weight:bold;width:85px; display:block;text-align:center;text-decoration:none}
+.allStep li a:hover,.allStep .actived {color:#93b676}
+
+.allStep .step2{margin-left:36px;}
+.allStep .step3{margin-left:34px;}
+.allStep .step4{margin-left:20px;}
+.allStep .step5{margin-left:23px;}
+.allStep .step5 a{width:45px;}
+
+.allStep .iconCheckOut{height:23px; overflow:hidden;display:block;margin-bottom:5px}
+.allStep .active,.allStep .actived:hover {color:#5d9a2c}
+.allStep .active .iconCheckOut,.allStep .actived:hover{background:url('images/payment/step.png') no-repeat center 0}
+
+.orderInfo{margin-top:40px;}
+.titleInfo{font-size:18px; font-weight:bold;color:#a5a6a6;background:url('images/payment/order.png') no-repeat 0 0; padding-left:34px;height:24px; line-height:24px;margin-bottom:5px}
+.contentInfo{width:702px}
+.borderTableInfo{border:1px solid #f6f6f6; border-width:0 1px;padding:0 3px;}
+.topContentInfo,.bottomContentInfo{background:url('images/payment/topOrder.png') no-repeat 0 0; height:8px;overflow:hidden;width:702px}
+.bottomContentInfo{background:url('images/payment/bottomOrder.png') no-repeat 0 0; height:9px}
+.tableContentInfo{padding:0; margin:0; border-collapse: collapse;width:695px}
+.tableContentInfo th{padding:0 12px 5px 12px; margin:0;background-color:#e3e3e3}
+.tableContentInfo td{padding:10px 12px;background:url('images/payment/lineOrder.png') repeat-x 0 bottom}
+.tableContentInfo .lastTD{background:none}
+.tableContentInfo .lastTD b{font-size:14px;}
+.tableContentInfo .lastTD b span{color:#0c84c2;margin-left:15px}
+
+/* step */
+.titleStep,.titleStepGray {color:#006ea0; font-size:18px; font-weight:bold;padding-left:32px; background:url('images/payment/orderStep.png') no-repeat 0 0;height:25px; overflow:hidden;line-height:28px}
+.titleStepGray{color:#a7a7a7}
+/*.contentOrderStep{width:696px}*/
+.topOrderStep,.bottomOrderStep{background:url('images/payment/topOrderStep.png') no-repeat 0 0; height:10px;overflow:hidden;width:696px}
+.bottomOrderStep{background:url('images/payment/bottomOrderStep.png') no-repeat 0 0;height:10px;}
+.borderOrderStep{border:1px solid #f4f4f4; border-width:0 1px;padding:0 2px;}
+.bgOrderStep{background-color:#fffcf4;padding:0 10px 7px 17px}
+.listPayment{width:395px; border-right:1px solid #fff}
+.listPayment .titlePayType{font-size:18px; font-weight:bold; color:#464646;margin-bottom:5px}
+.listPayment .perPayment, .listPayment .perPaymentHover{width:385px; height:85px;overflow:hidden;padding-top:10px;cursor:pointer}
+.listPayment .perPaymentHover{background:url('images/payment/perPayment.png') no-repeat 0 0;}
+.listPayment .iconPayment,.listPayment .noActive .iconPaymentNoActive{width:57px; height:54px;background:url('images/payment/paymentType.png') no-repeat 0 0; overflow:hidden;margin:10px 12px 0 11px}
+.listPayment .noActive{cursor:auto}
+
+.listPayment #atmOnline .iconPayment{background-position:0 -54px;height:52px}
+.listPayment #atm .iconPayment{background-position:0 -106px;height:45px}
+.listPayment #cod .iconPayment{background-position:0 -151px;height:46px}
+
+.listPayment .noActive .iconPaymentNoActive{background-position:0 -197px;height:55px}
+
+.textPayment{width:265px;text-align:left;line-height:140%}
+.textPayment a{color:#7c9406;text-decoration:none;font-size:11px;display:block;padding-left:7px; background:url('images/payment/arrLinkPayment.png') no-repeat 0 50%}
+.textPayment a:hover{color:#ff8000}
+.infoPayment{width:265px}
+.titleInfoPayment{height:26px; padding-left:30px; text-transform:uppercase;font-size:18px; font-weight:bold;color:#006ea0;background:url('images/payment/infoPayment.png') no-repeat 0 0;line-height:26px;margin-bottom:10px}
+
+.buttonStep a{background:url('images/payment/orderButton.png') no-repeat 0 0;width:123px;height:29px; overflow:hidden; border:none;cursor:pointer;margin:15px 8px 0 0;display:block}
+.buttonStep a:hover{background-position: 0 -29px}
+
+.buttonStep a.stepFoward{background-position: 0 -58px}
+.buttonStep a.stepFoward:hover{background-position: 0 -87px}
+
+.buttonStep a.checkOut{background-position: 0 -116px}
+.buttonStep a.checkOut:hover{background-position: 0 -145px}
+.buttonStep a.checkOut2{background-position: 0 -174px}
+.buttonStep a.checkOut2:hover{background-position: 0 -203px}
+.buttonStep a.sendTo{background-position: 0 -232px;width:191px;}
+.buttonStep a.sendTo:hover{background-position: 0 -261px}
+/* chuyen khoan */
+
+a.checkoutOther {
+  background:url("images/payment/bigArr.png") no-repeat 0 0;
+  padding: 6px 0 0 55px;
+  width: 100px;
+  height: 50px;
+  margin:15px 0 5px 0;
+  color:#979797;text-decoration:none
+}
+a.checkoutOther:hover{color:#ff8000}
+.listPayment .stepOver{cursor:auto;height:70px}
+.stepATM{width:270px;overflow:hidden}
+.noIcon{background:none;padding-left:0}
+.bank a{
+  background: url('images/payment/bg_bank.png') left top no-repeat;
+  width: 128px;
+  height: 40px;
+  display:block;
+  margin:10px 6px 0 0;
+}
+.bank a:hover{background-position: left -40px;}
+.bank a span{ background: url('images/payment/bankPay.png') no-repeat 0 0; height:40px;width: 128px;overflow:hidden;display:block;}
+.bank #vcb{background-position:30px 0; margin-top:5px ;height:28px;}
+.bank #donga{background-position:31px -28px; margin-top:7px ;height:28px;}
+.bank #techcom{background-position:31px -56px; margin-top:5px ;height:30px;}
+.bank #agri{background-position:4px -86px; margin-top:9px ;height:24px;}
+.bank #bidv{background-position:25px -110px; margin-top:9px ;height:25px;}
+.bank #vietin{background-position:15px -135px; margin-top:8px ;height:25px;}
+.bank #mb{background-position:40px -160px; margin-top:6px ;height:28px;}
+.bank #acb{background-position:45px -188px; margin-top:8px ;height:26px;}
+.bank #vib{background-position:45px -214px; margin-top:8px ;height:23px;}
+.bank #hd{background-position:30px -237px; margin-top:11px ;height:17px;}
+/* end chuyen khoan */
+
+/* step 2 */
+#step2{background-position:0 -25px;height:24px}
+#step2-2{background-position:0 -49px}
+#step2-2 span,#step2-3 span{font-size:12px; color:#006ea0}
+#step2-2 span label,#step2-3 span label{cursor:pointer}
+#step2-3 span{font-size:14px}
+#step2-3 span label b{color:#eb0000; font-size:18px}
+.jNice input{width:280px}
+.jNice input.checkbox{width:auto}
+.jNice .formInput{margin:5px 0}
+.jNice .detailForm,.detailFormText{width:280px;color:#676767;line-height:140%;font-size:11px}
+.jNice .formRight{margin-left:30px}
+.topTextArea,.bottomTextArea{background:url('images/payment/borderTextArea.png') no-repeat 0 0; height:3px;width:586px; overflow:hidden}
+.bottomTextArea{background-position:0 -2px; height:4px}
+.formInput textarea{width:576px; border:none;overflow:hidden;background:url('images/payment/borderBgTextArea.png') repeat-y;margin:0;height:50px; padding:5px}
+.detailFormText{width:586px}
+
+.personInfo{line-height:140%;padding:10px 0}
+.personInfo .fl{width:300px; margin:0 0 10px 20px}
+.checkOutNotice{background-color:#ffffe1; border:1px solid #ffefb7;padding:15px}
+
+/* end step 2 */
+/* step 3 */
+.borderBottom{border-bottom:1px solid #f0f0f0}
+.personInfo .mLeft0 {margin-left:0}
+.noShip {line-height:22px}
+/* end step 3 */
+
+
+/* finished */
+.titleStepSuccess,.titleStepError{color:#404040; text-align: left}
+.titleStepError{color:#e10000}
+.oderCode{margin-bottom:15px;margin-top:5px;font-weight:normal; text-align:left;font-size: 14px;line-height: 160%}
+.oderCode a{font-size: 14px;color:#2585c9}
+.titleBookSuccess{border-bottom: 1px dashed #AAAAAA;
+    font-weight: bold;
+    height: 33px;
+    line-height: 33px;
+    text-transform: uppercase;}
+.listFinishStep{ margin-left:30px; line-height:20px}
+.listFinishStep li{list-style: disc outside; margin:10px 0}
+#tableBookInfo{border:1px solid #d8d8d8;background-color: #f2f2f2;padding:10px;border-radius: 3px;-moz-border-radius: 3px;margin-top:20px}
+#tableBookInfo td{vertical-align: middle;padding:3px 5px}
+#tableBookInfo input{width: 260px;height:24px;border:1px solid #ccc;border-radius: 3px;-moz-border-radius: 3px;padding:0 5px}
+#tableBookInfo textarea{width: 450px;border:1px solid #ccc;border-radius: 3px;-moz-border-radius: 3px;}
+.tableSuccess{margin-top:10px;}
+.tableSuccess td{padding:10px;border:1px solid #A4A4A4;border-width:0 0 1px 0px}
+.tableSuccess th{padding:5px 10px 5px 10px;border:1px solid #A4A4A4;border-width:0 0 1px 0px}
+.tableSizeColor{margin-top:10px;border:1px solid #dddddd;font-size:12px;}
+.tableSizeColor td{padding:10px;border:1px solid #dddddd;border-width:0 0 1px 1px}
+.tableSizeColor th{padding:5px 10px 5px 10px;border:1px solid #dddddd;border-width:0 0 1px 1px;}
+.buttonBookInfo{
+	cursor: pointer;
+    font-size: 12px;
+    height: 32px;
+    padding: 4px 12px;
+    width: auto;
+	border: 1px solid #CCCCCC;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.successMail{color:#003eda}
+.successPrice{color:#db0000; font-size:14px}
+
+.successBank a{background:none}
+/* end finished */
+
+/* sendAtm */
+#sendAtm b{display:block; margin-top:7px}
+#sendAtm .detailForm{margin-top:10px}
+#sendAtm  #detailBank {margin-top:40px;color:#000}
+#imagesBank {margin-top:25px}
+.sTitle h2{padding-top:7px !important; padding-left: 22px}
+
+/* Border-top Dang giam gia */
+.v7_boxCC_ADR {
+	border-top-color: #03B384
+}

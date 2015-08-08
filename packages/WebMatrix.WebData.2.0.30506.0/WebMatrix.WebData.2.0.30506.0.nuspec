@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>WebMatrix.WebData</id>
+    <version>2.0.30506.0</version>
+    <title>ASP.NET Web Pages 2 Database Library</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://www.microsoft.com/web/webpi/eula/aspnetcomponent_rtw_enu.htm</licenseUrl>
+    <projectUrl>http://www.asp.net/web-pages</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Legacy package, WebMatrix.WebData is now included in the 'Microsoft.AspNet.WebPages.WebData' package.</description>
+    <summary>Legacy package, WebMatrix.WebData is now included in the 'Microsoft.AspNet.WebPages.WebData' package.</summary>
+    <language>en-US</language>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.WebPages.WebData" version="2.0.20710.0" />
+    </dependencies>
+  </metadata>
+</package>

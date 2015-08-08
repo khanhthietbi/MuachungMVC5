@@ -1,0 +1,295 @@
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\muachung.dll.config
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\muachung.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\muachung.pdb
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Antlr3.Runtime.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\EntityFramework.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\EntityFramework.SqlServer.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.Owin.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.Owin.Security.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.Owin.Security.Google.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.Web.Infrastructure.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Newtonsoft.Json.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Owin.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\System.Web.Helpers.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\System.Web.Mvc.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\System.Web.Optimization.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\System.Web.Razor.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\System.Web.WebPages.Deployment.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\System.Web.WebPages.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\System.Web.WebPages.Razor.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\WebGrease.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\WebMatrix.Data.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\WebMatrix.WebData.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\System.Web.Helpers.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\System.Web.Mvc.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\System.Web.Optimization.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\System.Web.Razor.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\System.Web.WebPages.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\System.Web.WebPages.Deployment.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\System.Web.WebPages.Razor.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Newtonsoft.Json.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Antlr3.Runtime.pdb
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\WebMatrix.Data.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\WebMatrix.WebData.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\EntityFramework.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\EntityFramework.SqlServer.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.Owin.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.Owin.Security.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.Owin.Security.Google.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\obj\Debug\muachung.dll
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\obj\Debug\muachung.pdb
+D:\Learn\ASP\PROJECT\muachung20150628-1\muachung\muachung\obj\Debug\muachung.csprojResolveAssemblyReference.cache
+C:\Users\Khánh\Desktop\muachung\muachung\bin\muachung.dll.config
+C:\Users\Khánh\Desktop\muachung\muachung\bin\muachung.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\muachung.pdb
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Antlr3.Runtime.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\EntityFramework.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\EntityFramework.SqlServer.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.Owin.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.Owin.Security.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Newtonsoft.Json.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Owin.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\System.Web.Helpers.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\System.Web.Mvc.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\System.Web.Optimization.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\System.Web.Razor.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\System.Web.WebPages.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\System.Web.WebPages.Razor.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\WebGrease.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\WebMatrix.Data.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\WebMatrix.WebData.dll
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\System.Web.Helpers.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\System.Web.Mvc.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\System.Web.Optimization.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\System.Web.Razor.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\System.Web.WebPages.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\System.Web.WebPages.Razor.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Newtonsoft.Json.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Antlr3.Runtime.pdb
+C:\Users\Khánh\Desktop\muachung\muachung\bin\WebMatrix.Data.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\WebMatrix.WebData.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\EntityFramework.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\EntityFramework.SqlServer.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.Owin.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.Owin.Security.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Khánh\Desktop\muachung\muachung\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Khánh\Desktop\muachung\muachung\obj\Debug\muachung.csprojResolveAssemblyReference.cache
+C:\Users\Khánh\Desktop\muachung\muachung\obj\Debug\muachung.dll
+C:\Users\Khánh\Desktop\muachung\muachung\obj\Debug\muachung.pdb
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\muachung.dll.config
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\muachung.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\muachung.pdb
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Antlr3.Runtime.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\EntityFramework.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\EntityFramework.SqlServer.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.Owin.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.Owin.Security.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.Owin.Security.Google.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.Web.Infrastructure.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Newtonsoft.Json.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Owin.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\System.Web.Helpers.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\System.Web.Mvc.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\System.Web.Optimization.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\System.Web.Razor.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\System.Web.WebPages.Deployment.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\System.Web.WebPages.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\System.Web.WebPages.Razor.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\WebGrease.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\WebMatrix.Data.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\WebMatrix.WebData.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\System.Web.Helpers.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\System.Web.Mvc.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\System.Web.Optimization.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\System.Web.Razor.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\System.Web.WebPages.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\System.Web.WebPages.Deployment.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\System.Web.WebPages.Razor.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Newtonsoft.Json.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Antlr3.Runtime.pdb
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\WebMatrix.Data.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\WebMatrix.WebData.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\EntityFramework.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\EntityFramework.SqlServer.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.Owin.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.Owin.Security.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.Owin.Security.Google.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\obj\Debug\muachung.dll
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\obj\Debug\muachung.pdb
+E:\Lap trinh\Thuc hanh tin hoc\ASP MVC\muachung\muachung\obj\Debug\muachung.csprojResolveAssemblyReference.cache
+E:\muachung\muachung\bin\muachung.dll.config
+E:\muachung\muachung\bin\muachung.dll
+E:\muachung\muachung\bin\muachung.pdb
+E:\muachung\muachung\bin\Antlr3.Runtime.dll
+E:\muachung\muachung\bin\EntityFramework.dll
+E:\muachung\muachung\bin\EntityFramework.SqlServer.dll
+E:\muachung\muachung\bin\Microsoft.AspNet.Identity.Core.dll
+E:\muachung\muachung\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\muachung\muachung\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\muachung\muachung\bin\Microsoft.Owin.dll
+E:\muachung\muachung\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\muachung\muachung\bin\Microsoft.Owin.Security.Cookies.dll
+E:\muachung\muachung\bin\Microsoft.Owin.Security.dll
+E:\muachung\muachung\bin\Microsoft.Owin.Security.Facebook.dll
+E:\muachung\muachung\bin\Microsoft.Owin.Security.Google.dll
+E:\muachung\muachung\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\muachung\muachung\bin\Microsoft.Owin.Security.OAuth.dll
+E:\muachung\muachung\bin\Microsoft.Owin.Security.Twitter.dll
+E:\muachung\muachung\bin\Microsoft.Web.Infrastructure.dll
+E:\muachung\muachung\bin\Newtonsoft.Json.dll
+E:\muachung\muachung\bin\Owin.dll
+E:\muachung\muachung\bin\System.Web.Helpers.dll
+E:\muachung\muachung\bin\System.Web.Mvc.dll
+E:\muachung\muachung\bin\System.Web.Optimization.dll
+E:\muachung\muachung\bin\System.Web.Razor.dll
+E:\muachung\muachung\bin\System.Web.WebPages.Deployment.dll
+E:\muachung\muachung\bin\System.Web.WebPages.dll
+E:\muachung\muachung\bin\System.Web.WebPages.Razor.dll
+E:\muachung\muachung\bin\WebGrease.dll
+E:\muachung\muachung\bin\WebMatrix.Data.dll
+E:\muachung\muachung\bin\WebMatrix.WebData.dll
+E:\muachung\muachung\bin\Microsoft.AspNet.Identity.Core.xml
+E:\muachung\muachung\bin\System.Web.Helpers.xml
+E:\muachung\muachung\bin\System.Web.Mvc.xml
+E:\muachung\muachung\bin\System.Web.Optimization.xml
+E:\muachung\muachung\bin\System.Web.Razor.xml
+E:\muachung\muachung\bin\System.Web.WebPages.xml
+E:\muachung\muachung\bin\System.Web.WebPages.Deployment.xml
+E:\muachung\muachung\bin\System.Web.WebPages.Razor.xml
+E:\muachung\muachung\bin\Newtonsoft.Json.xml
+E:\muachung\muachung\bin\Antlr3.Runtime.pdb
+E:\muachung\muachung\bin\WebMatrix.Data.xml
+E:\muachung\muachung\bin\WebMatrix.WebData.xml
+E:\muachung\muachung\bin\EntityFramework.xml
+E:\muachung\muachung\bin\EntityFramework.SqlServer.xml
+E:\muachung\muachung\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\muachung\muachung\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\muachung\muachung\bin\Microsoft.Owin.xml
+E:\muachung\muachung\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\muachung\muachung\bin\Microsoft.Owin.Security.xml
+E:\muachung\muachung\bin\Microsoft.Owin.Security.Facebook.xml
+E:\muachung\muachung\bin\Microsoft.Owin.Security.Cookies.xml
+E:\muachung\muachung\bin\Microsoft.Owin.Security.OAuth.xml
+E:\muachung\muachung\bin\Microsoft.Owin.Security.Google.xml
+E:\muachung\muachung\bin\Microsoft.Owin.Security.Twitter.xml
+E:\muachung\muachung\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\muachung\muachung\obj\Debug\muachung.csprojResolveAssemblyReference.cache
+E:\muachung\muachung\obj\Debug\muachung.dll
+E:\muachung\muachung\obj\Debug\muachung.pdb
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\muachung.dll.config
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\muachung.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\muachung.pdb
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Antlr3.Runtime.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\EntityFramework.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\EntityFramework.SqlServer.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.Owin.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.Owin.Security.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.Owin.Security.Google.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.Web.Infrastructure.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Newtonsoft.Json.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Owin.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\System.Web.Helpers.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\System.Web.Mvc.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\System.Web.Optimization.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\System.Web.Razor.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\System.Web.WebPages.Deployment.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\System.Web.WebPages.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\System.Web.WebPages.Razor.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\WebGrease.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\WebMatrix.Data.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\WebMatrix.WebData.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\System.Web.Helpers.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\System.Web.Mvc.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\System.Web.Optimization.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\System.Web.Razor.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\System.Web.WebPages.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\System.Web.WebPages.Deployment.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\System.Web.WebPages.Razor.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Newtonsoft.Json.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Antlr3.Runtime.pdb
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\WebMatrix.Data.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\WebMatrix.WebData.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\EntityFramework.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\EntityFramework.SqlServer.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.Owin.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.Owin.Security.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.Owin.Security.Google.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\obj\Debug\muachung.dll
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\obj\Debug\muachung.pdb
+D:\Learn\ASP\PROJECT\MUACHUNG\muachung20150707\muachung\muachung\obj\Debug\muachung.csprojResolveAssemblyReference.cache

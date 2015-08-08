@@ -1,0 +1,230 @@
+.v7_blueButton {
+    background-color: #0e71b4;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    padding: 7px 15px;
+    text-align: center;
+    display: block;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px
+}
+
+.v7_blueButton:hover {
+    text-decoration: none;
+    background-color: #027acb
+}
+
+.v7_orangeButtonRegis {
+    background-color: #02c670;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 7px 0;
+    color: #fff;
+    display: block;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px
+}
+
+.v7_orangeButtonRegis:hover {
+    text-decoration: none;
+    background-color: #16d481
+}
+
+.popupTQ_bg_email, .popupTQ_c_email {
+    width: 640px;
+    height: 350px
+}
+
+.popupTQ_bg_email {
+    background-image: url(http://static6.zamba.vn/style/images/background/xbgCityv8.png.pagespeed.ic.lciiTjZ4Ju.png);
+    position: absolute;
+    z-index: 1
+}
+
+.popupTQ_c_email {
+    position: absolute;
+    z-index: 2
+}
+
+.popupTQ_c_email .formCity {
+    padding: 281px 0 0 50px;
+    width: 640px;
+    height: 69px
+}
+
+.popupTQ_c_email .txt {
+    width: 191px;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 13px;
+    color: #333;
+    font-size: 14px;
+    border: 0;
+    background: transparent
+}
+
+.popupTQ_c_email .popCityID {
+    cursor: pointer;
+    width: 446px;
+    height: 35px;
+    padding: 1px;
+    float: left;
+    margin: 0 5px 0 6px
+}
+
+.popupTQ_c_email .popCityValue {
+    padding: 0 0 0 7px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 13px;
+    color: #353535
+}
+
+.popupTQ_c_email .popCityList {
+    position: absolute;
+    width: 470px;
+    background: #fff;
+    border: 1px solid silver;
+    margin: 36px 0 0 -27px;
+    border-left: 0;
+    border-right: 0
+}
+
+.popCityList a {
+    display: block;
+    padding: 5px 0 5px 33px;
+    width: 470px;
+    color: #333;
+    border-bottom: 1px solid silver
+}
+
+.popCityList a:hover {
+    background-color: #166ead;
+    text-decoration: none;
+    color: #fff
+}
+
+.popupTQ_c_email .bt {
+    width: 119px;
+    height: 35px;
+    background: transparent;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: transparent
+}
+
+.popupTQ_c_email .jNiceSelectWrapper .jNiceSelectText {
+    cursor: pointer;
+    color: #333;
+    background: transparent
+}
+
+.popupTQ_c_email .jNiceSelectWrapper .jNiceSelectOpen {
+    cursor: pointer;
+    background: transparent
+}
+
+.popupTQ_c_email .jNiceSelectWrapper ul a {
+    color: #333
+}
+
+#popupAdsEmail .popupCity, #popupAdsEmail .popupTQ_bg_email, #popupAdsEmail .popupTQ_c_email {
+    width: 726px;
+    height: 314px
+}
+
+#popupAdsEmail .popupTQ_bg_email {
+    background-image: url(http://static6.zamba.vn/style/images/background/bgCity11.png?v=2)
+}
+
+#popupAdsEmail .popupTQ_c_email {
+    padding: 64px 63px 0;
+    width: 600px;
+    height: 250px
+}
+
+#popupAdsEmail .popupTQ_c_email .formCity {
+    padding: 141px 0 0 15px;
+    width: 585px;
+    height: 109px
+}
+
+#popupAdsEmail .popupTQ_c_email .txt {
+    width: 191px;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 13px;
+    color: #333;
+    font-size: 14px;
+    border: 0;
+    background: transparent
+}
+
+#popupAdsEmail .popupTQ_c_email .popCityID {
+    width: 194px;
+    height: 31px;
+    padding: 1px;
+    float: left;
+    margin: 0 11px 0 6px
+}
+
+#popupAdsEmail .popupTQ_c_email #popCityID {
+    width: 204px;
+    height: 31px;
+    padding: 8px 0 0 10px;
+    color: #333;
+    font-size: 14px;
+    border: 0;
+    background: #fff
+}
+
+#popupAdsEmail .popupTQ_c_email .bt {
+    width: 109px;
+    height: 33px;
+    background: transparent;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: transparent
+}
+
+#popupAdsEmail .popupTQ_c_email .jNiceSelectWrapper .jNiceSelectText {
+    cursor: pointer;
+    color: #333;
+    background: transparent
+}
+
+#popupAdsEmail .popupTQ_c_email .jNiceSelectWrapper .jNiceSelectOpen {
+    cursor: pointer;
+    background: transparent
+}
+
+#popupAdsEmail .popupTQ_c_email .jNiceSelectWrapper ul a {
+    color: #333
+}
+
+#popupAdsEmail .popupTQ_c_email .plogin {
+    padding: 25px 0 0 307px;
+    height: 22px;
+    width: 200px;
+    display: block
+}
+
+#popupAdsEmail .popupTQ_c_email .plogin a {
+    display: block;
+    height: 22px;
+    width: 110px;
+    cursor: pointer
+}
+
+.login_form table, .register_form table {
+    border-spacing: 5px;
+    border-collapse: inherit
+}

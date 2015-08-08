@@ -1,0 +1,1217 @@
+.bl_3_BoxGen {
+    background-color: transparent;
+    position: relative;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, .64);
+    -moz-box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, .64);
+    box-shadow: 0px 1px 9px 0px rgba(0, 0, 0, .64)
+}
+
+.bl_3_BoxHeader {
+    height: 63px;
+    background-color: #0e71b4;
+    border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+    -webkit-border-radius: 2px 2px 0 0
+}
+
+.bl_3_BoxBody {
+    background-color: #fff;
+    color: #666;
+    font-size: 13px;
+    border-radius: 0 0 2px 2px;
+    -moz-border-radius: 0 0 2px 2px;
+    -webkit-border-radius: 0 0 2px 2px
+}
+
+.bl_3_Btn_Close {
+    position: absolute;
+    top: 16px;
+    right: 13px;
+    background: url(images/buyflow_v3/xclose.png.pagespeed.ic.PFortLTz1K.png) 0 1px no-repeat;
+    width: 28px;
+    height: 29px;
+    display: block
+}
+
+.bl_3_Btn_Close:hover {
+    background-position: 0 -29px
+}
+
+.bl_3_Step {
+    color: #fff;
+    border-bottom: 3px solid #0e71b4;
+    height: 60px
+}
+
+.bl_3_step_Active, .bl_3_step_Active_Border {
+    border-bottom: 3px solid #02c670
+}
+
+.bl_3_stepBuild {
+    background: url(images/buyflow_v3/xstep_arow.png.pagespeed.ic.UPCS7-3ipX.png) right 15px center no-repeat;
+    float: left
+}
+
+.bl_3_step_Num {
+    float: left;
+    font-family: 'Roboto', arial;
+    font-size: 44px;
+    padding: 0 8px 0 15px;
+    height: 60px;
+    line-height: 60px
+}
+
+.bl_3_step_Title {
+    float: left;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 10px
+}
+
+.bl_3_BuyStore {
+    width: 900px
+}
+
+.bl_3_step_BuyStore {
+    width: 300px
+}
+
+.bl_3_StepInfo {
+    display: -webkit-flex;
+    display: flex;
+    min-height: 180px
+}
+
+.bl_3_StepInfoBuild {
+    padding: 25px 18px;
+    width: 260px;
+    line-height: 18px;
+    float: left
+}
+
+.bl_3_StepInfo_Office_Pop .bl_3_StepInfoBuild {
+    padding: 17px 18px
+}
+
+.bl_3_StepInfoBuildBorder {
+    border-right: 1px solid #dadada;
+    border-left: 1px solid #dadada
+}
+
+.bl_3_StepInfoTitle {
+    font-size: 13px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 8px
+}
+
+.bl_3_StepInfoInput {
+    margin-top: 15px
+}
+
+.bl_3_StepInfo_Store {
+    padding: 10px
+}
+
+.bl_3_StepInfo_Store:hover {
+    background-color: #fffdef
+}
+
+.bl_3_StepInfo_InputPhone {
+    border: 1px solid #ccc;
+    color: #888;
+    font-size: 20px;
+    height: 43px;
+    padding-left: 15px;
+    line-height: 43px;
+    width: 260px
+}
+
+.bl_3_StepInfo_InputPhone:focus {
+    color: #333
+}
+
+.bl_3_StepInfo_Radio {
+    float: left;
+    margin-right: 10px;
+    width: 20px
+}
+
+.bl_3_StepInfo_Radio_Text {
+    float: left;
+    width: 210px;
+    line-height: 18px
+}
+
+.bl_3_StepInfo_NameStore {
+    color: #333;
+    font-size: 13px;
+    font-weight: bold
+}
+
+.lblHand {
+    cursor: pointer
+}
+
+.bl_3_StepInfo_NameStore span, .bl_3_StepInfo_Adr {
+    color: #666;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: normal
+}
+
+.bl_3_StepInfo_Adr {
+    line-height: 18px;
+    margin-top: 5px
+}
+
+.bl_3_StepInfo_StoreDisable .bl_3_StepInfo_NameStore {
+    color: #979797
+}
+
+.bl_3_StepInfo_StoreDisable .bl_3_StepInfo_NameStore span {
+    color: #fda1a0
+}
+
+.bl_3_StepInfo_StoreDisable .bl_3_StepInfo_Adr {
+    color: #b2b2b2
+}
+
+.bl_3_StepInfo_Product_Img {
+    margin-right: 15px;
+    width: 70px;
+    float: left
+}
+
+.bl_3_StepInfo_Product_Title {
+    float: left
+}
+
+.bl_3_StepInfo_Product_Title div {
+    height: 70px;
+    width: 168px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 13px;
+    color: #333
+}
+
+.bl_3_StepInfo_dotted {
+    background: url(images/buyflow_v3/xiconDotted.png.pagespeed.ic.hHFWNeoxhn.png) left bottom repeat-x;
+    padding-bottom: 15px
+}
+
+.bl_3_StepInfo_Product_T_Price, .bl_3_StepInfo_Product_Price {
+    color: #666;
+    float: left;
+    font-size: 13px
+}
+
+.bl_3_StepInfo_Product_Price {
+    float: right
+}
+
+.bl_3_StepInfo_Product_Select, .bl_3_StepInfoOnline_SelectArd {
+    border: 1px solid #d1d1d1;
+    color: #333;
+    font-size: 13px;
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    padding: 4px;
+    width: 50px
+}
+
+.bl_3_StepInfo_Product_Totalamount {
+    margin-top: 15px;
+    padding-bottom: 15px
+}
+
+.bl_3_StepInfo_Product_T_Totalamount {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fb2f2e
+}
+
+.bt_3_StepInfo_BookBuy {
+    background: url(images/buyflow_v3/xbtn_gen.png.pagespeed.ic.qvAKVHr_Zl.png) 0 0 no-repeat;
+    width: 176px;
+    height: 51px;
+    display: block;
+    margin-top: 25px
+}
+
+.bl_3_StepInfo_Notice_Off {
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+    border-top: 1px solid #dadada;
+    padding: 15px 20px;
+    line-height: 18px
+}
+
+.bl_3_StepInfo_Notice_Off span {
+    color: #de0000
+}
+
+.bl_3_step_BuyOnline {
+    width: 25%
+}
+
+.bl_3_step_Title_Online {
+    font-size: 15px;
+    color: #6eaad2;
+    line-height: 20px;
+    margin-top: 10px
+}
+
+.bl_3_stepBuild_Online {
+    background: url(images/buyflow_v3/xstep_arow_online.png.pagespeed.ic.p7UMry9ITF.png) right 5px center no-repeat;
+    float: left
+}
+
+.bl_3_step_Num_Online {
+    color: #6eaad2
+}
+
+.bl_3_step_Active .bl_3_step_Num_Online {
+    color: #ffde00
+}
+
+.bl_3_step_Active .bl_3_step_Title_Online {
+    color: #fff
+}
+
+.bl_3_StepInfoBuild_Online {
+    padding: 25px 18px;
+    width: 100%
+}
+
+.bl_3_StepInfoOnline_Title {
+    color: #0e71b4;
+    font-size: 18px
+}
+
+.bl_3_StepInfoOnline_Contach {
+    line-height: 26px;
+    font-size: 13px;
+    color: #333;
+    margin-top: 5px
+}
+
+.bl_3_StepInfoOnline_LineTitle {
+    width: 160px;
+    float: left
+}
+
+.bl_3_StepInfoOnline_LineText {
+    font-weight: bold;
+    float: left
+}
+
+.bl_3_CloseNoticeBank, .bl_3_ArrowNoticeBank, .bl_3_StepInfoOnline_EditInfo, .bl_3_StepInfoConfirm_recharge, .bl_3_StepInfoConfirm_charge {
+    float: right;
+    display: block;
+    background: url(images/buyflow_v3/xbtn_gen.png.pagespeed.ic.qvAKVHr_Zl.png) 0 -51px no-repeat;
+    width: 138px;
+    height: 32px
+}
+
+.bl_3_StepInfoOnline_EditInfo:hover {
+    background-position: 0 -248px
+}
+
+.bl_StepInfoOnline_continue, .bl_StepInfoOnline_back {
+    display: block;
+    background: url(images/buyflow_v3/xbtn_gen.png.pagespeed.ic.qvAKVHr_Zl.png) 0 -83px no-repeat;
+    width: 113px;
+    height: 38px;
+    float: right
+}
+
+.bl_StepInfoOnline_back {
+    background-position: 0 -121px
+}
+
+.bl_StepInfoOnline_back:hover {
+    background-position: 0 -280px
+}
+
+.bl_3_StepInfo_UpdateHeader {
+    padding-bottom: 5px
+}
+
+.bl_3_StepInfo_TitFromUpdate {
+    float: left;
+    color: #0e71b4;
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 460px
+}
+
+.bl_3_StepInfo_Or_title {
+    float: left;
+    line-height: 20px;
+    color: #059e5b;
+    font-size: 13px;
+    padding-bottom: 10px;
+    font-style: italic
+}
+
+.bl_3_StepInfo_TitFromContact {
+    width: 405px
+}
+
+.bl_3_StepInfo_UpdateAllLeft {
+    float: left;
+    background: url(images/buyflow_v3/xborder_or.jpg.pagespeed.ic.l9DPnKlLs5.jpg) right top repeat-y;
+    width: 480px;
+    padding: 0 40px 0 20px;
+    min-height: 185px
+}
+
+.bl_3_StepInfo_Update_Border {
+    border-top: 1px solid #e7ebed
+}
+
+.bl_3_StepInfo_Buid_Update {
+    padding: 20px 0 25px
+}
+
+.bl_3_StepInfo_From_Title {
+    padding-top: 15px;
+    font-size: 16px;
+    color: #0e71b4;
+    line-height: 20px
+}
+
+.bl_3_StepInfo_Row {
+    color: #333;
+    font-size: 13px;
+    line-height: 31px;
+    margin-top: 5px
+}
+
+.bl_3_StepInfo_Row_Title {
+    width: 85px;
+    float: left
+}
+
+.bl_3_StepInfo_Row_Input input {
+    line-height: 32px;
+    font-size: 13px;
+    color: #333;
+    width: 316px;
+    float: left;
+    height: 31px;
+    border: 1px solid #ccc;
+    padding-left: 10px
+}
+
+.bl_3_StepInfo_Row_Phone input {
+    width: 160px
+}
+
+.bl_3_StepInfo_Row_Phone span {
+    color: #fb4342;
+    font-size: 12px;
+    margin-left: 10px
+}
+
+.bl_3_StepInfoOnline_SelectArd {
+    width: 316px;
+    height: 31px
+}
+
+.bl_3_StepInfo_UpdateAllContact {
+    float: left;
+    padding-left: 40px;
+    width: 385px;
+    max-height: 385px;
+    min-height: 185px;
+    overflow-y: scroll
+}
+
+.bl_3_StepInfo_Build_Contact {
+    display: -webkit-flex;
+    display: flex;
+    padding: 10px 13px;
+    border-bottom: 2px solid #e7ebed;
+    position: relative;
+    cursor: pointer
+}
+
+.bl_3_StepInfo_Build_Contact:hover {
+    background-color: #fffdef
+}
+
+.bl_3_StepInfo_Contact_Radio {
+    width: 40px;
+    float: left
+}
+
+.bl_3_StepInfo_Build_Contact.active {
+    background-color: #fffdef;
+    background-image: url(images/xtick.png.pagespeed.ic.8rzpRdkhTs.png);
+    background-repeat: no-repeat;
+    background-position: 95% bottom
+}
+
+.bl_3_StepInfo_Contact_Radio input {
+    height: 154px;
+    vertical-align: middle;
+    margin-left: 15px
+}
+
+.bl_3_StepInfo_Contact_Info {
+}
+
+.bl_3_StepInfo_Contact_Row {
+    line-height: 22px;
+    color: #666;
+    font-size: 12px
+}
+
+.bl_3_StepInfo_Contact_Info_Title {
+    width: 80px;
+    float: left;
+    font-weight: bold
+}
+
+.bl_3_StepInfo_Contact_Info_Content {
+    float: left;
+    width: 258px
+}
+
+.bl_3_StepInfo_Build_Contact_Active {
+    background: #fffdef
+}
+
+.bl_3_StepInfo_Contact_DeleteRow {
+    background: url(images/buyflow_v3/xbtn_gen.png.pagespeed.ic.qvAKVHr_Zl.png) -143px -247px no-repeat;
+    width: 49px;
+    height: 32px;
+    position: absolute;
+    display: block;
+    float: left;
+    top: 10px;
+    right: 10px
+}
+
+.bl_3_StepInfo_Contact_SelectAdr, .bl_3_StepInfo_Contact_SelectAdr_Choice {
+    background: url(images/buyflow_v3/xbtn_gen.png.pagespeed.ic.qvAKVHr_Zl.png) 0 -318px no-repeat;
+    display: block;
+    float: left;
+    margin-right: 9px;
+    text-decoration: none;
+    width: 138px;
+    height: 32px
+}
+
+.bl_3_StepInfo_Contact_SelectAdr:hover {
+    background: url(images/buyflow_v3/xbtn_gen.png.pagespeed.ic.qvAKVHr_Zl.png) 0 -350px no-repeat
+}
+
+.bl_3_StepInfo_Contact_SelectAdr_Choice, .bl_3_StepInfo_Contact_SelectAdr_Choice:hover {
+    background-position: 0 -382px !important
+}
+
+.bl_3_StepBuildFrom_Payment {
+    padding-bottom: 25px
+}
+
+.bl_3_StepInfoBuild_Payment {
+    padding: 15px 0;
+    width: 100%
+}
+
+.bl_3_StepInfoBuild_PaymentType {
+    border-bottom: 1px solid #e7ebed;
+    padding: 15px 0;
+    border-left: 4px solid #fff;
+    cursor: pointer
+}
+
+.bl_3_StepInfoBuild_PaymentType:hover, .bl_3_StepInfoBuild_Payment_Select, .bl_3_StepInfoBuild_Payment_Select:hover {
+    border-left: 4px solid #f36362;
+    background-color: #fffdef
+}
+
+.bl_3_StepInfoBuild_Payment_SMS, .bl_3_StepInfoBuild_Payment_COO, .bl_3_StepInfoBuild_Payment_ATM, .bl_3_StepInfoBuild_Payment_Gold, .bl_3_StepInfoBuild_Payment_Cod {
+    background: url(images/buyflow_v3/xpayment.png.pagespeed.ic.l5A_HfBAZZ.png) 32px 3px no-repeat;
+    padding-left: 85px
+}
+
+.bl_3_StepInfoBuild_Payment_Office {
+    background: url(images/buyflow_v3/xicon-cuahang.png.pagespeed.ic.pi2F8oKBiJ.png) 32px 3px no-repeat;
+    padding: 10px 0px 10px 85px
+}
+
+.bl_3_StepInfoBuild_Payment_Radio {
+    float: left;
+    margin-left: 1px
+}
+
+.bl_3_StepInfoBuild_Payment_RadioContent {
+    float: left;
+    line-height: 22px;
+    width: 90%
+}
+
+.bl_3_StepInfoBuild_Payment_Tit {
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer
+}
+
+.bl_3_StepInfoBuild_Payment_Tit span {
+    color: #059e5b;
+    font-weight: normal
+}
+
+.bl_3_StepInfoBuild_Payment_NoteTit {
+    color: #ff5a00;
+    font-size: 13px;
+    font-style: italic
+}
+
+.bl_3_StepInfoBuild_Payment_Notice {
+    color: #666;
+    font-size: 13px
+}
+
+.bl_3_StepInfoBuild_Payment_Notice a {
+    color: #0e71b4;
+    font-size: 12px;
+    text-decoration: none
+}
+
+.bl_3_StepInfoBuild_Payment_Radio input, .bl_3_StepInfo_Radio input {
+    display: none
+}
+
+#lenVPLayHang input {
+    display: inline
+}
+
+.bl_3_StepInfoBuild_Payment_Radio span {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin: 3px 10px 0 18px;
+    vertical-align: middle;
+    background: url(images/buyflow_v3/xradio.png.pagespeed.ic.nAU7T-5Yd8.png) 0 -21px no-repeat;
+    cursor: pointer
+}
+
+.bl_3_StepInfoBuild_Payment_Select .bl_3_StepInfoBuild_Payment_Radio span, .bl_3_StepInfoBuild_Payment_Radio input[type="radio"]:checked + label span {
+    background: url(images/buyflow_v3/xradio.png.pagespeed.ic.nAU7T-5Yd8.png) 0 0 no-repeat
+}
+
+.bl_3_StepInfoBuild_Payment_Gold {
+    background-position: 32px -136px;
+    background-repeat: no-repeat
+}
+
+.bl_3_StepInfoBuild_Payment_Cod {
+    background-position: 32px -255px;
+    background-repeat: no-repeat
+}
+
+.bl_3_StepInfoBuild_Payment_NoticeFixWidth {
+    width: 725px
+}
+
+.bl_3_StepInfo_Payment_Option {
+    font-size: 13px;
+    color: #666
+}
+
+.bl_3_StepInfo_Payment_Option span {
+    color: #333;
+    font-style: italic
+}
+
+.bl_3_StepInfoBuild_Payment_COO {
+    background: url(images/buyflow_v3/xstore.png.pagespeed.ic.u7iSn-ESnR.png) 32px 0 no-repeat;
+    min-height: 40px
+}
+
+.bl_3_StepInfoBuild_Payment_Notice_Choise {
+    font-size: 13px;
+    color: #666;
+    font-style: italic
+}
+
+.bl_3_StepInfoBuild_Payment_Store {
+    width: 100%
+}
+
+.bl_3_StepInfoBuild_Payment_Store .bl_3_StepInfo_Radio_Text {
+    width: 80%
+}
+
+.bl_3_StepInfo_NameStore_PaymentType {
+    font-size: 13px;
+    color: #333;
+    line-height: 20px
+}
+
+.bl_3_StepInfo_NameStore_PaymentType span {
+    font-size: 13px;
+    color: #666
+}
+
+.bl_3_StepInfo_Adr_PaymentType {
+    color: #888;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 5px
+}
+
+.bl_3_StepInfoBuild_Payment_Store .bl_3_StepInfo_Store {
+    margin-bottom: 10px
+}
+
+.bl_3_StepInfo_PaymentType_Disable .bl_3_StepInfo_NameStore_PaymentType {
+    color: #dfdfdf
+}
+
+.bl_3_StepInfo_PaymentType_Disable .bl_3_StepInfo_NameStore_PaymentType span {
+    color: #fda7a7
+}
+
+.bl_3_StepInfo_PaymentType_Disable .bl_3_StepInfo_Adr_PaymentType {
+    color: #b2b2b2
+}
+
+.bl_3_StepInfo_textarea {
+    width: 720px;
+    height: 60px;
+    border: 1px solid #cecece;
+    padding: 5px 10px
+}
+
+.bl_3_StepInfoBuild_Payment_SMS {
+    background: url(images/buyflow_v3/xsms.png.pagespeed.ic.qFKYqGi1RO.png) 35px 0 no-repeat
+}
+
+.bl_3_StepBuildFrom_Confirmed {
+    padding-bottom: 20px
+}
+
+.bl_3_StepBuild_Confirmed {
+    border-bottom: 1px solid #e7ebed;
+    padding: 15px 0
+}
+
+.bl_3_StepBuild_Confirmed_Info {
+    margin: 0 20px
+}
+
+.bl_3_StepBuild_Confirmed_Content {
+    float: left
+}
+
+.bl_3_StepBuild_Confirmed_Update {
+    float: right;
+    margin-top: 30px
+}
+
+.bl_3_StepInfoConfirm_TitCon {
+    color: #888;
+    font-size: 13px;
+    line-height: 22px
+}
+
+.bl_3_StepInfoConfirm_TitCon span {
+    color: #333
+}
+
+.bl_3_StepInfoConfirm_ViewMore {
+    font-size: 13px;
+    color: #0e71b4;
+    line-height: 22px;
+    text-decoration: none
+}
+
+.bl_3_StepInfoOnline_Title span {
+    font-size: 13px;
+    color: #333
+}
+
+.bl_3_StepInfoConfirm_recharge {
+    background-position: -113px -83px;
+    width: 89px;
+    height: 32px;
+    float: none
+}
+
+.bl_3_StepInfoConfirm_charge {
+    background-position: -113px -114px;
+    width: 95px;
+    height: 32px;
+    margin-top: 0
+}
+
+.bl_3_StepInfoConfirm_Note {
+    margin-left: 15px;
+    margin-top: 15px
+}
+
+.bl_3_StepInfoConfirm_Note li {
+    color: #666;
+    line-height: 22px;
+    font-size: 13px;
+    list-style-image: url(images/buyflow_v3/xlistStyle.png.pagespeed.ic.FfUarlF0zg.png) !important
+}
+
+.bl_3_StepInfoConfirm_existent span {
+    color: #333
+}
+
+.bl_3_StepInfoConfirm_remaining span {
+    color: #fb4342;
+    font-weight: bold
+}
+
+.bl_3_StepInfoConfirm_Box_recharge {
+    float: right;
+    margin-top: 20px
+}
+
+.bl_3_StepBuild_Confirmed_Product {
+    padding: 15px 0
+}
+
+.bl_3_StepInfoConfirmed_Pro {
+    border: 1px solid #e0e8ec;
+    background-color: #eff9ff;
+    line-height: 20px
+}
+
+.bl_3_Step_TH {
+    color: #666;
+    text-align: left;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 15px 0 12px 15px;
+    border-left: 1px solid #e0e8ec
+}
+
+.bl_3_Step_TH_Font {
+    color: #333;
+    padding-top: 5px
+}
+
+.bl_3_Step_TH_Total {
+    font-size: 20px;
+    color: #fb2f2e;
+    font-weight: bold;
+    padding-top: 5px
+}
+
+.bl_3_Step_Confirmed_Pass {
+    text-align: right;
+    color: #666;
+    font-size: 13px;
+    line-height: 22px;
+    margin-top: 25px
+}
+
+.bl_3_Step_Confirmed_Pass b {
+    color: #333
+}
+
+.bl_3_Step_Confirmed_Pass .input_textfield {
+    width: 170px;
+    height: 25px;
+    border: 1px solid #ccc;
+    padding-left: 10px
+}
+
+.bl_3_StepBuild_Confirmed_back {
+    float: left
+}
+
+.bl_3_StepBuild_Confirmed_Book {
+    float: right
+}
+
+.bl_3_StepBuild_Confirmed_Book div {
+    color: #ff5a00;
+    font-size: 13px;
+    font-style: italic
+}
+
+.bl_3_StepBuild_Confirmed_Book div b {
+    font-size: 16px
+}
+
+.bl_StepInfoOnline_continue:hover {
+    background-position: 0 -210px
+}
+
+.bt_3_StepInfo_BookBuy:hover {
+    background-position: 0 -159px
+}
+
+.bl_3_Step_Confirmed_Pass #order_gold_passconfirm {
+    margin-left: 10px
+}
+
+.bl_3_StepPopUpNganhang {
+    position: absolute;
+    left: 115px;
+    top: 23px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    border-bottom: none;
+    -webkit-box-shadow: 0 4px 0 rgba(0, 0, 0, .20);
+    -moz-box-shadow: 0 4px 0 rgba(0, 0, 0, .20);
+    box-shadow: 0 4px 0 rgba(0, 0, 0, .20)
+}
+
+.bl_3_StepPopUpNganhang .v7_N_Border_Bottom {
+    padding: 25px 20px
+}
+
+.bl_3_StepPopUpNganhang .creditPay span {
+    width: 67px
+}
+
+.bl_3_StepPopUpNganhang .creditPay #visa {
+    background: url(images/newCart/xvisa.png,qv=1.pagespeed.ic.JyqBfaIzhS.png) no-repeat center center
+}
+
+.bl_3_StepPopUpNganhang .creditPay #master {
+    background: url(images/newCart/xmaster.png,qv=1.pagespeed.ic.6alCxpUw0H.png) no-repeat center center
+}
+
+.bl_3_StepPopUpNganhang .bankPay a {
+    margin: 0;
+    padding: 0 5px 5px
+}
+
+.bl_3_ArrowNoticeBank {
+    background-position: -177px -56px;
+    height: 9px;
+    width: 13px;
+    position: absolute;
+    top: -9px;
+    right: 132px
+}
+
+.bl_3_StepInfo_Radio input[type="radio"] + label span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    vertical-align: middle;
+    background: url(images/buyflow_v3/xbtn_gen.png.pagespeed.ic.qvAKVHr_Zl.png) -191px 0 no-repeat;
+    cursor: pointer;
+    margin-top: 1px
+}
+
+.bl_3_StepInfo_Radio input[type="radio"]:checked + label span {
+    background: url(images/buyflow_v3/xbtn_gen.png.pagespeed.ic.qvAKVHr_Zl.png) -191px -31px no-repeat
+}
+
+.bl_3_StepInfo_Contact_Radio label .bl_3_BoxInputRa {
+    margin: 85px 0 0 10px !important
+}
+
+.bl_3_StepInfoConfirm_Box_recharge_New {
+    float: none;
+    margin-top: 10px
+}
+
+.bl_3_CloseNoticeBank {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    float: none;
+    background-position: -144px -56px;
+    width: 12px;
+    height: 12px
+}
+
+.bl_3_StepInfoOnline_EditInfoHover {
+    position: absolute;
+    right: 20px
+}
+
+.bl_3_Nobackground {
+    background: none
+}
+
+.bl_3_borderNone {
+    border: none
+}
+
+#floatingBarsG {
+    position: relative;
+    width: 52px;
+    height: 65px
+}
+
+.blockG {
+    position: absolute;
+    background-color: #fff;
+    width: 8px;
+    height: 20px;
+    -moz-border-radius: 7px;
+    -moz-transform: scale(.4);
+    -moz-animation-name: fadeG;
+    -moz-animation-duration: 1.04s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: linear;
+    -webkit-border-radius: 7px 7px 0 0;
+    -webkit-transform: scale(.4);
+    -webkit-animation-name: fadeG;
+    -webkit-animation-duration: 1.04s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: linear;
+    -ms-border-radius: 7px;
+    -ms-transform: scale(.4);
+    -ms-animation-name: fadeG;
+    -ms-animation-duration: 1.04s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-direction: linear;
+    -o-border-radius: 7px;
+    -o-transform: scale(.4);
+    -o-animation-name: fadeG;
+    -o-animation-duration: 1.04s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-direction: linear;
+    border-radius: 7px;
+    transform: scale(.4);
+    animation-name: fadeG;
+    animation-duration: 1.04s;
+    animation-iteration-count: infinite;
+    animation-direction: linear
+}
+
+#rotateG_01 {
+    left: 0;
+    top: 24px;
+    -moz-animation-delay: .39s;
+    -moz-transform: rotate(-90deg);
+    -webkit-animation-delay: .39s;
+    -webkit-transform: rotate(-90deg);
+    -ms-animation-delay: .39s;
+    -ms-transform: rotate(-90deg);
+    -o-animation-delay: .39s;
+    -o-transform: rotate(-90deg);
+    animation-delay: .39s;
+    transform: rotate(-90deg)
+}
+
+#rotateG_02 {
+    left: 7px;
+    top: 8px;
+    -moz-animation-delay: .52s;
+    -moz-transform: rotate(-45deg);
+    -webkit-animation-delay: .52s;
+    -webkit-transform: rotate(-45deg);
+    -ms-animation-delay: .52s;
+    -ms-transform: rotate(-45deg);
+    -o-animation-delay: .52s;
+    -o-transform: rotate(-45deg);
+    animation-delay: .52s;
+    transform: rotate(-45deg)
+}
+
+#rotateG_03 {
+    left: 22px;
+    top: 3px;
+    -moz-animation-delay: .65s;
+    -moz-transform: rotate(0deg);
+    -webkit-animation-delay: .65s;
+    -webkit-transform: rotate(0deg);
+    -ms-animation-delay: .65s;
+    -ms-transform: rotate(0deg);
+    -o-animation-delay: .65s;
+    -o-transform: rotate(0deg);
+    animation-delay: .65s;
+    transform: rotate(0deg)
+}
+
+#rotateG_04 {
+    right: 7px;
+    top: 8px;
+    -moz-animation-delay: .78s;
+    -moz-transform: rotate(45deg);
+    -webkit-animation-delay: .78s;
+    -webkit-transform: rotate(45deg);
+    -ms-animation-delay: .78s;
+    -ms-transform: rotate(45deg);
+    -o-animation-delay: .78s;
+    -o-transform: rotate(45deg);
+    animation-delay: .78s;
+    transform: rotate(45deg)
+}
+
+#rotateG_05 {
+    right: 0;
+    top: 24px;
+    -moz-animation-delay: .9099999999999999s;
+    -moz-transform: rotate(90deg);
+    -webkit-animation-delay: .9099999999999999s;
+    -webkit-transform: rotate(90deg);
+    -ms-animation-delay: .9099999999999999s;
+    -ms-transform: rotate(90deg);
+    -o-animation-delay: .9099999999999999s;
+    -o-transform: rotate(90deg);
+    animation-delay: .9099999999999999s;
+    transform: rotate(90deg)
+}
+
+#rotateG_06 {
+    right: 7px;
+    bottom: 6px;
+    -moz-animation-delay: 1.04s;
+    -moz-transform: rotate(135deg);
+    -webkit-animation-delay: 1.04s;
+    -webkit-transform: rotate(135deg);
+    -ms-animation-delay: 1.04s;
+    -ms-transform: rotate(135deg);
+    -o-animation-delay: 1.04s;
+    -o-transform: rotate(135deg);
+    animation-delay: 1.04s;
+    transform: rotate(135deg)
+}
+
+#rotateG_07 {
+    bottom: 0;
+    left: 22px;
+    -moz-animation-delay: 1.1700000000000002s;
+    -moz-transform: rotate(180deg);
+    -webkit-animation-delay: 1.1700000000000002s;
+    -webkit-transform: rotate(180deg);
+    -ms-animation-delay: 1.1700000000000002s;
+    -ms-transform: rotate(180deg);
+    -o-animation-delay: 1.1700000000000002s;
+    -o-transform: rotate(180deg);
+    animation-delay: 1.1700000000000002s;
+    transform: rotate(180deg)
+}
+
+#rotateG_08 {
+    left: 7px;
+    bottom: 6px;
+    -moz-animation-delay: 1.3s;
+    -moz-transform: rotate(-135deg);
+    -webkit-animation-delay: 1.3s;
+    -webkit-transform: rotate(-135deg);
+    -ms-animation-delay: 1.3s;
+    -ms-transform: rotate(-135deg);
+    -o-animation-delay: 1.3s;
+    -o-transform: rotate(-135deg);
+    animation-delay: 1.3s;
+    transform: rotate(-135deg)
+}
+
+@-moz-keyframes fadeG {
+    0% {
+        background-color: #0E72B4
+    }
+
+    100% {
+        background-color: #FFFFFF
+    }
+
+}
+
+@-webkit-keyframes fadeG {
+    0% {
+        background-color: #0E72B4
+    }
+
+    100% {
+        background-color: #FFFFFF
+    }
+
+}
+
+@-ms-keyframes fadeG {
+    0% {
+        background-color: #0E72B4
+    }
+
+    100% {
+        background-color: #FFFFFF
+    }
+
+}
+
+@-o-keyframes fadeG {
+    0% {
+        background-color: #0E72B4
+    }
+
+    100% {
+        background-color: #FFFFFF
+    }
+
+}
+
+@keyframes fadeG {
+    0% {
+        background-color: #0E72B4
+    }
+
+    100% {
+        background-color: #FFFFFF
+    }
+
+}
+
+.bl_3_box_popup {
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 52px;
+    font-size: 24px;
+    font-style: italic;
+    font-family: "Times New Roman";
+    color: #354c7c;
+    line-height: 1.7;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px
+}
+
+.bl_3_Alert_Box {
+    position: relative;
+    background: url(images/buyflow_v3/xalert-icon.png.pagespeed.ic.707wuKsKP8.png) no-repeat 13px 25px #fffdef;
+    border: 1px solid #f2c218;
+    padding: 25px 49px;
+    font-size: 18px;
+    color: #354c7c;
+    font-style: italic;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    font-family: "Times New Roman"
+}
+
+a.bl_3_Alert_Close {
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    background: url(/style/images/buyflow_v3/xalert-close.png.pagespeed.ic.nkmIfQrMA-.png);
+    display: block;
+    width: 26px;
+    height: 26px;
+    text-decoration: none
+}
+
+a.bl_3_Alert_Close:hover {
+    background-image: url(/style/images/buyflow_v3/xalert-close-hover.png.pagespeed.ic.BWHmXqUtTF.png)
+}

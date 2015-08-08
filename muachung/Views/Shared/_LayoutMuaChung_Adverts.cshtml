@@ -1,0 +1,51 @@
+﻿@model IEnumerable<muachung.Models.SP_GET_Adverts_RD2_Result>
+
+@foreach (var m in Model)
+        {
+            <div style="display: block;" class="countBanner-2" id="countBanner-2-1">
+                <div class="deal-travel-new sys_deal_item">
+                    <div class="inner-deal">
+                        <div class="wrap-imgdesc">
+                            <a class="link-img-desc sys_img_thumb_deal"
+                               href="@Url.Action("Details", "Adverts", new { id = m.AdvertId })">
+                                <img src="~/Content/Adverts/@m.Images1"
+                                     class="img-overlay old_lazy_load" alt="@m.AdvertName">
+                            </a>
+
+                            <div class="bottom-deal">
+                                <div class="wrap-bottom">
+                                    <div class="short-info">
+                                        <div class="location-travel">
+                                            <i class="icon-star star-yl-new s3"></i>@m.Address
+                                        </div>
+                                        <h3 class="rs deal-name hide-text-over">
+                                            <a href="@Url.Action("Details", "Adverts", new { id = m.AdvertId })">
+                                                @m.Title
+                                            </a>
+                                        </h3>
+                                        <h4 class="rs deal-desc hide-text-over">
+                                            @m.AdvertName
+                                        </h4>
+                                        <a href="@Url.Action("Details", "Adverts", new { id = m.AdvertId })"
+                                           class="link-detail" rel="nofollow">
+                                            Xem ngay <i class="icon-v3 iDetailSP"></i>
+                                        </a>
+                                    </div>
+                                    <div class="price-info">
+                                        <span class="ex-price-sale">
+                                            <span class="ex-price-sale-val">@m.CostSale.ToString("#,##")</span><span class="ex-price-sale-unit">đ</span>
+                                        </span>
+                                        <span class="ex-discount-percent">
+                                            <span class="parenthesis">(</span>-@Convert.ToDecimal(100 * (1 - m.CostSale / m.Cost)).ToString("#")<span class="ex-percent-unit">%</span><span class="parenthesis">)</span>
+                                        </span>
+                                        <span class="ex-price-origin">
+                                            <span class="ex-price-origin-val">@m.Cost.ToString("#,##")</span><span class="ex-price-origin-unit">đ</span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }

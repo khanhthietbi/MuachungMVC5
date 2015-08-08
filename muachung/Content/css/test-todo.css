@@ -1,0 +1,271 @@
+﻿.grp-bottom-content {
+    height: 92px;
+    padding: 0 5px;
+    position: relative
+}
+
+.deal-item.suggest-type .grp-bottom-content {
+    padding: 0
+}
+
+.deal-item.sponsor .grp-bottom-content {
+    height: auto
+}
+
+.grp-bottom-content.has-ddsd {
+    height: auto
+}
+
+.grp-bottom-content.has-selling-point {
+    height: 115px
+}
+
+.grp-bottom-content.has-ddsd.has-selling-point {
+    height: auto
+}
+
+.home-feature-deals .grp-bottom-content {
+    height: 100px;
+    position: relative
+}
+
+.in-tourist-page .home-feature-deals .grp-bottom-content {
+    height: auto
+}
+
+.deal-item .price-show-ny {
+    color: #959595
+}
+
+.mod-home-list-deal .home-feature-deals .deal-item.x2 .deal-name {
+    font-size: 1.5em
+}
+
+.deal-item .price-style2 {
+    display: none
+}
+
+.deal-item .deal-rate {
+    padding-top: 2px
+}
+
+.deal-item .deal-rate .fs-12, .deal-item .deal-buyer span {
+    font-size: .9230769230769231em;
+    color: #959595 !important;
+    font-family: Tahoma, sans-serif
+}
+
+.deal-item span.fs-13 {
+    font-weight: normal
+}
+
+.deal-item .btn-deal-detail {
+    display: none
+}
+
+.deal-item .deal-name {
+    font-weight: 700;
+    line-height: 1.2em;
+    height: 39px;
+    margin-bottom: 2px;
+    font-size: 1.153846153846154em
+}
+
+.deal-item .deal-name a {
+    color: #444
+}
+
+.deal-item .price-sale .price-val {
+}
+
+.deal-item .val .price-unit {
+    font-weight: 400
+}
+
+.deal-item .grp-name-price {
+    height: auto
+}
+
+.deal-item .btn-detail2 {
+    display: block
+}
+
+.deal-item .list-ddsd-lbl {
+    float: none;
+    padding-right: 45px
+}
+
+.deal-item .long-ddsk {
+    display: block
+}
+
+.deal-item .has-selling-point .btn-detail2 {
+    bottom: -1px;
+    right: 0
+}
+
+.mod-detail .shopmc-map-pop.active-map .loading-map {
+    width: 400px;
+    height: 400px;
+    line-height: 0
+}
+
+.mod-detail .shopmc-item .active-map .img-loadingmap {
+    display: none
+}
+
+.mod-detail .shopmc-item .img-map {
+    display: none
+}
+
+.mod-detail .shopmc-item .active-map .img-map {
+    display: block
+}
+
+.quantam {
+    display: none;
+    padding-top: 12px;
+    text-align: center
+}
+
+.quantam .btn-quantam {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 6px
+}
+
+.quantam .btn-quantam.active {
+    display: none
+}
+
+.quantam .btn-quantam .qt2 {
+    display: none
+}
+
+.quantam .btn-quantam:hover .qt1 {
+    display: none
+}
+
+.quantam .btn-quantam:hover .qt2 {
+    display: inline-block
+}
+
+.wishlish-area {
+}
+
+.demo-new {
+    margin-top: 10px;
+    margin-left: 50px;
+    background: #f5f5f5;
+    text-align: left;
+    padding: 0 15px 10px 15px
+}
+
+.no-thumb .demo-new {
+    margin-left: 0
+}
+
+.demo-new .like22 {
+    display: none
+}
+
+.demo-new .plike {
+    font-style: italic;
+    color: #a0a0a0
+}
+
+.demo-new .plike > div {
+    padding-top: 15px;
+    margin-right: -7px
+}
+
+.demo-new .plike .like-active {
+    background-image: url(../images/saved-wishlish.png);
+    width: 63px;
+    height: 23px;
+    float: left
+}
+
+.demo-new .plike .text-plike {
+    width: 155px;
+    padding: 0;
+    float: left;
+    margin: 0
+}
+
+.demo-new .plike .like {
+    background-image: url(../images/save-hover-wishlish.png);
+    width: 49px;
+    height: 23px;
+    float: left;
+    cursor: pointer
+}
+
+.demo-new .plike .like.active {
+    background-image: url(../images/save-hover-wishlish.png);
+    float: left
+}
+
+.pluginCountButtonNub {
+    height: 0;
+    left: 2px;
+    position: relative;
+    top: -15px;
+    width: 5px;
+    z-index: 2
+}
+
+.pluginCountButtonNub s, .pluginCountButtonNub i {
+    border-color: transparent #9197a3;
+    border-style: solid;
+    border-width: 4px 5px 4px 0;
+    display: block;
+    position: relative;
+    top: 1px
+}
+
+.pluginCountButtonNub i {
+    border-right-color: #fff;
+    left: 2px;
+    top: -7px
+}
+
+.pluginCountButton {
+    background: #fff;
+    border: 1px solid #9197a3;
+    -webkit-border-radius: 2px;
+    color: #4e5665;
+    display: inline-block;
+    font-size: 11px;
+    height: auto;
+    line-height: 18px;
+    margin-left: 6px;
+    min-width: 23px;
+    padding: 0 3px;
+    text-align: center;
+    white-space: nowrap
+}
+
+.demo-new .plike .box-wishlish {
+    float: left;
+    margin-left: 10px;
+    font-style: normal;
+    font-size: 11px
+}
+
+.demo-new .plike:hover .like22 {
+    display: inline-block
+}
+
+.demo-new .plike:hover .like11 {
+    display: none
+}
+
+.mod-detail .hotline-order div {
+    padding-bottom: 5px;
+    padding-top: 5px
+}
+
+.mod-detail .sep-hay {
+    margin-bottom: 0
+}

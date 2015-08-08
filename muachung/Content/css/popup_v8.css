@@ -1,0 +1,142 @@
+.classic-popup {
+    background: url(images/background/xover-layer-bg.png.pagespeed.ic.Z4h9HMiNKe.png) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 1px 9px 0 rgba(0, 0, 0, .64);
+    padding: 0
+}
+
+.classic-popup-title {
+    background: none repeat scroll 0 0 #0e71b4;
+    border-bottom: 3px solid #02c670;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    width: 100%
+}
+
+.classic-popup-title, .classic-popup-title .fl, a.classic-popup-close {
+    color: #fff;
+    height: 60px;
+    line-height: 60px
+}
+
+.classic-popup-title .fl {
+    font-size: 22px;
+    font-weight: normal;
+    padding-left: 20px;
+    text-transform: none;
+    float: left
+}
+
+a.classic-popup-close {
+    background: url(images/buyflow_v3/xclose.png.pagespeed.ic.PFortLTz1K.png) no-repeat scroll 0 1px rgba(0, 0, 0, 0);
+    color: #0e71b4;
+    display: block;
+    float: right;
+    height: 29px;
+    line-height: 10px;
+    margin-right: 13px;
+    margin-top: 16px;
+    padding: 0;
+    width: 28px
+}
+
+a.classic-popup-close:hover {
+    background-position: 0 -29px;
+    color: #0a619d;
+    text-decoration: none
+}
+
+.classic-popup-content {
+    background: none repeat scroll 0 0 #fff;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    color: #472900;
+    width: 100%
+}
+
+.mTop10, #mTop10 {
+    margin-top: 10px
+}
+
+.v7_blueButton {
+    background-color: #0e71b4;
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7px 15px;
+    text-align: center
+}
+
+.float_right, .fr, .fR, #fr {
+    float: right
+}
+
+a.btSubcity {
+    background: url(images/button/xsub_city.png.pagespeed.ic.V_bs9bMytu.png) repeat-x scroll 0 -28px rgba(0, 0, 0, 0);
+    color: #fff;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 28px;
+    line-height: 28px
+}
+
+a.btSubcity span {
+    background: url(images/button/xsub_city.png.pagespeed.ic.V_bs9bMytu.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left
+}
+
+a.btSubcity span span {
+    background-position: right -56px;
+    height: 28px;
+    padding: 0 17px 0 38px
+}
+
+a.btSubcity:hover {
+    background-position: 0 -280px;
+    text-decoration: none
+}
+
+a.btSubcity:hover span {
+    background-position: 0 -252px
+}
+
+a.btSubcity:hover span span {
+    background-position: right -308px
+}
+
+a.btStopSubcity, a.btStopSubcity:hover {
+    background-position: 0 -196px;
+    color: #02a1dc
+}
+
+a.btStopSubcity:hover {
+    color: #cb0000
+}
+
+a.btStopSubcity:hover span, a.btStopSubcity span {
+    background-position: 0 -168px
+}
+
+a.btStopSubcity:hover span span, a.btStopSubcity span span {
+    background-position: right -224px
+}
+
+a.btSubcityCheck, a.btSubcityCheck:hover {
+    background-position: 0 -112px;
+    color: red
+}
+
+a.btSubcityCheck:hover {
+    color: #cb0000
+}
+
+a.btSubcityCheck:hover span, a.btSubcityCheck span {
+    background-position: 0 -84px
+}
+
+a.btSubcityCheck:hover span span, a.btSubcityCheck span span {
+    background-position: right -140px
+}

@@ -1,0 +1,351 @@
+.alert-w {
+    position: fixed;
+    z-index: 9999999;
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    bottom: 200px;
+    left: 10px;
+    border: 4px solid #8b0000;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    line-height: 62px
+}
+
+@media screen and (max-device-width: 1449px), screen and (max-width: 1449px) {
+    .alert-w {
+        background: #da25c4
+    }
+
+    .alert-w:before {
+        content: "1449px"
+    }
+
+    .main-layout .content {
+        width: 100%;
+        max-width: 846px
+    }
+
+    .mod-detail .no-thumb .desc-price, .mod-detail .desc-price {
+        margin-left: 37%
+    }
+}
+
+@media screen and (max-device-width: 1345px), screen and (max-width: 1345px) {
+    .alert-w {
+        background: #d0bf04
+    }
+
+    .alert-w:before {
+        content: "1345px"
+    }
+
+    .magic-width #page-content {
+    }
+
+    .magic-width #page-content.in-detail-page {
+        max-width: 1500px
+    }
+
+    .main-layout .wrap-container {
+    }
+
+    .magic-width .sidebar-right {
+        margin-right: -220px;
+        width: 220px
+    }
+
+    .magic-width .wrap-content-mg-width {
+        padding-right: 220px
+    }
+
+    #mc_ads_box_300 {
+        display: none
+    }
+
+    #mc_ads_box_220 {
+        display: block
+    }
+
+    .mod-detail .col-list-thumb {
+        max-height: 400px
+    }
+
+    .mod-detail .bottom-deal-info {
+        padding-right: 220px
+    }
+
+    .mod-detail .right-content {
+        margin-right: -220px;
+        width: 220px
+    }
+}
+
+@media screen and (max-device-width: 1280px), screen and (max-width: 1280px) {
+    .mod-detail .hide-desc-deal .desc-price {
+        height: 580px
+    }
+
+    .mod-detail .hide-desc-deal.no-thumb .desc-price {
+        height: 580px
+    }
+}
+
+@media screen and (max-device-width: 1260px), screen and (max-width: 1260px) {
+    .alert-w {
+        background: #3badda
+    }
+
+    .alert-w:before {
+        content: "1220px"
+    }
+
+    .magic-width .wrap-content-mg-width {
+        padding-right: 0
+    }
+
+    .main-layout .wrap-container {
+        margin-right: 0
+    }
+
+    .magic-width .sidebar-right {
+        display: none
+    }
+
+    .main-layout .content {
+        margin: 0 auto;
+        float: none
+    }
+
+    .mod-detail .no-thumb .desc-price, .mod-detail .desc-price {
+        margin-left: 36%
+    }
+
+    .mod-detail .preview-deal-imgs {
+        width: 36%
+    }
+}
+
+@media screen and (max-device-width: 1042px), screen and (max-width: 1042px) {
+    .alert-w {
+        background: #daa520
+    }
+
+    .alert-w:before {
+        content: "1042px"
+    }
+
+    #header .btn-support-bright .popup-address {
+        right: 0
+    }
+
+    #header .btn-support-bright .pa-content:before {
+        right: 7px
+    }
+
+    .deal-item {
+        width: 33%
+    }
+
+    .mod-detail .preview-deal-imgs {
+        width: 32.3%
+    }
+
+    .mod-detail .no-thumb .desc-price, .mod-detail .desc-price {
+        margin-left: 32.3%
+    }
+
+    .mod-detail .price-counter .row-data {
+        padding-left: 103px
+    }
+
+    .mod-detail .bottom-deal-info {
+        padding-right: 0
+    }
+
+    .mod-detail .right-content {
+        display: none
+    }
+
+    .mod-detail .wrap-popup-maps {
+        display: block
+    }
+
+    .mod-detail .popup-address.show-in-point {
+        left: -290px
+    }
+
+    .mod-detail .show-popup-in-point .pa-content:before {
+        right: 580px
+    }
+
+    .mod-detail .dl-wrap-top-main-content {
+        word-spacing: normal;
+        padding-left: 0
+    }
+
+    .mod-detail .dl-preview-deal-imgs {
+        float: left;
+        width: 52.17391304347826%;
+        margin-left: 0;
+        padding-right: 0
+    }
+
+    .mod-detail .dl-grp-order-price {
+        float: right;
+        width: 46.08695652173913%
+    }
+
+    .mod-detail .hide-desc-deal .desc-price, .mod-detail .hide-desc-deal.no-thumb .desc-price {
+        height: auto;
+        overflow: visible
+    }
+
+    .demo-new .plike .box-wishlish {
+        margin-left: 0
+    }
+
+    .demo-new .plike .text-plike.chia-se {
+        width: auto
+    }
+
+    #mod-footer .grp-link-cate {
+        width: 138px
+    }
+}
+
+@media screen and (max-device-width: 979px), screen and (max-width: 979px) {
+    .alert-w {
+        background: #00f
+    }
+
+    .alert-w:before {
+        content: "979px"
+    }
+
+    .container-page, #header .top-head, .magic-width .container, .magic-width #page-content {
+        width: 1096px
+    }
+
+    #header .wrap-announ {
+        width: 1096px;
+        margin-left: auto;
+        margin-right: auto;
+        white-space: nowrap
+    }
+
+    #header .top-head {
+        position: relative
+    }
+
+    #header .haveBanner {
+        top: 0
+    }
+
+    #header .bottom-cate, #header .bottom-menu {
+        margin-top: 0
+    }
+
+    .btn-back-to-top {
+        left: 20px;
+        right: auto
+    }
+
+    #header .alt-city-select {
+        display: block
+    }
+
+    #header .location-selection:hover .drp-location-opt {
+        display: none
+    }
+
+    #header .cate-name {
+        padding: 0 40px 0 24px;
+        font-size: 1.307692307692308em
+    }
+
+    #header .big-cate.no-sub .cate-name {
+        padding: 0 23px 0 25px
+    }
+
+    #header .bottom-menu {
+    }
+
+    #header .cate-name .iArrowDown {
+        right: 20px
+    }
+
+    #header .bottom-menu .stick-link {
+        margin-left: 19px;
+        font-weight: 700
+    }
+
+    #header .bottom-menu .menu2-link {
+        margin-left: 27px
+    }
+
+    .nav-categories > li > a, .sub-categories > li > a {
+        font-size: 1.153846153846154em
+    }
+}
+
+@media screen and (max-device-width: 767px), screen and (max-width: 767px) {
+    .alert-w {
+        background: red
+    }
+
+    .alert-w:before {
+        content: "767px"
+    }
+
+    .layout-nav {
+        padding-left: 0
+    }
+
+    .layout-nav:before {
+        content: " ";
+        display: table
+    }
+
+    .layout-nav:after {
+        content: " ";
+        clear: both;
+        display: table
+    }
+
+    .layout-nav > .left-col {
+        float: left;
+        margin-left: 0
+    }
+
+    .layout-nav > .content-col {
+        float: right;
+        width: 866px
+    }
+
+    .dis-scroll {
+        overflow: hidden
+    }
+}
+
+@media screen and (max-device-width: 480px), screen and (max-width: 480px) {
+    .alert-w {
+        background: green
+    }
+
+    .alert-w:before {
+        content: "480px"
+    }
+}
+
+@media screen and (max-device-width: 320px), screen and (max-width: 320px) {
+    .alert-w {
+        background: #68198f
+    }
+
+    .alert-w:before {
+        content: "320px"
+    }
+}

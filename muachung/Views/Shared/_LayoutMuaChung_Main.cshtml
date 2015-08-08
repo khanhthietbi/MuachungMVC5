@@ -1,0 +1,76 @@
+﻿@model IEnumerable<muachung.Models.SP_GET_PRODUCTS_ALL_Result>
+
+@* Created by KhanhThietbi - www.fb.com/NeedleKane *@
+
+<div class="wrap-list-deal">
+
+    <div class="inside-list">
+
+        @foreach (var m in Model)
+        {
+            <div class="deal-item sys_deal_item">
+                <div class="inner-deal">
+                    <div class="wrap-imgdesc">
+                        <div class="clearfix">
+                            <a class="img-thumb-deal"
+                               href="@Url.Action("Details", "Home", new { id = m.Id })">
+                                <img src="~/Content/Upload/@m.Images1"
+                                     alt="@m.Name" width="250px" />
+                            </a>
+
+                            <div class="rs shop-name-sg"><span>@m.ShopName</span></div>
+                            <div class="deal-use-location hide-text-over">
+                                <span>@m.Address</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grp-bottom-content">
+                        <div class="grp-name-price">
+                            <h3 class="rs deal-name">
+                                <a href="@Url.Action("Details", "Home", new { id = m.Id })"
+                                   class="cl-trans">@m.Name</a>
+                            </h3>
+
+                            <div class="bottom-info clearfix">
+                                <div class="price percent-left clearfix">
+                                    <span class="val valNew">
+                                        <span class="price-sale">
+                                            <span class="price-val fs-14">
+                                                @m.CostSale.ToString("#,##")<span class="price-unit">đ</span>
+                                                <span class="fs-13">
+                                                    <span class="fs-11">
+                                                        (
+                                                    </span>-@Convert.ToDecimal(100 * (1 - m.CostSale / m.Cost)).ToString("#")<span class="fs-11">%</span><span class="fs-11">
+                                                        )
+                                                    </span>
+                                                </span>
+                                            </span>
+                                        </span>
+                                    </span>
+                                    <span class="price-show-ny">
+                                        <span class="pcs-val">@m.Cost.ToString("#,##")</span>
+                                        <span class="pcs-unit">đ</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="deal-rate make-left">
+                            <span class="deal-buyer">
+                                <span>
+                                    @m.Views người đã xem
+                                </span>
+                            </span>
+                        </div>
+                        <i class="clear"></i>
+                        <a class="btn-detail2"
+                           href="@Url.Action("Details", "Home", new { id = m.Id })"
+                           rel="nofollow"><i class="icon-v3 iDetail2"></i></a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div> <!-- End Inside List -->
+</div>
+
+@* Created by KhanhThietbi - www.fb.com/NeedleKane *@

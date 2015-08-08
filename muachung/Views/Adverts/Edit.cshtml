@@ -1,0 +1,129 @@
+﻿@model muachung.Models.Advert
+@using muachung.Models
+
+@{
+    ViewBag.Title = "Sửa thông tin quảng cáo";
+    Layout = "~/Views/Shared/_LayoutManage.cshtml";
+}
+
+<h2 id="create">@ViewBag.Title</h2>
+
+@using (Html.BeginForm("Edit", "Adverts", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.ValidationSummary(true)
+    @Html.HiddenFor(model => model.AdvertId)
+    @Html.HiddenFor(model => model.UserId)
+    @Html.HiddenFor(model => model.Created)
+    @Html.HiddenFor(model => model.Images1)
+    @Html.HiddenFor(model => model.Images2)
+    @Html.HiddenFor(model => model.Images3)
+    @Html.HiddenFor(model => model.Views)
+
+    <div class="col-md-12">
+        <div class="box box-warning">
+            <div class="box-body">
+                <form role="form">
+
+                    <div class="form-group">
+                        <label>@Html.LabelFor(model => model.Title)</label>
+                        @Html.TextBoxFor(model => model.Title, new { @class = "form-control",  @placeholder = "Enter Title..." })
+                        @Html.ValidationMessageFor(model => model.Title, "", new { @class = "errorrmessage" })
+                        <p id="result"></p>
+                    </div>
+
+                    <div class="form-group">
+                        <label>@Html.LabelFor(model => model.AdvertName)</label>
+                        @Html.TextBoxFor(model => model.AdvertName, new { @class = "form-control",@id = "advertid", @placeholder = "Enter AdvertName ..." })
+                        @Html.ValidationMessageFor(model => model.AdvertName, "", new { @class = "errorrmessage" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>@Html.LabelFor(model => model.Cost)</label>
+                        @Html.TextBoxFor(model => model.Cost, new { @class = "form-control", @placeholder = "Enter cost...", @id = "cost" }) <p class="vnd">VND</p>
+                        @Html.ValidationMessageFor(model => model.Cost, "", new { @class = "errorrmessage" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>@Html.LabelFor(model => model.CostSale)</label>
+                        @Html.TextBoxFor(model => model.CostSale, new { @class = "form-control", @placeholder = "Enter cost sale...", @id = "cost" }) <p class="vnd">VND</p>
+                        @Html.ValidationMessageFor(model => model.CostSale, "", new { @class = "errorrmessage" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>@Html.LabelFor(model => model.AdvertContent)</label>
+                        @Html.TextAreaFor(model => model.AdvertContent, new { @class = "form-control", @placeholder = "Enter AdvertContent...", @rows =6 })
+                        @Html.ValidationMessageFor(model => model.AdvertContent, "", new { @class = "errorrmessage" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>@Html.LabelFor(model => model.Address)</label>
+                        @Html.TextAreaFor(model => model.Address, new { @class = "form-control", @placeholder = "Enter address and required..." })
+                        @Html.ValidationMessageFor(model => model.Address, "", new { @class = "errorrmessage" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>@Html.LabelFor(model => model.Images1)</label>
+                        @Html.TextBoxFor(model => model.Images1, new { type = "file", name = "Images1", id = "Images1" })
+                        <h3><img style="border: 1px solid gray; padding: 3px;" src="~/Content/Adverts/@Model.Images1" alt="" height="80" width="80" /></h3>
+                    </div>
+
+                    <div class="form-group">
+                        <label>@Html.LabelFor(model => model.Images2)</label>
+                        @Html.TextBoxFor(model => model.Images2, new { type = "file", name = "Images2", id = "Images2" })
+                        <h3><img style="border: 1px solid gray; padding: 3px;" src="~/Content/Adverts/@Model.Images2" alt="" height="80" width="80" /></h3>
+                    </div>
+
+                    <div class="form-group">
+                        <label>@Html.LabelFor(model => model.Images3)</label>
+                        @Html.TextBoxFor(model => model.Images3, new { type = "file", name = "Images3", id = "Images3" })
+                        <h3><img style="border: 1px solid gray; padding: 3px;" src="~/Content/Adverts/@Model.Images3" alt="" height="80" width="80" /></h3>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Người hiệu chỉnh lần cuối:</label>
+                        @Html.DisplayFor(model => model.User.Username)
+                        @Html.ValidationMessageFor(model => model.User.Username, "", new { @class = "errorrmessage" })
+                    </div>
+
+                    @if (Model.Created != null && Model.Modified == null)
+                    {
+                        <div class="form-group">
+                            <label>Ngày khởi tạo:</label>
+                            @Html.DisplayFor(model => model.Created)
+                            @Html.ValidationMessageFor(model => model.Created, "", new { @class = "errorrmessage" })
+                        </div>
+                    }
+
+                    @if (Model.Modified != null)
+                    {
+                        <div class="form-group">
+                            <label>Hiệu chỉnh lần cuối:</label>
+                            @Html.DisplayFor(model => model.Modified)
+                            @Html.ValidationMessageFor(model => model.Modified, "", new { @class = "errorrmessage" })
+                        </div>
+                    }
+
+                    <input type="submit" class="btn btn-info btn-flat" id="taomoi" value="Save" />
+                    <a href="@Url.Action("Index", "Adverts")" class="btn btn-default btn-flat" id="taomoi">Back to Adverts page</a>
+                </form>
+            </div>
+        </div>
+    </div>
+}
+
+<script src="/Content/plugins/jQuery/jQuery-2.1.3.min.js"></script>
+<script>
+    $("#advertid").change(function () {
+        var name = $("#advertid").val();
+        var status = $("#result");
+        status.html("Check AdvertName....");
+        $.post("/Adverts/CheckAdvertName", { advertname: name },
+                function (data) {
+                    if (data == true) {
+                        status.html("OK").addClass("text-green");
+                    } else {
+                        status.html("advertname used").addClass("text-red");
+                    }
+                });
+    });
+</script>

@@ -1,0 +1,1061 @@
+﻿@* Created by KhanhThietbi - www.fb.com/NeedleKane *@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Trang chủ Muachung</title>
+    <link rel="shortcut icon" href="~/Content/images/favicon.ico" />
+    <link rel="stylesheet" href="~/Content/css/font.css"/>
+    <link rel="stylesheet" href="~/Content/css/v6-bootstrap.css"/>
+    <link rel="stylesheet" href="~/Content/css/tooltipster.css"/>
+    <!--css plugin-->
+
+    <link rel="stylesheet" href="~/Content/css/v7-style.css"/>
+    <link rel="stylesheet" href="~/Content/css/test-todo.css"/>
+    <link rel="stylesheet" href="~/Content/css/detail.css"/>
+
+    <link rel="stylesheet" href="~/Content/css/style_cart.css?ver=1743" type="text/css">
+    <link rel="stylesheet" href="~/Content/css/popup_v8.css?ver=1743" type="text/css">
+    <link rel="stylesheet" href="~/Content/css/footer.css?ver=1743" type="text/css">
+    <link rel="stylesheet" href="~/Content/css/style_buyflow.css" type="text/css" />
+    <link rel="stylesheet" href="~/Content/css/old_style.css"/>
+    <link rel="stylesheet" href="~/Content/css/default.css"/>
+    <link rel="stylesheet" href="~/Content/css/extend.css"/>
+    <!--responsive css-->
+    <link rel="stylesheet" href="~/Content/css/responsive.css"/>
+    <!--[if IE 9]>
+    <link rel="stylesheet" href="~/Content/css/ie9.css"/>
+    <![endif]-->
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="~/Content/css/ie8.css"/>
+    <![endif]-->
+    <script src="~/Content/js/tp2_core.js" async="" type="text/javascript"></script>
+    <script src="~/Content/js/gtm.js" async=""></script>
+    <script src="~/Content/js/ga.js" async="" type="text/javascript"></script>
+    <script type="text/javascript" src="~/Content/js/html5.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery-1.js"></script>
+    <script type="text/javascript" src="~/Content/js/jquery_003.js"></script>
+    <script type="text/javascript" src="~/Content/js/common.js"></script>
+</head>
+<body>
+    <div style="display:none" id="formRegMail">
+        <div class="regContent">
+            <div class="text fl fixPNG"><b>Đăng ký nhận email thông báo giảm giá</b></div>
+            <div class="bgSubscribeEmail fl"><input name="email" id="sub-email" value="Nhập email của bạn"
+                                                    onfocus="javascript:if(this.value == 'Nhập email của bạn') this.value='';"
+                                                    onblur="javascript:if(this.value == '')this.value='Nhập email của bạn';"
+                                                    type="text"></div>
+            <a href="javascript:void(0)" onclick="shop.header.email.registerCity()" class="bt_send_email"></a><a
+                href="javascript:void(0)" onclick="shop.header.email.hideFormEmail()" class="bt_hide_email">Ẩn [ x ]</a>
+        </div>
+    </div>
+    <i id="sys_back_top" class="btn-back-to-top icon-v4 i4Top"></i>
+    <!--<div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "js/sdk.js#xfbml=1&appId=1384842468431502&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script> -->
+    <img style="display: none" src="~/Content/images/loader.gif">
+
+    <div class="container-page">
+        <div id="header" class="mod-header">
+
+        <style>
+        .hover-link {
+            color: #fff;
+        }
+
+        .big-cate:hover .hover-link {
+            color: #242634;
+        }
+        </style>
+        <div class="top-head" id="top-header">
+        <div class="container">
+        <div class="row">
+        <div class="col-md-12">
+        <div class="wrap-header-top clearfix">
+        <div class="grp-item-left clearfix">
+        <div id="sys_grp_tmdt_site" class="grp-tmdt-site">
+        <div id="sys_btn_show_site_toggle" class="btn-show-site-toggle"></div>
+        <div class="drpdown-link-site">
+            <div class="wrap-list-logo">
+                <div class="list-logo clearfix">
+        <a href="http://enbac.com" target="_blank" class="site-logo-item bg-enbac">
+            <span class="center-elem">
+            <span class="cell-center">
+            <i class="icon-logo enbac"></i>
+            </span>
+            </span>
+            <span class="site-link">enbac.com</span>
+        </a><!--end: .site-logo-item-->
+        <a href="http://rongbay.com/" target="_blank" class="site-logo-item bg-rongbay">
+            <span class="center-elem">
+            <span class="cell-center">
+            <i class="icon-logo rongbay"></i>
+            </span>
+            </span>
+            <span class="site-link">rongbay.com</span>
+        </a><!--end: .site-logo-item-->
+        <a href="http://muare.vn/" target="_blank" class="site-logo-item bg-muare">
+        <span class="center-elem">
+        <span class="cell-center">
+        <i class="icon-logo muare"></i>
+        </span>
+        </span>
+            <span class="site-link">muare.vn</span>
+        </a><!--end: .site-logo-item-->
+        <a href="http://solo.vn/" target="_blank" class="site-logo-item bg-solo">
+        <span class="center-elem">
+        <span class="cell-center">
+        <i class="icon-logo solo"></i>
+        </span>
+        </span>
+            <span class="site-link">solo.vn</span>
+        </a><!--end: .site-logo-item-->
+        <a href="https://sohapay.vn/" target="_blank" class="site-logo-item bg-sohapay">
+        <span class="center-elem">
+        <span class="cell-center">
+        <i class="icon-logo sohapay"></i>
+        </span>
+        </span>
+            <span class="site-link">sohapay.vn</span>
+        </a><!--end: .site-logo-item-->
+        <a href="http://chonmon.vn" target="_blank" class="site-logo-item bg-chonmon">
+        <span class="center-elem">
+        <span class="cell-center">
+        <i class="icon-logo chonmon"></i>
+        </span>
+        </span>
+        <span class="site-link">chonmon.vn</span>
+        </a><!--end: .site-logo-item-->
+            <a href="http://eat.vn" target="_blank" class="site-logo-item bg-eat">
+            <span class="center-elem">
+            <span class="cell-center">
+            <i class="icon-logo eat"></i>
+            </span>
+            </span>
+            <span class="site-link">eat.vn</span>
+        </a><!--end: .site-logo-item-->
+        <a href="http://suma.vn" target="_blank" class="site-logo-item bg-suma">
+        <span class="center-elem">
+        <span class="cell-center">
+        <i class="icon-logo suma"></i>
+        </span>
+        </span>
+            <span class="site-link">suma.vn</span>
+        </a><!--end: .site-logo-item-->
+        <a href="http://nemo.vn" target="_blank" class="site-logo-item bg-nemo">
+        <span class="center-elem">
+        <span class="cell-center">
+        <i class="icon-logo nemo"></i>
+        </span>
+        </span>
+            <span class="site-link">nemo.vn</span>
+        </a><!--end: .site-logo-item-->
+        <a href="http://rento.vn" target="_blank" class="site-logo-item bg-rento">
+        <span class="center-elem">
+        <span class="cell-center">
+        <i class="icon-logo rento"></i>
+        </span>
+        </span>
+            <span class="site-link">rento.vn</span>
+        </a><!--end: .site-logo-item-->
+                </div>
+            </div>
+        </div>
+        </div>
+        <div id="" class="wrap-logo-main">
+        <a id="logo-main" href="#" title="MuaChung: Khám phá những giá trị tiềm ẩn">
+            <img class="default-logo icon-v4 i4Mc" title="MuaChung: Khám phá những giá trị tiềm ẩn">
+        </a>
+
+        <div class="mc-main-cate">
+            <div class="wrap-cate-toggle">
+                <div class="lbl-cate-toggle">
+                    <i class="pick-down"></i>
+                </div>
+            </div>
+        </div>
+        <div id="sys_wrap_logo_main" class="alt-toogle-res-menu clearfix">
+            <img class="alt-logo-res icon-v4 i4McRes" alt="Muachung">
+
+            <div class="mc-main-cate">
+                <div class="wrap-cate-toggle">
+                    <div class="lbl-cate-toggle">
+                        <i class="pick-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="big-cate">
+        <a class="cate-name">
+            Danh mục
+            <i class="icon-v3 iArrowDown"></i>
+        </a>
+
+        <div class="sub-cate">
+            <i class="icon-v3 iPickUp"></i>
+            <ul class="rs list-cate">
+                <li class=" has-child">
+        <a href="http://muachung.vn/danh-muc/c-9/am-thuc-nha-hang.html?ref=top_menu">
+                        <img class="icon-cate icon-cate-all am-thuc-nha-hang">
+                        <span>Ẩm thực &amp; Nhà hàng </span>
+        </a>
+                    <ul class="rs child-cate">
+                        <li>
+                            <a title="Buffet &amp; BBQ"
+                               href="http://muachung.vn/danh-muc/c-9/am-thuc-nha-hang/buffet-bbq-1.html?ref=top_menu">Buffet
+                                &amp; BBQ</a>
+                        </li>
+                        <li>
+                            <a title="Quán Ăn &amp; ăn vặt"
+                               href="http://muachung.vn/danh-muc/c-9/am-thuc-nha-hang/quan-an-an-vat-2.html?ref=top_menu">Quán
+                                Ăn &amp; ăn vặt</a>
+                        </li>
+                        <li>
+                            <a title="Nhà hàng sang"
+                               href="http://muachung.vn/danh-muc/c-9/am-thuc-nha-hang/nha-hang-sang-3.html?ref=top_menu">Nhà
+                                hàng sang</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" has-child">
+        <a href="http://muachung.vn/danh-muc/c-6/spa-lam-dep.html?ref=top_menu">
+                        <img class="icon-cate icon-cate-all spa-lam-dep">
+                        <span>Spa &amp; Làm đẹp </span>
+        </a>
+                    <ul class="rs child-cate">
+                        <li>
+                            <a title="Massage"
+                               href="http://muachung.vn/danh-muc/c-6/spa-lam-dep/massage-4.html?ref=top_menu">Massage</a>
+                        </li>
+                        <li>
+                            <a title="Làm tóc"
+                               href="http://muachung.vn/danh-muc/c-6/spa-lam-dep/lam-toc-5.html?ref=top_menu">Làm tóc</a>
+                        </li>
+                        <li>
+                            <a title="Làm đẹp &amp; Trị liệu"
+                               href="http://muachung.vn/danh-muc/c-6/spa-lam-dep/lam-dep-tri-lieu-9.html?ref=top_menu">Làm
+                                đẹp &amp; Trị liệu</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" has-child">
+        <a href="http://muachung.vn/danh-muc/c-8/gia-dung-noi-that.html?ref=top_menu">
+                        <img class="icon-cate icon-cate-all gia-dung-noi-that">
+                        <span>Gia dụng - Nội thất </span>
+        </a>
+                    <ul class="rs child-cate">
+                        <li>
+                            <a title="Điện - Điện tử"
+                               href="http://muachung.vn/danh-muc/c-8/gia-dung-noi-that/dien-dien-tu-41.html?ref=top_menu">Điện
+                                - Điện tử</a>
+                        </li>
+                        <li>
+                            <a title="Bếp"
+                               href="http://muachung.vn/danh-muc/c-8/gia-dung-noi-that/bep-25.html?ref=top_menu">Bếp</a>
+                        </li>
+                        <li>
+                            <a title="Phòng ngủ &amp; Phòng tắm"
+                               href="http://muachung.vn/danh-muc/c-8/gia-dung-noi-that/phong-ngu-phong-tam-26.html?ref=top_menu">Phòng
+                                ngủ &amp; Phòng tắm</a>
+                        </li>
+                        <li>
+                            <a title="Trang trí"
+                               href="http://muachung.vn/danh-muc/c-8/gia-dung-noi-that/trang-tri-27.html?ref=top_menu">Trang
+                                trí</a>
+                        </li>
+                        <li>
+                            <a title="Đồ dùng tiện ích"
+                               href="http://muachung.vn/danh-muc/c-8/gia-dung-noi-that/do-dung-tien-ich-28.html?ref=top_menu">Đồ
+                                dùng tiện ích</a>
+                        </li>
+                        <li>
+                            <a title="Đồ điện trong bếp"
+                               href="http://muachung.vn/danh-muc/c-8/gia-dung-noi-that/do-dien-trong-bep-24.html?ref=top_menu">Đồ
+                                điện trong bếp</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" has-child">
+        <a href="http://muachung.vn/danh-muc/c-13/thoi-trang-nu.html?ref=top_menu">
+                        <img class="icon-cate icon-cate-all thoi-trang-nu">
+                        <span>Thời trang Nữ </span>
+        </a>
+                    <ul class="rs child-cate">
+                        <li>
+                            <a title="Váy đầm"
+                               href="http://muachung.vn/danh-muc/c-13/thoi-trang-nu/vay-dam-19.html?ref=top_menu">Váy
+                                đầm</a>
+                        </li>
+                        <li>
+                            <a title="Áo"
+                               href="http://muachung.vn/danh-muc/c-13/thoi-trang-nu/ao-18.html?ref=top_menu">Áo</a>
+                        </li>
+                        <li>
+                            <a title="Quần" href="http://muachung.vn/danh-muc/c-13/thoi-trang-nu/quan-38.html?ref=top_menu">Quần</a>
+                        </li>
+                        <li>
+                            <a title="Đồ mặc nhà"
+                               href="http://muachung.vn/danh-muc/c-13/thoi-trang-nu/do-mac-nha-20.html?ref=top_menu">Đồ mặc
+                                nhà</a>
+                        </li>
+                        <li>
+                            <a title="Đồ lót"
+                               href="http://muachung.vn/danh-muc/c-13/thoi-trang-nu/do-lot-43.html?ref=top_menu">Đồ lót</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" has-child">
+        <a href="http://muachung.vn/danh-muc/c-17/thoi-trang-nam.html?ref=top_menu">
+                        <img class="icon-cate icon-cate-all thoi-trang-nam">
+                        <span>Thời trang Nam </span>
+        </a>
+                    <ul class="rs child-cate">
+                        <li>
+                            <a title="Áo"
+                               href="http://muachung.vn/danh-muc/c-17/thoi-trang-nam/ao-22.html?ref=top_menu">Áo</a>
+                        </li>
+                        <li>
+                            <a title="Quần"
+                               href="http://muachung.vn/danh-muc/c-17/thoi-trang-nam/quan-39.html?ref=top_menu">Quần</a>
+                        </li>
+                        <li>
+                            <a title="Đồ lót"
+                               href="http://muachung.vn/danh-muc/c-17/thoi-trang-nam/do-lot-45.html?ref=top_menu">Đồ lót</a>
+                        </li>
+                        <li>
+                            <a title="Giầy dép &amp; Phụ kiện"
+                               href="http://muachung.vn/danh-muc/c-17/thoi-trang-nam/giay-dep-phu-kien-23.html?ref=top_menu">Giầy
+                                dép &amp; Phụ kiện</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" has-child">
+        <a href="http://muachung.vn/danh-muc/c-16/phu-kien-my-pham.html?ref=top_menu">
+                        <img class="icon-cate icon-cate-all phu-kien-my-pham">
+                        <span>Phụ kiện &amp; Mỹ phẩm </span>
+        </a>
+                    <ul class="rs child-cate">
+                        <li>
+                            <a title="Mỹ phẩm"
+                               href="http://muachung.vn/danh-muc/c-16/phu-kien-my-pham/my-pham-35.html?ref=top_menu">Mỹ
+                                phẩm</a>
+                        </li>
+                        <li>
+                            <a title="Giầy dép &amp; Phụ kiện"
+                               href="http://muachung.vn/danh-muc/c-16/phu-kien-my-pham/giay-dep-phu-kien-21.html?ref=top_menu">Giầy
+                                dép &amp; Phụ kiện</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" has-child">
+        <a href="http://muachung.vn/danh-muc/c-15/thuc-pham.html?ref=top_menu">
+                        <img class="icon-cate icon-cate-all thuc-pham">
+                        <span>Thực phẩm </span>
+        </a>
+                    <ul class="rs child-cate">
+                        <li>
+                            <a title="Sữa, Sp sữa &amp; Đồ ngọt"
+                               href="http://muachung.vn/danh-muc/c-15/thuc-pham/sua-sp-sua-do-ngot-30.html?ref=top_menu">Sữa,
+                                Sp sữa &amp; Đồ ngọt</a>
+                        </li>
+                        <li>
+                            <a title="Thực phẩm gia đình"
+                               href="http://muachung.vn/danh-muc/c-15/thuc-pham/thuc-pham-gia-dinh-33.html?ref=top_menu">Thực
+                                phẩm gia đình</a>
+                        </li>
+                        <li>
+                            <a title="Thực phẩm bổ dưỡng"
+                               href="http://muachung.vn/danh-muc/c-15/thuc-pham/thuc-pham-bo-duong-32.html?ref=top_menu">Thực
+                                phẩm bổ dưỡng</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" has-child">
+        <a href="http://muachung.vn/danh-muc/c-12/me-be.html?ref=top_menu">
+                        <img class="icon-cate icon-cate-all me-be">
+                        <span>Mẹ &amp; Bé </span>
+        </a>
+                    <ul class="rs child-cate">
+                        <li>
+                            <a title="Quần áo" href="http://muachung.vn/danh-muc/c-12/me-be/quan-ao-6.html?ref=top_menu">Quần
+                                áo</a>
+                        </li>
+                        <li>
+                            <a title="Đồ chơi &amp; Đồ dùng"
+                               href="http://muachung.vn/danh-muc/c-12/me-be/do-choi-do-dung-7.html?ref=top_menu">Đồ chơi
+                                &amp; Đồ dùng</a>
+                        </li>
+                        <li>
+                            <a title="Vui chơi, Chăm sóc"
+                               href="http://muachung.vn/danh-muc/c-12/me-be/vui-choi-cham-soc-8.html?ref=top_menu">Vui chơi,
+                                Chăm sóc</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class=" has-child">
+        <a href="http://muachung.vn/danh-muc/c-7/dao-tao-giai-tri.html?ref=top_menu">
+                        <img class="icon-cate icon-cate-all dao-tao-giai-tri">
+                        <span>Đào tạo &amp; Giải trí </span>
+        </a>
+                    <ul class="rs child-cate">
+                        <li>
+                            <a title="Khóa học"
+                               href="http://muachung.vn/danh-muc/c-7/dao-tao-giai-tri/khoa-hoc-10.html?ref=top_menu">Khóa
+                                học</a>
+                        </li>
+                        <li>
+                            <a title="Dịch vụ giải trí"
+                               href="http://muachung.vn/danh-muc/c-7/dao-tao-giai-tri/dich-vu-giai-tri-11.html?ref=top_menu">Dịch
+                                vụ giải trí</a>
+                        </li>
+                        <li>
+                            <a title="Sách truyện"
+                               href="http://muachung.vn/danh-muc/c-7/dao-tao-giai-tri/sach-truyen-29.html?ref=top_menu">Sách
+                                truyện</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        </div>
+        <div class="big-cate no-sub">
+        <a href="http://muachung.vn/khach-san-du-lich.html?ref=menu_top_mc" class="cate-name">
+            Du lịch
+        </a>
+        </div>
+        <div class="big-cate no-sub">
+        <a class="cate-name" href="http://plaza.muachung.vn?ref=menu_top_mc" target="_blank">Plaza</a>
+        </div>
+        <div class="big-cate no-sub">
+            <a class="cate-name" href="@Url.Action("Index","MuaChungManage")">Quản lý</a>
+        </div>
+        </div>
+        <div class="user-panel">
+        <div class="grp-login">
+            <a class="action-lbl">Đăng nhập/ Đăng ký</a>
+            <a class="sub-lbl">Tài khoản &amp; Đơn hàng</a>
+        </div>
+        <div class="grp-btn-popup">
+            <div class="wrap-grp-btn">
+                <div class="welcome-txt">Đăng nhập để tích điểm mỗi ngày!</div>
+                Bạn đã có tài khoản?
+                <div class="btn btn-open-login" onclick="shop.customer.login.show()">Đăng nhập</div>
+                Nếu bạn chưa có tài khoản mời bạn
+                <div class="btn-open-reg" onclick="shop.customer.register.show()">Đăng ký</div>
+            </div>
+        </div>
+        </div>
+        <div class="user-panel">
+        <div class="grp-login">
+            <div class="action-lbl">Sản phẩm</div>
+            <div class="sub-lbl sub-icon-like"><i class="icon-v4 i4BM"></i>Đánh dấu</div>
+        </div>
+        <div class="grp-btn-popup block-like">
+            <div class="wrap-grp-btn wrap-grp-like">
+                <p class="message">Bạn chưa quan tâm sản phẩm nào!</p>
+
+                <div class="have-scroll-wishlish"></div>
+            </div>
+        </div>
+        </div>
+        <div class="right-search-box">
+        <div id="sys_wrap_right_sb" class="wrap-right-sb">
+            <form action="http://muachung.vn/tim-kiem.html" method="get" id="frmSearch"
+                  onsubmit="return shop.search.checkKeyword()">
+                <label class="lbl-keyword rs" for="inputSearch">
+                    <input id="inputSearch" name="keyword" class="txt-keyword rs" placeholder="Nhập vào đây để tìm kiếm..."
+                           value="" type="text">
+                </label>
+            </form>
+            <div style="display: none;" id="autoComplete" data-holder="0" class="autoComplete drp-search-result">
+                <div class="completeContent wrap-search-result" id="completeContent">
+                </div>
+            </div>
+        </div>
+        <i id="sys_icon_search_sb" class="icon-v3 iSearchB"></i>
+        </div>
+        <div id="sys_location_selection" class="location-selection">
+        <div class="location-selected currentBg" id="22">Hà Nội</div>
+        <div class="drp-location-opt">
+            <ul class="rs lst-location-opt">
+                <li>
+                    TP Hồ Chí Minh
+                </li>
+                <li>
+                    Đà Nẵng
+                </li>
+                <li>
+                    Nha Trang
+                </li>
+                <li>
+                    Hải Phòng
+                </li>
+                <li>
+                    Vũng Tàu
+                </li>
+            </ul>
+        </div>
+        <select id="sys_alt_city_select" class="alt-city-select">
+            <option value="22" data-cityname="" selected="selected">Hà Nội</option>
+            <option value="29" data-cityname="tp-ho-chi-minh">TP Hồ Chí Minh</option>
+            <option value="15" data-cityname="da-nang">Đà Nẵng</option>
+            <option value="68" data-cityname="nha-trang">Nha Trang</option>
+            <option value="26" data-cityname="hai-phong">Hải Phòng</option>
+            <option value="67" data-cityname="vung-tau">Vũng Tàu</option>
+        </select>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <!--end: .top-head -->
+        <div class="bottom-menu">
+        <div class="container clearfix">
+            <a class="stick-link new-deals" href="#"></a>
+
+            <div class="group-menu-link-cate">
+                <a style="" class="menu2-link faceLinkAll faceLinkAll_1"
+                   href="#">Sữa giá tốt nhất Hà
+                    Nội</a><a style="" class="menu2-link faceLinkAll faceLinkAll_1"
+                              href="#">Royal city -
+                Time city</a></div>
+            
+
+            <!-- JQUERY hiển thị địa chỉ cửa hàng -->
+            <script type="text/javascript">
+                $(function () {
+                    $(".sys_address_item_map").on("mouseover", function () {
+                        var indexMap = $(this).siblings().removeClass("active").end().addClass("active").index();
+                        $(this).parents(".col-address").find(".sys_address_map_wrapper").find("img").removeClass("active").eq(indexMap).addClass("active");
+                    });
+                });
+            </script>
+
+            <div class="btn-support-bright mod-detail">
+                <span class="btn-val">cửa hàng Hà Nội</span>
+                <i class="icon-down"></i>
+
+                <div class="popup-address show-in-point no-map">
+                    <div class="pa-content no-right clearfix" id="popOrderLenVPTT">
+                        <div class="col-address clearfix">
+                            <div class="head-col">Hệ thống cửa hàng Muachung</div>
+                            <div class="list-address">
+                                <label class="address-item sys_address_item_map active" for="office">
+                                    <span class="fw-b addres-shop-name">VP Hàng Bún</span>
+                                    <span class="rs address-val fc-gray-d">15 Hàng Bún, Ba Đình</span>
+                                    <span class="rs address-val fc-gray-d fs-12">Giờ làm việc: Từ 8h-21h tất cả các ngày trong tuần</span>
+                                    <i class="icon-radio-p"></i>
+                                </label>
+                                <label class="address-item sys_address_item_map " for="office">
+                                    <span class="fw-b addres-shop-name">VP Hapulico</span>
+                                    <span class="rs address-val fc-gray-d">Tầng 17, Tòa nhà Hapulico T24, số 85 Vũ Trọng Phụng</span>
+                                    <span class="rs address-val fc-gray-d fs-12">Giờ làm việc: Thứ 2 đến Thứ 7: 9h-18h</span>
+                                    <i class="icon-radio-p"></i>
+                                </label>
+                                <label class="address-item sys_address_item_map " for="office">
+                                    <span class="fw-b addres-shop-name">VP Mai Hắc Đế</span>
+                                    <span class="rs address-val fc-gray-d">Số 27, Mai Hắc Đế, Hai Bà Trưng, Hà Nội</span>
+                                    <span class="rs address-val fc-gray-d fs-12">Giờ làm việc: Từ  8h -18h thứ 2 đến thứ 7</span>
+                                    <i class="icon-radio-p"></i>
+                                </label>
+                                <label class="address-item sys_address_item_map " for="office">
+                                    <span class="fw-b addres-shop-name">VP Nguyễn Chánh</span>
+                                    <span class="rs address-val fc-gray-d">Lô A31 - tổ 59 - ngõ 48 Nguyễn Chánh, Cầu Giấy, HN</span>
+                                    <span class="rs address-val fc-gray-d fs-12">Giờ làm việc: Từ  8h -18h thứ 2 đến thứ 7</span>
+                                    <i class="icon-radio-p"></i>
+                                </label>
+                                <label class="address-item sys_address_item_map " for="office">
+                                    <span class="fw-b addres-shop-name">VP Trương Định</span>
+                                    <span class="rs address-val fc-gray-d">123 Trương Định, Quận Hoàng Mai, Hà Nội</span>
+                                    <span class="rs address-val fc-gray-d fs-12">Giờ làm việc: Từ 8h-21h tất cả các ngày trong tuần</span>
+                                    <i class="icon-radio-p"></i>
+                                </label>
+                                <label class="address-item sys_address_item_map " for="office">
+                                    <span class="fw-b addres-shop-name">VP Vũ Tông Phan</span>
+                                    <span class="rs address-val fc-gray-d">95 Vũ Tông Phan (Khương Hạ mới - Dọc đường bờ sông), Thanh Xuân, HN</span>
+                                    <span class="rs address-val fc-gray-d fs-12">Giờ làm việc: Từ 9h - 19h30 từ Thứ 2 đến Thứ 7</span>
+                                    <i class="icon-radio-p"></i>
+                                </label>
+                                <label class="address-item sys_address_item_map " for="office">
+                                    <span class="fw-b addres-shop-name">VP Thái Thịnh</span>
+                                    <span class="rs address-val fc-gray-d">110 Thái Thịnh (Khách sạn Hacinco), Đống Đa, HN</span>
+                                    <span class="rs address-val fc-gray-d fs-12">Giờ làm việc: Từ 8h-21h tất cả các ngày trong tuần</span>
+                                    <i class="icon-radio-p"></i>
+                                </label>
+                            </div>
+                            <div class="address-map sys_address_map_wrapper">
+                                <div class="address-map-intro">Bạn chưa rõ đường? Đã có ảnh bản đồ giúp bạn!</div>
+                                <div class="ta-c wrap-list-map-img">
+                                    <img class="active" src="~/Content/images/maps/0.jpg" alt="VP Hàng Bún">
+                                    <img src="~/Content/images/maps/0_002.jpg" alt="VP Hapulico">
+                                    <img src="~/Content/images/maps/0_003.jpg" alt="VP Mai Hắc Đế">
+                                    <img src="~/Content/images/maps/0_005.jpg" alt="VP Nguyễn Chánh">
+                                    <img src="~/Content/images/maps/0_004.jpg" alt="VP Trương Định">
+                                    <img src="~/Content/images/maps/khuongha.jpg" alt="VP Vũ Tông Phan">
+                                    <img src="~/Content/images/maps/0_006.jpg" alt="VP Thái Thịnh">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn-support-bright btnf">
+                <span class="btn-val">Chăm sóc khách hàng</span>
+                <i class="icon-down green"></i>
+
+                <div class="poptip-cm">
+                    <div class="inner-poptip">
+                        <div class="hotline-number"><i class="icon-v4 i4PhoneG"></i>(04) 73068386</div>
+                        <div class="time-work">Email: <a href="mailto:contact@muachung.vn">contact@muachung.vn</a></div>
+                        <div class="time-work">Giờ làm việc: T2 - T6: 8h - 18h / T7: 8h - 12h</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    <div class="mp-pusher" id="mp-pusher">
+    <div id="wrapper">
+    <section id="page-content" class="in-home-page">
+    <div class="layout-nav">
+        <div class="left-col">
+
+        <div class="mod-nav-left">
+            <div class="mod-tit">Danh mục</div>
+            <ul class="rs nav-categories">
+                <li class="">
+        <a href="http://muachung.vn/gio-vang-gia-soc.html?ref=left_menu" class="hide-text-overx">
+                        <span class="ext-gio-vang">Giờ vàng giá sốc</span>
+        </a>
+                </li>
+                <li class="">
+        <a href="http://muachung.vn/danh-muc/c--39/sua-gia-tot-nhat-ha-noi.html?ref=left_menu"
+                       class="hide-text-overx">
+                        <span class="ext-gio-vang">Sữa giá tốt nhất</span>
+        </a>
+                </li>
+                <li class=" has-sub">
+        <a href="http://muachung.vn/danh-muc/c-9/am-thuc-nha-hang.html?ref=left_menu" class="hide-text-overx">
+                        <span>Ẩm thực &amp; Nhà hàng</span>
+        </a>
+                </li>
+                <li class=" has-sub">
+        <a href="http://muachung.vn/danh-muc/c-6/spa-lam-dep.html?ref=left_menu" class="hide-text-overx">
+                        <span>Spa &amp; Làm đẹp</span>
+        </a>
+                </li>
+                <li class=" has-sub">
+        <a href="http://muachung.vn/danh-muc/c-8/gia-dung-noi-that.html?ref=left_menu" class="hide-text-overx">
+                        <span>Gia dụng - Nội thất</span>
+        </a>
+                </li>
+                <li class=" has-sub">
+        <a href="http://muachung.vn/danh-muc/c-13/thoi-trang-nu.html?ref=left_menu" class="hide-text-overx">
+                        <span>Thời trang Nữ</span>
+        </a>
+                </li>
+                <li class=" has-sub">
+        <a href="http://muachung.vn/danh-muc/c-17/thoi-trang-nam.html?ref=left_menu" class="hide-text-overx">
+                        <span>Thời trang Nam</span>
+        </a>
+                </li>
+                <li class=" has-sub">
+        <a href="http://muachung.vn/danh-muc/c-16/phu-kien-my-pham.html?ref=left_menu" class="hide-text-overx">
+                        <span>Phụ kiện &amp; Mỹ phẩm</span>
+        </a>
+                </li>
+                <li class=" has-sub">
+        <a href="http://muachung.vn/danh-muc/c-15/thuc-pham.html?ref=left_menu" class="hide-text-overx">
+                        <span>Thực phẩm</span>
+        </a>
+                </li>
+                <li class=" has-sub">
+        <a href="http://muachung.vn/danh-muc/c-12/me-be.html?ref=left_menu" class="hide-text-overx">
+                        <span>Mẹ &amp; Bé</span>
+        </a>
+                </li>
+                <li class=" has-sub">
+        <a href="http://muachung.vn/danh-muc/c-7/dao-tao-giai-tri.html?ref=left_menu" class="hide-text-overx">
+                        <span>Đào tạo &amp; Giải trí</span>
+        </a>
+                </li>
+                <li class=" has-sub">
+        <a href="http://muachung.vn/khach-san-du-lich.html?ref=left_menu" class="hide-text-overx">
+                        <span>Du lịch</span>
+        </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="content-col">
+    <div class="wrap-content-mg-width">
+    <div class="main-layout clearfix">
+    <div class="wrap-container clearfix">
+    <div class="content">
+    <div class="mod-home-list-deal" id="sys_mod_home_list_deal">
+
+    <script type="text/javascript">
+    var timeSlide = 4000;
+    var actRel = "3";
+
+    $(document).ready(function () {
+        initSlideShow();
+    });
+
+
+    function initSlideShow() {
+        var slideLen = $(".topdeal-slideshow .blockSlide").length;
+        if (slideLen > 1) {
+            $("#bullets").css('display', 'block');
+            $("#slide-prev-arrow").click(function () {
+                if (!$(this).hasClass("btn-disabled"))
+                    slideChangePreviousImage();
+                return false;
+            });
+
+            $("#slide-next-arrow").click(function () {
+                if (!$(this).hasClass("btn-disabled"))
+                    slideChangeNextImage();
+                return false;
+            });
+
+            if (actRel == 1) {
+                $("#slide-prev-arrow").addClass("btn-disabled");
+                $("#slide-next-arrow").removeClass("btn-disabled");
+            }
+            else if (actRel >= slideLen) {
+                $("#slide-next-arrow").addClass("btn-disabled");
+                $("#slide-prev-arrow").removeClass("btn-disabled");
+            }
+        }
+    }
+
+    function slideChangeNextImage() {
+        var active = $(".topdeal-slideshow .blockSlide.active"); //Get the current active element.
+        if (active.length === 0) {
+            active = $(".topdeal-slideshow .blockSlide:last"); //If do not see the active element is the last image.
+        }
+
+        var next = active.next().length ? active.next() : $(".topdeal-slideshow .blockSlide:first"); //get the next element to do the transition
+
+        active.css({display: 'none'}).addClass('lastactive');
+        var relId = next.attr("rel");
+        $("div.bullets i").removeClass("active");
+        $("div.bullets i[rel=" + relId + "]").addClass("active");
+        next.css({display: 'block', opacity: 0.0}) //do the fade in fade out transition
+                .addClass('active')
+                .animate(
+                {opacity: 1.0},
+                0,
+                function () {
+                    active.removeClass("active lastactive");
+                }
+        );
+        // check disable cac nut
+        $("#slide-prev-arrow").removeClass("btn-disabled");
+        if (next.next().length == 0) {
+            $("#slide-next-arrow").addClass("btn-disabled");
+        }
+    }
+
+    function slideChangePreviousImage() {
+        var active = $(".topdeal-slideshow .blockSlide.active"); //Get the current active element.
+        if (active.length === 0) {
+            active = $(".topdeal-slideshow .blockSlide:first"); //If do not see the active element is the last image.
+        }
+
+        var prev = active.prev().length ? active.prev() : $(".topdeal-slideshow .blockSlide:last"); //get the next element to do the transition
+        active.css({display: 'none'}).addClass('lastactive');
+        var relId = prev.attr("rel");
+        $("div.bullets i").removeClass("active");
+        $("div.bullets i[rel=" + relId + "]").addClass("active");
+        prev.css({display: 'block', opacity: 0.0}) //do the fade in fade out transition
+                .addClass('active')
+                .animate(
+                {opacity: 1.0},
+                0,
+                function () {
+                    active.removeClass("active lastactive");
+                }
+        );
+
+        // check disable cac nut
+        $("#slide-next-arrow").removeClass("btn-disabled");
+        if (prev.prev().length == 0) {
+            $("#slide-prev-arrow").addClass("btn-disabled");
+        }
+    }
+
+    function changeSlide(relId) {
+        $("div.bullets i").removeClass("active");
+        var idxBul = $("div.bullets i[rel=" + relId + "]").addClass("active").index() + 1;
+        switch (idxBul) {
+            case 1:
+                $("#slide-prev-arrow").addClass("btn-disabled");
+                $("#slide-next-arrow").removeClass("btn-disabled");
+                break;
+            case $("div.bullets i").length:
+                $("#slide-next-arrow").addClass("btn-disabled");
+                $("#slide-prev-arrow").removeClass("btn-disabled");
+                break;
+            default :
+                $("#slide-next-arrow").removeClass("btn-disabled");
+                $("#slide-prev-arrow").removeClass("btn-disabled");
+                break;
+        }
+
+        $(".topdeal-slideshow .blockSlide").css({display: 'none'}).removeClass("active lastactive");
+        var next = $(".topdeal-slideshow div[rel=" + relId + "]");
+        next.addClass('active').show();
+    }
+    function autoPlaySlideHot() {
+        var isNext = $("#sys_slide_feature_deal").find(".blockSlide.active").next().length;
+        if (isNext == 1) {
+            $("#slide-next-arrow").trigger("click");
+        } else {
+            $("#sys_slide_feature_deal").find(".blockSlide").removeClass("active").hide().first().addClass("active").show();
+            $("#bullets").children().removeClass("active").first().addClass("active");
+            $("#slide-prev-arrow").addClass("btn-disabled");
+            $("#slide-next-arrow").removeClass("btn-disabled");
+        }
+    }
+
+    setInterval(function () {
+        autoPlaySlideHot();
+    }, 10000);
+
+    </script>
+    <div class="top-action clearfix">
+    <h2 class="title-mod rs">Nổi bật!</h2>
+    </div>
+
+
+
+           @******** LIST SẢN PHẨM HOT VÀ SẢN PHẨM CHÍNH *********@
+
+            @RenderBody()
+    
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+
+    <div style="clear:both" id="adm_sticky_footer"></div>
+
+    <footer id="mod-footer">
+
+    <div style="clear:both" id="adm_sticky_footer"></div>
+    <div class="container">
+        <div class="f-row1">
+            <a href="http://muachung.vn/" class="logo-footer"><img class="icon-v4 i4McFoot" alt="Muachung"></a>
+
+            <div class="grp-drp-footer">
+                <div class="drp-show">Địa điểm: <b>Hà Nội</b></div>
+                <div class="wrap-drp-list-action">
+                    <div class="drp-list-action">
+                        <span class="action-item">TP Hồ Chí Minh</span>
+                        <span class="action-item">Đà Nẵng</span>
+                        <span class="action-item">Nha Trang</span>
+                        <span class="action-item">Hải Phòng</span>
+                        <span class="action-item">Vũng Tàu</span>
+                    </div>
+                </div>
+            </div>
+            <!--end: .grp-drp-footer -->
+            <div class="grp-drp-footer gt-hd">
+                <div class="drp-show">Giới thiệu &amp; hướng dẫn</div>
+                <div class="wrap-drp-list-action">
+                    <div class="drp-list-action">
+            <a href="http://muachung.vn/trang-quy-che.html" class="action-item" rel="nofollow">Quy chế hoạt
+                            động</a>
+            <a href="http://muachung.vn/trang-the-le.html" class="action-item" rel="nofollow">Thể lệ</a>
+            <a href="http://muachung.vn/trang-huong-dan-mua-hang.html" class="action-item" rel="nofollow">Hướng
+                            dẫn mua hàng</a>
+            <a href="http://muachung.vn/trang-Deal-duoc-hoan-tien.html" class="action-item" rel="nofollow">Quy
+                            định hoàn tiền</a>
+            <a href="http://muachung.vn/trang-cau-hoi-thuong-gap.html" class="action-item" rel="nofollow">Câu
+                            hỏi thường gặp</a>
+                    </div>
+                </div>
+            </div>
+            <!--end: .grp-drp-footer -->
+            <a href="http://muachung.vn/lien-he-hop-tac.html" class="lienket-muachung">Hợp tác với Muachung</a>
+        </div>
+        <div class="f-row2 clearfix">
+            <div class="right-row2">
+                <div class="box-subscribe">
+                    <div class="lbl-box">Đăng ký để cập nhật giảm giá sớm nhất!</div>
+                    <div class="form frm-subscribe clearfix">
+                        <input id="sys_email_subcrice" onkeypress="return submitenter(this, event);" class="txt-email"
+                               placeholder="Nhập địa chỉ email của bạn..." type="text">
+                        <button class="btn-submit" onclick="shop.header.email.registerCity('sys_email_subcrice')"
+                                type="submit">Gửi
+                        </button>
+                    </div>
+                </div>
+                <div style="height: 70px; overflow: hidden" class="fb-page">
+
+                </div>
+                <div class="mc-social-link">
+                    Kết nối qua
+        <a href="https://www.facebook.com/MuaChung"><img class="icon-v4 i4Fb" alt="MC Trên Facebook"></a>
+        <a href="https://www.youtube.com/channel/UC2TOyR0VSibZvIoCLeKKdyA"><img class="icon-v4 i4Youtube"
+                                                                                            alt="MC Trên youtube"></a>
+        <a href="https://plus.google.com/+muachung/posts"><img class="icon-v4 i4Gp" alt="MC Trên Plus"></a>
+                </div>
+            </div>
+            <div class="wrap-link-cate">
+                <ul class="rs grp-link-cate fl">
+                    <li id="category-9"><a href="http://muachung.vn/danh-muc/c-9/am-thuc-nha-hang.html">Ẩm thực &amp;
+                        Nhà hàng</a></li>
+                    <li id="filter-1"><a href="http://muachung.vn/danh-muc/c-9/am-thuc-nha-hang/buffet-bbq-1.html">Buffet
+                        &amp; BBQ</a></li>
+                    <li id="filter-2"><a href="http://muachung.vn/danh-muc/c-9/am-thuc-nha-hang/quan-an-an-vat-2.html">Quán
+                        Ăn &amp; ăn vặt</a></li>
+                    <li id="filter-3"><a href="http://muachung.vn/danh-muc/c-9/am-thuc-nha-hang/nha-hang-sang-3.html">Nhà
+                        hàng sang</a></li>
+                </ul>
+                <ul class="rs grp-link-cate ">
+                    <li id="category-8"><a href="http://muachung.vn/danh-muc/c-8/gia-dung-noi-that.html">Gia dụng - Nội
+                        thất</a></li>
+                    <li id="filter-41"><a href="http://muachung.vn/danh-muc/c-8/gia-dung-noi-that/dien-dien-tu-41.html">Điện
+                        - Điện tử</a></li>
+                    <li id="filter-25"><a href="http://muachung.vn/danh-muc/c-8/gia-dung-noi-that/bep-25.html">Bếp</a>
+                    </li>
+                    <li id="filter-26"><a
+                            href="http://muachung.vn/danh-muc/c-8/gia-dung-noi-that/phong-ngu-phong-tam-26.html">Phòng
+                        ngủ &amp; Phòng tắm</a></li>
+                    <li id="filter-27"><a href="http://muachung.vn/danh-muc/c-8/gia-dung-noi-that/trang-tri-27.html">Trang
+                        trí</a></li>
+                    <li id="filter-28"><a
+                            href="http://muachung.vn/danh-muc/c-8/gia-dung-noi-that/do-dung-tien-ich-28.html">Đồ dùng
+                        tiện ích</a></li>
+                    <li id="filter-24"><a
+                            href="http://muachung.vn/danh-muc/c-8/gia-dung-noi-that/do-dien-trong-bep-24.html">Đồ điện
+                        trong bếp</a></li>
+                </ul>
+                <ul class="rs grp-link-cate ">
+                    <li id="category-15"><a href="http://muachung.vn/danh-muc/c-15/thuc-pham.html">Thực phẩm</a></li>
+                    <li id="filter-30"><a href="http://muachung.vn/danh-muc/c-15/thuc-pham/sua-sp-sua-do-ngot-30.html">Sữa,
+                        Sp sữa &amp; Đồ ngọt</a></li>
+                    <li id="filter-33"><a href="http://muachung.vn/danh-muc/c-15/thuc-pham/thuc-pham-gia-dinh-33.html">Thực
+                        phẩm gia đình</a></li>
+                    <li id="filter-32"><a href="http://muachung.vn/danh-muc/c-15/thuc-pham/thuc-pham-bo-duong-32.html">Thực
+                        phẩm bổ dưỡng</a></li>
+                </ul>
+                <ul class="rs grp-link-cate ">
+                    <li id="category-12"><a href="http://muachung.vn/danh-muc/c-12/me-be.html">Mẹ &amp; Bé</a></li>
+                    <li id="filter-6"><a href="http://muachung.vn/danh-muc/c-12/me-be/quan-ao-6.html">Quần áo</a></li>
+                    <li id="filter-7"><a href="http://muachung.vn/danh-muc/c-12/me-be/do-choi-do-dung-7.html">Đồ chơi
+                        &amp; Đồ dùng</a></li>
+                    <li id="filter-8"><a href="http://muachung.vn/danh-muc/c-12/me-be/vui-choi-cham-soc-8.html">Vui
+                        chơi, Chăm sóc</a></li>
+                </ul>
+                <ul class="rs grp-link-cate fl">
+                    <li id="category-6"><a href="http://muachung.vn/danh-muc/c-6/spa-lam-dep.html">Spa &amp; Làm đẹp</a>
+                    </li>
+                    <li id="filter-4"><a href="http://muachung.vn/danh-muc/c-6/spa-lam-dep/massage-4.html">Massage</a>
+                    </li>
+                    <li id="filter-5"><a href="http://muachung.vn/danh-muc/c-6/spa-lam-dep/lam-toc-5.html">Làm tóc</a>
+                    </li>
+                    <li id="filter-9"><a href="http://muachung.vn/danh-muc/c-6/spa-lam-dep/lam-dep-tri-lieu-9.html">Làm
+                        đẹp &amp; Trị liệu</a></li>
+                </ul>
+                <ul class="rs grp-link-cate ">
+                    <li id="category-16"><a href="http://muachung.vn/danh-muc/c-16/phu-kien-my-pham.html">Phụ kiện &amp;
+                        Mỹ phẩm</a></li>
+                    <li id="filter-35"><a href="http://muachung.vn/danh-muc/c-16/phu-kien-my-pham/my-pham-35.html">Mỹ
+                        phẩm</a></li>
+                    <li id="filter-21"><a
+                            href="http://muachung.vn/danh-muc/c-16/phu-kien-my-pham/giay-dep-phu-kien-21.html">Giầy dép
+                        &amp; Phụ kiện</a></li>
+                </ul>
+                <ul class="rs grp-link-cate ">
+                    <li id="category-13"><a href="http://muachung.vn/danh-muc/c-13/thoi-trang-nu.html">Thời trang Nữ</a>
+                    </li>
+                    <li id="filter-19"><a href="http://muachung.vn/danh-muc/c-13/thoi-trang-nu/vay-dam-19.html">Váy
+                        đầm</a></li>
+                    <li id="filter-18"><a href="http://muachung.vn/danh-muc/c-13/thoi-trang-nu/ao-18.html">Áo</a></li>
+                    <li id="filter-38"><a href="http://muachung.vn/danh-muc/c-13/thoi-trang-nu/quan-38.html">Quần</a>
+                    </li>
+                    <li id="filter-20"><a href="http://muachung.vn/danh-muc/c-13/thoi-trang-nu/do-mac-nha-20.html">Đồ
+                        mặc nhà</a></li>
+                    <li id="filter-43"><a href="http://muachung.vn/danh-muc/c-13/thoi-trang-nu/do-lot-43.html">Đồ
+                        lót</a></li>
+                </ul>
+                <ul class="rs grp-link-cate ">
+                    <li id="category-17"><a href="http://muachung.vn/danh-muc/c-17/thoi-trang-nam.html">Thời trang
+                        Nam</a></li>
+                    <li id="filter-22"><a href="http://muachung.vn/danh-muc/c-17/thoi-trang-nam/ao-22.html">Áo</a></li>
+                    <li id="filter-39"><a href="http://muachung.vn/danh-muc/c-17/thoi-trang-nam/quan-39.html">Quần</a>
+                    </li>
+                    <li id="filter-45"><a href="http://muachung.vn/danh-muc/c-17/thoi-trang-nam/do-lot-45.html">Đồ
+                        lót</a></li>
+                    <li id="filter-23"><a
+                            href="http://muachung.vn/danh-muc/c-17/thoi-trang-nam/giay-dep-phu-kien-23.html">Giầy dép
+                        &amp; Phụ kiện</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="f-copy-right">
+        <div class="container">
+            <div class="zamba">Một sản phẩm của <img class="icon-v4 i4Zamba" alt="Zamba"></div>
+            <p class="rs fw-b">Công ty cổ phần VCCorp</p>
+
+            <p class="rs">Copyright © 2010. All rights reserved.</p>
+
+            <p class="rs">Địa chỉ: Tầng 17, 19, 20, 21 Toà nhà Center Building - Hapulico Complex, Số 1 Nguyễn Huy
+                Tưởng, Thanh Xuân, Hà Nội.</p>
+
+            <p class="rs">Điện thoại: 04 39743410 - Fax: 04 39743413 - Email: <a style="color: #336699"
+                                                                                 href="mailto:info@vccorp.vn">info@vccorp.vn</a>
+            </p>
+            <img style="position: absolute;top: 25px;right: 151px" class="icon-v4 i4Bct" alt="">
+            <img style="position: absolute;top: 25px;right: 0" class="icon-v4 i4Admicro" alt="">
+        </div>
+    </div>
+    </footer>
+    <a href="#Top" id="sys_back_top" title="Lên đầu trang" class="btn-back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    </a>
+    <!--end: mod-footer-->
+    </div>
+    </div>
+    </div>
+    <div style="display:none !important;" itemscope="" itemtype="http://schema.org/Recipe">
+    <span itemprop="name">MuaChung - Mua hàng giảm giá, khuyến mại theo nhóm</span>
+    <img itemprop="image" src="http://muachung.vn/thumb-muachung-muachung.png" alt="muachung">
+
+    <div id="static_rating" itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+        <span itemprop="ratingValue">9.9</span>
+        <span itemprop="bestRating">10</span>
+        <span itemprop="ratingCount">1444102</span>
+                    <span class="by-author">
+                        <span class="sep"> Designed by </span>
+                        <span class="author designed">
+                            <a rel="author" href="http://vccorp.vn" class="url_vccorp">VCCorp</a></span>
+                    </span>
+    </div>
+    </div>
+
+    <div style="display: none; visibility: hidden;">
+
+    </div>
+
+</body>
+</html>
+
+@* Created by KhanhThietbi - www.fb.com/NeedleKane *@

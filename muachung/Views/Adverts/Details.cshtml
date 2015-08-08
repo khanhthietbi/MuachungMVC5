@@ -1,0 +1,982 @@
+﻿@model muachung.Models.Advert
+
+@{
+    ViewBag.Title = "Adverts";
+    ViewBag.Heading = "Sản phẩm quảng cáo";
+    Layout = "~/Views/Shared/_LayoutMuaChung_Details.cshtml";
+}
+
+
+<section id="page-content" class="in-detail-page">
+    <div class="mod-detail">
+        <div class="main-layout clearfix">
+            <div class="wrap-container">
+                <div class="">
+                    <div class="top-deal-info clearfix  x  ">
+                        <div class="preview-deal-imgs">
+                            <!-- Gallery -->
+                            <div style="max-height: 431px;" id="sys_col_list_thumb" class="col-list-thumb">
+                                <div class="wrap-thumb sys_show_img_big active sys_thumb_slide_1" data-image-id="92351">
+                                    <a class="v7_DB_Imgbor" href="../../Content/Adverts/@Model.Images1" data-image="../../Content/Adverts/@Model.Images1" data-zoom-image="../../Content/Adverts/@Model.Images1">
+                                        <img data-img-big="../../Content/Adverts/@Model.Images1" data-zoom-image="../../Content/Adverts/@Model.Images1" src="../../Content/images/null.gif" alt="@Model.Title" style="background-image: url('../../Content/Adverts/@Model.Images1')" />
+                                    </a>
+                                </div>
+                                <div class="wrap-thumb sys_show_img_big active sys_thumb_slide_1" data-image-id="92351">
+                                    <a class="v7_DB_Imgbor" href="../../Content/Adverts/@Model.Images2" data-image="../../Content/Adverts/@Model.Images2" data-zoom-image="../../Content/Adverts/@Model.Images2">
+                                        <img data-img-big="../../Content/Adverts/@Model.Images2" data-zoom-image="../../Content/Adverts/@Model.Images2" src="../../Content/images/null.gif" alt="@Model.Title" style="background-image: url('../../Content/Adverts/@Model.Images2')" />
+                                    </a>
+                                </div>
+                                <div class="wrap-thumb sys_show_img_big active sys_thumb_slide_1" data-image-id="92351">
+                                    <a class="v7_DB_Imgbor" href="../../Content/Adverts/@Model.Images3" data-image="../../Content/Adverts/@Model.Images3" data-zoom-image="../../Content/Adverts/@Model.Images3">
+                                        <img data-img-big="../../Content/Adverts/@Model.Images3" data-zoom-image="../../Content/Adverts/@Model.Images3" src="../../Content/images/null.gif" alt="@Model.Title" style="background-image: url('../../Content/Adverts/@Model.Images3')" />
+                                    </a>
+                                </div>
+
+                                <div style="visibility: hidden;" class="wrap-thumb sys_show_img_big sys_thumb_slide_1" data-image-id="92351"></div><div style="visibility: hidden;" class="wrap-thumb sys_show_img_big sys_thumb_slide_1" data-image-id="92351"></div><div style="visibility: hidden;" class="wrap-thumb sys_show_img_big sys_thumb_slide_1" data-image-id="92351"></div><div style="visibility: hidden;" class="wrap-thumb sys_show_img_big sys_thumb_slide_1" data-image-id="92351"></div><div id="sys_btn_slide_thumbs" class="btn-slide-thumbs"></div>
+                            </div>
+                            <!-- End Gallery -->
+                            <div class="col-big-img" id="sys_center_img">
+                                <span class="center-elem">
+                                    <span style="height: 431px;" class="cell-center sys_show_img_big" data-image-id="92351">
+                                        <img class="sys_img_big" id="v7_BD_ZoomImg" src="../../Content/Adverts/@Model.Images1" data-zoom-image="../../Content/Adverts/@Model.Images1" alt="@Model.Title">
+                                    </span>
+                                </span>
+                            </div>
+                            <p class="rs alt-desc-text fc-gray">Bấm vào để xem ảnh lớn</p>
+                            <div class="demo-new">
+                                <div class="plike">
+                                    <div class="clearfix">
+                                        <div class="text-plike">Đánh dấu sản phẩm này:</div>
+                                        <div class="box-wishlish" item="92351">
+                                            <div class="like" item="92351" val=""></div>
+                                            <div class="count-wishlish-item">
+                                                <div class="pluginCountButton pluginCountNum"><span>17</span></div>
+                                                <div class="pluginCountButtonNub"><s></s><i></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix">
+                                        <div class="text-plike chia-se">Chia sẻ:</div>
+                                        <div fb-iframe-plugin-query="app_id=163974013629672&amp;color_scheme=light&amp;container_width=408&amp;href=http%3A%2F%2Fmuachung.vn%2Fam-thuc-nha-hang%2Fcombo-4-vien-kem-2nuoc-hoa-qua-smoothies-cho-2n-92351.html&amp;locale=vi_VN&amp;sdk=joey" fb-xfbml-state="rendered" class="fb-send fb_iframe_widget" data-href="http://muachung.vn/am-thuc-nha-hang/combo-4-vien-kem-2nuoc-hoa-qua-smoothies-cho-2n-92351.html" data-colorscheme="light"><span style="vertical-align: bottom; width: 44px; height: 20px;"><iframe class="" src="http://www.facebook.com/v2.0/plugins/send.php?app_id=163974013629672&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F1ldYU13brY_.js%3Fversion%3D41%23cb%3Df33bc9a020e4e4%26domain%3Dmuachung.vn%26origin%3Dhttp%253A%252F%252Fmuachung.vn%252Ff17713ce087b0c6%26relation%3Dparent.parent&amp;color_scheme=light&amp;container_width=408&amp;href=http%3A%2F%2Fmuachung.vn%2Fam-thuc-nha-hang%2Fcombo-4-vien-kem-2nuoc-hoa-qua-smoothies-cho-2n-92351.html&amp;locale=vi_VN&amp;sdk=joey" style="border: medium none; visibility: visible; width: 44px; height: 20px;" title="fb:send Facebook Social Plugin" scrolling="no" allowfullscreen="true" allowtransparency="true" name="f6d84ea77590bc" frameborder="0" height="1000px" width="1000px"></iframe></span></div>
+                                        <div fb-iframe-plugin-query="action=like&amp;app_id=163974013629672&amp;container_width=408&amp;href=http%3A%2F%2Fmuachung.vn%2Fam-thuc-nha-hang%2Fcombo-4-vien-kem-2nuoc-hoa-qua-smoothies-cho-2n-92351.html&amp;layout=button_count&amp;locale=vi_VN&amp;sdk=joey&amp;share=false&amp;show_faces=false" fb-xfbml-state="rendered" class="fb-like fb_iframe_widget" data-href="http://muachung.vn/am-thuc-nha-hang/combo-4-vien-kem-2nuoc-hoa-qua-smoothies-cho-2n-92351.html" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"><span style="vertical-align: bottom; width: 84px; height: 20px;"><iframe class="" src="http://www.facebook.com/v2.0/plugins/like.php?action=like&amp;app_id=163974013629672&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F1ldYU13brY_.js%3Fversion%3D41%23cb%3Df2b863d54281da%26domain%3Dmuachung.vn%26origin%3Dhttp%253A%252F%252Fmuachung.vn%252Ff17713ce087b0c6%26relation%3Dparent.parent&amp;container_width=408&amp;href=http%3A%2F%2Fmuachung.vn%2Fam-thuc-nha-hang%2Fcombo-4-vien-kem-2nuoc-hoa-qua-smoothies-cho-2n-92351.html&amp;layout=button_count&amp;locale=vi_VN&amp;sdk=joey&amp;share=false&amp;show_faces=false" style="border: medium none; visibility: visible; width: 84px; height: 20px;" title="fb:like Facebook Social Plugin" scrolling="no" allowfullscreen="true" allowtransparency="true" name="f1bd723bcf4769a" frameborder="0" height="1000px" width="1000px"></iframe></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order-area">
+                            <div class="box-order" id="show-alert-temp">
+                                <div>
+                                    <div class="icon-title-notice">Thông báo:</div>
+                                    <div style="display: inline-block" class="format-messages mod-detail"></div>
+                                </div>
+                            </div>
+                            <img src="~/Content/images/btn_gen.png" style="position: fixed;visibility: hidden;opacity: 0;bottom: -999px;left: -999px;" alt="">
+                            <div class="box-order ">
+                                <div class="box-list-mcshop">
+                                    <div class="wrap-btn-size-mau at-shop-order">
+                                        <div class="btn-datmua" onclick="shop.cart.setTypeShow('popup');
+shop.cart.setBuyType('vanphong');
+shop.cart.setSelectedOffice(0);
+shop.cart.setValueItemForCheck(0,0, 0,1436115540, 0);
+shop.cart.activeAdminAddItem(0, 0);
+shop.cart   .addItem(92351,1432175400,1435726740,278,1000);">
+                                            Đặt mua tại cửa hàng
+                                        </div>
+                                    </div>
+                                    <div class="desc-btn-dathang">Đặt thoải mái, không mua không sao</div>
+
+                                    <!-- **** JQUERY BẢN ĐỒ VĂN PHÒNG **** -->
+
+                                    <script type="text/javascript">
+                                        $(function () {
+                                            $(".sys_address_item_map").on("mouseover", function () {
+                                                var indexMap = $(this).siblings().removeClass("active").end().addClass("active").index();
+                                                $(this).parents(".col-address").find(".sys_address_map_wrapper").find("img").removeClass("active").eq(indexMap).addClass("active");
+                                            });
+                                        });
+                                    </script>
+                                    <div class="list-shopmc">
+                                        <div class="shopmc-item sys_shopmc_item">
+                                            <div class="clearfix">
+                                                <span class="shopname-val">VP Hàng Bún</span>
+                                                <span class="lbl-con-hang">
+                                                    Còn bán
+                                                </span>
+                                            </div>
+                                            <div class="shopmc-map-pop">
+                                                <div class="shopmc-map-content">
+                                                    <div class="loading-map">
+                                                        <img class="img-loadingmap" src="~/Content/images/loading.gif" alt="">
+                                                    </div>
+                                                    <div class="shopmc-item-detail">
+                                                        <div class="shopmc-name">VP Hàng Bún</div>
+                                                        <div class="shopmc-address">15 Hàng Bún, Ba Đình</div>
+                                                        <div class="shopmc-address">Giờ làm việc: Từ 8h-21h tất cả các ngày trong tuần</div>
+                                                        <div class="shopmc-wrap-map">
+                                                            Bạn chưa rõ đường? Đã có ảnh bản đồ giúp bạn!
+                                                            <img class="placeholder-map" src="~/Content/images/maps/0.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="shopmc-item sys_shopmc_item">
+                                            <div class="clearfix">
+                                                <span class="shopname-val">VP Hapulico</span>
+                                                <span class="lbl-con-hang">
+                                                    Còn bán
+                                                </span>
+                                            </div>
+                                            <div class="shopmc-map-pop">
+                                                <div class="shopmc-map-content">
+                                                    <div class="loading-map">
+                                                        <img class="img-loadingmap" src="~/Content/images/loading.gif" alt="">
+                                                    </div>
+                                                    <div class="shopmc-item-detail">
+                                                        <div class="shopmc-name">VP Hapulico</div>
+                                                        <div class="shopmc-address">Tầng 17, Tòa nhà Hapulico T24, số 85 Vũ Trọng Phụng</div>
+                                                        <div class="shopmc-address">Giờ làm việc: Thứ 2 đến Thứ 7: 9h-18h</div>
+                                                        <div class="shopmc-wrap-map">
+                                                            Bạn chưa rõ đường? Đã có ảnh bản đồ giúp bạn!
+                                                            <img class="placeholder-map" src="~/Content/images/maps/0_002.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="shopmc-item sys_shopmc_item">
+                                            <div class="clearfix">
+                                                <span class="shopname-val">VP Mai Hắc Đế</span>
+                                                <span class="lbl-con-hang">
+                                                    Còn bán
+                                                </span>
+                                            </div>
+                                            <div class="shopmc-map-pop">
+                                                <div class="shopmc-map-content">
+                                                    <div class="loading-map">
+                                                        <img class="img-loadingmap" src="~/Content/images/loading.gif" alt="">
+                                                    </div>
+                                                    <div class="shopmc-item-detail">
+                                                        <div class="shopmc-name">VP Mai Hắc Đế</div>
+                                                        <div class="shopmc-address">Số 27, Mai Hắc Đế, Hai Bà Trưng, Hà Nội</div>
+                                                        <div class="shopmc-address">Giờ làm việc: Từ  8h -18h thứ 2 đến thứ 7</div>
+                                                        <div class="shopmc-wrap-map">
+                                                            Bạn chưa rõ đường? Đã có ảnh bản đồ giúp bạn!
+                                                            <img class="placeholder-map" src="~/Content/images/maps/0_003.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="shopmc-item sys_shopmc_item">
+                                            <div class="clearfix">
+                                                <span class="shopname-val">VP Nguyễn Chánh</span>
+                                                <span class="lbl-con-hang">
+                                                    Còn bán
+                                                </span>
+                                            </div>
+                                            <div class="shopmc-map-pop">
+                                                <div class="shopmc-map-content">
+                                                    <div class="loading-map">
+                                                        <img class="img-loadingmap" src="~/Content/images/loading.gif" alt="">
+                                                    </div>
+                                                    <div class="shopmc-item-detail">
+                                                        <div class="shopmc-name">VP Nguyễn Chánh</div>
+                                                        <div class="shopmc-address">Lô A31 - tổ 59 - ngõ 48 Nguyễn Chánh, Cầu Giấy, HN</div>
+                                                        <div class="shopmc-address">Giờ làm việc: Từ  8h -18h thứ 2 đến thứ 7</div>
+                                                        <div class="shopmc-wrap-map">
+                                                            Bạn chưa rõ đường? Đã có ảnh bản đồ giúp bạn!
+                                                            <img class="placeholder-map" src="~/Content/images/maps/0_005.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="shopmc-item sys_shopmc_item">
+                                            <div class="clearfix">
+                                                <span class="shopname-val">VP Trương Định</span>
+                                                <span class="lbl-con-hang">
+                                                    Còn bán
+                                                </span>
+                                            </div>
+                                            <div class="shopmc-map-pop">
+                                                <div class="shopmc-map-content">
+                                                    <div class="loading-map">
+                                                        <img class="img-loadingmap" src="~/Content/images/loading.gif" alt="">
+                                                    </div>
+                                                    <div class="shopmc-item-detail">
+                                                        <div class="shopmc-name">VP Trương Định</div>
+                                                        <div class="shopmc-address">123 Trương Định, Quận Hoàng Mai, Hà Nội</div>
+                                                        <div class="shopmc-address">Giờ làm việc: Từ 8h-21h tất cả các ngày trong tuần</div>
+                                                        <div class="shopmc-wrap-map">
+                                                            Bạn chưa rõ đường? Đã có ảnh bản đồ giúp bạn!
+                                                            <img class="placeholder-map" src="~/Content/images/maps/0_004.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="shopmc-item sys_shopmc_item">
+                                            <div class="clearfix">
+                                                <span class="shopname-val">VP Vũ Tông Phan</span>
+                                                <span class="lbl-con-hang">
+                                                    Còn bán
+                                                </span>
+                                            </div>
+                                            <div class="shopmc-map-pop">
+                                                <div class="shopmc-map-content">
+                                                    <div class="loading-map">
+                                                        <img class="img-loadingmap" src="~/Content/images/loading.gif" alt="">
+                                                    </div>
+                                                    <div class="shopmc-item-detail">
+                                                        <div class="shopmc-name">VP Vũ Tông Phan</div>
+                                                        <div class="shopmc-address">95 Vũ Tông Phan (Khương Hạ mới - Dọc đường bờ sông), Thanh Xuân, HN</div>
+                                                        <div class="shopmc-address">Giờ làm việc: Từ 9h - 19h30 từ Thứ 2 đến Thứ 7</div>
+                                                        <div class="shopmc-wrap-map">
+                                                            Bạn chưa rõ đường? Đã có ảnh bản đồ giúp bạn!
+                                                            <img class="placeholder-map" src="~/Content/images/maps/khuongha.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="shopmc-item sys_shopmc_item">
+                                            <div class="clearfix">
+                                                <span class="shopname-val">VP Thái Thịnh</span>
+                                                <span class="lbl-con-hang">
+                                                    Còn bán
+                                                </span>
+                                            </div>
+                                            <div class="shopmc-map-pop">
+                                                <div class="shopmc-map-content">
+                                                    <div class="loading-map">
+                                                        <img class="img-loadingmap" src="~/Content/images/loading.gif" alt="">
+                                                    </div>
+                                                    <div class="shopmc-item-detail">
+                                                        <div class="shopmc-name">VP Thái Thịnh</div>
+                                                        <div class="shopmc-address">110 Thái Thịnh (Khách sạn Hacinco), Đống Đa, HN</div>
+                                                        <div class="shopmc-address">Giờ làm việc: Từ 8h-21h tất cả các ngày trong tuần</div>
+                                                        <div class="shopmc-wrap-map">
+                                                            Bạn chưa rõ đường? Đã có ảnh bản đồ giúp bạn!
+                                                            <img class="placeholder-map" src="~/Content/images/maps/0_006.jpg" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <img style="position: fixed;opacity: 0;visibility: hidden;left: -999px;top:-999px" class="smc411" src="~/Content/images/demo-button-muaonline-hover.png" alt="">
+                                        <img style="position: fixed;opacity: 0;visibility: hidden;left: -999px;top:-999px" class="smc411" src="~/Content/images/demo-button-muaonline-active.png" alt="">
+                                        <img style="position: fixed;opacity: 0;visibility: hidden;left: -999px;top:-999px" class="smc411" src="~/Content/images/demo14.png" alt="">
+                                        <img style="position: fixed;opacity: 0;visibility: hidden;left: -999px;top:-999px" class="smc411" src="~/Content/images/demo13-active.png" alt="">
+                                        <div class="shopmc-item clearfix" style="display:none">
+                                            <img class="smc1" src="~/Content/images/demo4.png" alt="">
+                                            <img class="smc4" src="~/Content/images/demo8.png" alt="">
+                                            <span class="hp-address">
+                                                <img class="smc3" src="~/Content/images/demo7.png" alt="">
+                                                <img class="smc2" src="~/Content/images/demo4-hover.png" alt="">
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <input id="hiddenMessage" value="" type="hidden">
+                            <div class="box-order">
+                                <div class="hotline-order">
+                                    <span class="fs-12">Nếu quý khách muốn đặt qua điện thoại:</span>
+                                    <div class="fs-18 fc-black-d"><i class="icon-v4 i4PhoneGray"></i> (04) 73068386</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="desc-price">
+                            <h1 class="rs top-deal-name">@Model.Title</h1>
+                            <div class="deal-rate">
+                                <span id="link-comment" class="comments-link td-border" style="border:none">
+                                    Hỏi đáp
+                                </span>
+                                <span style="" class="id-product">&nbsp;Mã sp: @Model.AdvertId</span>
+                            </div>
+                            <div class="price-counter">
+                                <div class="row-data">
+                                    <span class="lbl-row">Giá tham chiếu</span>
+                                    <span class="price-show">@Html.DisplayFor(model => model.Cost)<span class="td-border">đ</span></span>
+                                </div>
+                                <div class="row-data row-heighter">
+                                    <span class="lbl-row">Giá bán</span>
+                                    <span class="price-sale">@Html.DisplayFor(model => model.CostSale)<span class="td-border">đ</span></span>
+                                    <span class="saved-price">tiết kiệm @Convert.ToDecimal(Model.Cost - Model.CostSale).ToString("#,##")<span class="td-border">đ</span></span>
+                                    <span class="percent-saved">(-@Convert.ToDecimal(100 * (1 - Model.CostSale / Model.Cost)).ToString("#")<span>%</span>)</span>
+                                </div>
+                                <input id="metaControlQuantity" value="0" type="hidden">
+                                <input id="productMaxOrder" value="25" type="hidden">
+                                <input id="productMinOrder" value="1" type="hidden">
+                                <div class="row-data type-count">
+                                    <span class="lbl-row">
+                                        Phiếu điện tử
+                                    </span>
+                                    <div class="wrap-counter">
+                                        <span class="counter"><span class="count-val">@Html.DisplayFor(model => model.Views)</span> người đã xem</span>
+                                        <span style="display: none" class="counter counter_333 last" id="timeCount92351"><span style="">13 ngày 05:07’:18”</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="features-point">
+                                <div class="lbl-green fs-16 fc-green" style="padding-bottom: 3px">Nổi bật</div>
+                                <div class="list-features">
+                                    @Model.AdvertContent
+                                </div>
+                            </div>
+                            <div class="row-data type-ship">
+                                <div>
+                                    <span class="fs-16 fc-green">Địa điểm</span>
+                                </div>
+                                <div style="margin-bottom: 5px;margin-top:2px">
+                                    <div class="show-popup-in-point">
+                                        <div id="show-office-mc">
+                                            <div class="rs" style="color:#111;">
+                                                <div class="list-features" style="display: inline-block">
+                                                    <ul class="rs">
+                                                        <li>
+                                                            @Html.DisplayFor(model => model.Address)
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="list-features">
+                                                    <ul>
+                                                        <li>@Html.DisplayFor(model => model.AdvertName)</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="list-features" id="hethongsudung">
+                                                <ul id="show_short_dksudung"><li>Giờ áp dụng: 9h – 22h30</li><li>Không giới hạn số phiếu/hóa đơn thanh toán.</li><li>Giá voucher chưa bao gồm VAT.</li><li>Vui lòng gọi điện đặt chỗ trước khi đến để được phục vụ tốt nhất.</li></ul>
+                                            </div>
+                                            <div class="more-dksd" id="show_readmore" style="display:none">
+                                                <span class="lbl-more-dksd">Xem thêm</span>
+                                                <div style="display: none" id="content_readmore"></div>
+                                            </div>
+                                            <div style="border-top:1px solid #e2e2e2; margin-top:10px;padding-top:15px;cursor: pointer" onmouseout="jQuery('.linkBanner2').css('color','#336699')" onmouseover="jQuery('.linkBanner2').css('color','#EF532A')" onclick="window.location = '#'">
+                                                <table cellpadding="0" cellspacing="0" width="100%">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td valign="top" width="200">
+                                                                <div><img src="~/Content/images/xr133.jpg" height="100" width="200"></div>
+                                                            </td>
+                                                            <td valign="top">
+                                                                <div style="margin-left: 10px;line-height:200%">
+                                                                    Giờ vàng giá rẻ, mát mẻ ngày Hè!<br>
+                                                                    Diễn ra từ 10-12h các ngày 18,19,20 tháng 6.
+                                                                    <br>
+                                                                    <a title="Giờ vàng giá rẻ, mát mẻ ngày Hè" href="#" class="linkBanner2">
+                                                                        Chi tiết
+                                                                        &gt;&gt;
+                                                                    </a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <i class="clear"></i>
+                        <div class="huong-dan-su-dung clearfix" style="display: none">
+                            <div class="left-address-use">
+                                <div class="fs-16 fw-b title-grp">Địa điểm áp dụng &amp; Liên hệ</div>
+                                <span class="list-pick-address">
+                                    <span onclick="view_office(this,13557)" class="stt active">1</span>
+                                </span>
+                                <div class="grp-address-use">
+                                    <div class="officemapshow grp-val " id="v8_mapOffice13557">
+                                        <div class="fs-18 address-shop-name">MIC Ice Cream &amp; Drinks</div>
+                                        <p class="rs">57 Tuệ Tĩnh, Hai Bà Trưng, Hà Nội</p>
+                                        <p class="rs">Điện thoại: 094.330.3333 </p>
+                                    </div>
+                                    <div class="fs-18 address-shop-name">Thời gian</div>
+                                    <div class="grp-val"><div class="addres-shop-name">Hạn lấy hàng 05/07/2015</div></div>
+                                </div>
+                            </div>
+                            <div class="dieu-kien-su-dung">
+                                <div class="fs-16 fw-b title-grp">Điều kiện sử dụng <i class="icon-v3 iPaper"></i></div>
+                                <div class="wrap-full-text">
+                                    <ul class="rs"><ul><li>Giờ áp dụng: 9h – 22h30</li><li>Không giới hạn số phiếu/hóa đơn thanh toán.</li><li>Giá voucher chưa bao gồm VAT.</li><li>Vui lòng gọi điện đặt chỗ trước khi đến để được phục vụ tốt nhất.</li></ul></ul>
+                                </div>@Model.Images1
+                            </div>
+                        </div>
+                    </div>
+                    <div id="sys_popup_img_content" style="display: none">
+                        <div class="clearfix main-popup-img">
+                            <div class="thumb-column">
+                                <div class="product-name-popup">@Model.AdvertName</div>
+                                <div class="grp-thumb-img">
+                                    <div class="sys_inner_thumb inner-thumb fl">
+                                        <img data-img-big="../../Content/Adverts/@Model.Images1" src="../../Content/Adverts/@Model.Images1" alt="@Model.AdvertName" style="background-image: url('../../Content/Adverts/@Model.Images1')">
+                                        <img data-img-big="../../Content/Adverts/@Model.Images2" src="../../Content/Adverts/@Model.Images2" alt="@Model.AdvertName" style="background-image: url('../../Content/Adverts/@Model.Images2')">
+                                        <img data-img-big="../../Content/Adverts/@Model.Images3" src="../../Content/Adverts/@Model.Images3" alt="@Model.AdvertName" style="background-image: url('../../Content/Adverts/@Model.Images3')">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="big-column sys_big_column">
+                                <span class="center-elem">
+                                    <span class="cell-center"><img src="~/Content/Adverts/@Model.Images1" alt="@Model.Images1" id="zoom-popup"></span>
+                                </span>
+                                <i class="icon-v3 iNext sys_next_big_img"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="overlay" style="display:none">
+                        <div id="body"></div>
+                    </div>
+                    <div class=" fb_reset" id="fb-root"><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
+                    <script type="text/javascript">
+                        //khoi tao san pham
+                        shop.product.init(92351, 1432175400, 1435726740, 278, 1000, '11h59 ngày 01/07/2015', 185, '1 phiếu', false, 0);
+                        shop.product.loadFB(92351, '<iframe src="http://www.facebook.com/plugins/like.php?href=#&amp;layout=button_count&amp;width=100&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=arial&amp;height=25" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:25px;" allowTransparency="true"></iframe>');
+                        var product_id = '92351', startTime = 1432175400, endTime = 1435726740, buyer_nb_fake = 278, buyer_need = 1000;
+                        var count_wishlish = 17;
+                        var FBAPP_ID = 163974013629672;
+
+
+                        $(".smc4").click(function () {
+                            $("#sys_popup1").show();
+                        });
+                        $("#ss2").click(function (e) {
+                            e.stopPropagation();
+                        });
+                        $("#sys_close_popup1,#sss1").click(function () {
+                            $("#sys_popup1").hide();
+                        });
+                        $("#sq1").click(function () {
+                            $(this).addClass("active");
+                            $("#sq2").removeClass("active");
+                        });
+                        $("#sq2").click(function () {
+                            $(this).addClass("active");
+                            $("#sq1").removeClass("active");
+                        });
+                        $("#sys_shopm_item1").mouseenter(function () {
+                            $(".f-pop-address").show();
+                        });
+                        $("#sys_shopm_item1").mouseleave(function () {
+                            $(".f-pop-address").hide();
+                        });
+                        ///Facebook resource
+                        (function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0];
+                            if (d.getElementById(id))
+                                return;
+                            js = d.createElement(s);
+                            js.id = id;
+                            js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&appId=" + FBAPP_ID + "&version=v2.0";
+                            fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));
+                        $('#metaSizeId').val('0');
+                        $('#metaColorId').val('0');
+                        $('.like').hover(
+                                function () {
+                                    $('.like').addClass('active');
+                                }, function () {
+                                    $('.like').removeClass('active');
+                                }
+                        );
+                        $('.like').click(function () {
+                            count_wishlish = $('.count-wishlish-item span').html();
+                            if (IS_CUSTOMER_LOGIN == 0) {
+                                shop.customer.login.showLoginForm("Để quan tâm sản phẩm bạn cần đăng nhập");
+                            } else {
+                                var val = $(this).attr('val');
+                                var item = $(this).attr('item');
+                                $.get(Base_Url + "ajax.php?act=customer&code=addWishList", { item_id: item, price_id: 0 })
+                                        .done(function (data) {
+                                            data = JSON.parse(data);
+                                            if (data.err == 0) {
+                                                $('.like').addClass('like-active');
+                                                $('.like').removeClass('like');
+                                                $('.count-wishlish-item span').html(kFormatter(parseInt(count_wishlish) + 1));
+                                                getwishlish();
+                                            }
+                                        }
+                                );
+                            }
+                        });
+
+                        if ($('#btn_subscribe_size').size() > 0) {
+                            $('#btn_subscribe_size').click(function () {
+                                var popup_options = {
+                                    background: {
+                                        'background-color': 'transparent'
+                                    },
+                                    border: {
+                                        'background-color': 'transparent',
+                                        'padding': '0px'
+                                    },
+                                    title: {
+                                        'display': 'none'
+                                    },
+                                    content: {
+                                        'padding': '0px',
+                                        'width': '850px',
+                                        'font-size': '13px'
+                                    }
+                                };
+                                shop.show_overlay_popup('subscribe_size_popup', 'Chỉ dẫn kích thước', $("#subscribe_html").html(), popup_options);
+                            });
+                        }
+                        function readmore(id, height_col) {
+                            $('#' + id).ready(function () {
+                                var height = jQuery('#' + id).height();
+                                if (height > height_col) {
+                                    jQuery('#' + id).css({ 'height': height_col + 'px', 'overflow': 'hidden' });
+                                    jQuery('#' + id).after('<a id="readmore_' + id + '" class="readmore_v8" href="#"><i class="iconmuixuong"></i>&nbsp;<span>Xem thêm</span></a>');
+                                }
+                                $('#readmore_' + id).click(function (event) {
+                                    event.preventDefault();
+                                    if ($(this).find('span').text() === "Thu gọn") {
+                                        jQuery('#' + id).css({ 'height': height_col + 'px', 'overflow': 'hidden' });
+                                        $(this).find('i').css('transform', 'rotate(0deg) scale(1)');
+                                        $(this).find('span').text('Xem thêm');
+                                    } else {
+                                        jQuery('#' + id).css({ 'height': 'auto' });
+                                        $(this).find('i').css('transform', 'rotate(180deg) scale(1)');
+                                        $(this).find('span').text('Thu gọn');
+                                    }
+                                });
+                            });
+                        }
+
+                        //Xử lý tách 7 li đầu tiên.
+                        var html_dksudung = html_dksudung_more = '';
+                        var sizeTagsLi = $('#show_conditions').find('li').size();
+                        var j = 0, numtag = 1;
+                        for (var i = 0; i <= sizeTagsLi; i++) {
+                            var tagLi = $('#show_conditions').find('li:eq(' + i + ')').html();
+                            if (tagLi != undefined && $.trim(tagLi.replace(/&nbsp;/g, "")) != '') {
+                                html_dksudung += '<li>' + $('#show_conditions').find('li:eq(' + i + ')').html() + '</li>';
+                                j++;
+                                if (j == 7)
+                                    break;
+                            }
+                            numtag++;
+                        }
+                        if (numtag < sizeTagsLi) {
+                            for (var i = j; i < sizeTagsLi; i++) {
+                                var tagLi = $('#show_conditions').find('li:eq(' + i + ')').html();
+                                if (tagLi != undefined && $.trim(tagLi.replace(/&nbsp;/g, "")) != '') {
+                                    html_dksudung_more += '<li>' + $('#show_conditions').find('li:eq(' + i + ')').html() + '</li>';
+                                }
+                            }
+                            $('#show_readmore').show();
+                            $('#content_readmore').html(html_dksudung_more);
+                        }
+                        $('#show_conditions').remove();
+                        $('#show_short_dksudung').html(html_dksudung);
+
+                        $('#show_readmore').bind('click', function () {
+                            $('#show_short_dksudung').append($('#content_readmore').html());
+                            $('#show_readmore').remove();
+                        });
+
+                        //readmore('hethongsudung',152);
+                        readmore('dieukiensudung', 162);
+
+                        //initiate the plugin and pass the id of the div containing gallery images
+                        $("#v7_BD_ZoomImg").elevateZoom({
+                            gallery: "sys_col_list_thumb",
+                            galleryActiveClass: "active"
+                            //    zoomType			: "inner",
+                            //    cursor				: "crosshair" ,
+                            //    zoomWindowFadeIn: 500,
+                            //    zoomWindowFadeOut: 500,
+                            //    lensFadeIn: 500,
+                            //    lensFadeOut: 500
+                        });
+
+                        var storePopupContent;
+                        $(function () {
+                            $('#link-comment').click(function () {
+                                $('body').scrollTo($("#comments-area").offset().top - 50, 800, { queue: true });
+                                //window.scrollTo(0, $("#comments-area").offset().top - 50);
+                                //$("#comment-txt").focus();
+                                return false;
+                            });
+                            $("#sys_col_list_thumb").on('mouseover', ".sys_show_img_big", function () {
+                                $(".sys_show_img_big").removeClass('active');
+                                $(this).addClass('active');
+                                var src = $(this).children("img").first().attr('data-img-big');
+                                $(".sys_img_big").prop({ 'src': src }).parent().attr("data-image-id", $(this).attr("data-image-id"));
+                            });
+                            $(".sys_show_img_big").on("click dbclick", function () {
+                                var wW = $(window).width(),
+                                        wH = $(window).height(),
+                                        configPaddingBodyToPopup = { top: 30, left: 30 },
+                                        configPaddingPopupToContent = 15,
+                                        configBorderTransparentWidth = 7,
+                                        contentHeight = (wH - 2 * configPaddingPopupToContent - 2 * configPaddingBodyToPopup.top - 2 * configBorderTransparentWidth);
+                                if (storePopupContent == undefined) {
+                                    storePopupContent = $("#sys_popup_img_content").html();
+                                    $("#sys_popup_img_content").html("");
+                                }
+
+                                var getIMGBIG = $(".sys_img_big").attr("data-zoom-image");
+                                var getIdxThumbActive = $("#sys_col_list_thumb").find(".active").index();
+
+                                $.popupCommon({
+                                    attrId: "sys_popup_show_img", extendClass: "popups-show-img", widthPop: (wW - 2 * configPaddingBodyToPopup.left), successOpen: function () {
+                                        $("#sys_popup_show_img").find(".main-content").html(storePopupContent).end()
+                                                .find(".sys_inner_thumb").parent().css("max-height", contentHeight).end().end()
+                                                .find(".sys_big_column").find(".cell-center").height(contentHeight);
+                                        $("#zoom-popup").attr("src", getIMGBIG);
+                                        $(".sys_inner_thumb").find("img").eq(getIdxThumbActive).addClass("active");
+
+                                        $(".sys_inner_thumb").on("click", "img", function () {
+                                            $(".sys_inner_thumb img").removeClass("active");
+                                            $(".sys_big_column").find("img").attr("src", $(this).attr("data-img-big"));
+                                            $(this).addClass("active").siblings().removeClass("active");
+                                        });
+                                        $(".sys_next_big_img").on("click", function () {
+                                            var imgActive = $(".sys_inner_thumb").find("img.active");
+                                            (imgActive.next().length > 0) ? imgActive.next().trigger("click") : $(".sys_inner_thumb").find("img").first().trigger("click");
+                                        });
+                                    }
+                                });
+                            });
+                        });
+
+
+                        $(".wrap-thumb").on("mouseover", function () {
+                            $(this).siblings().removeClass("active").end().addClass("active");
+
+                            $(this).children().trigger("click");
+
+                            var img_zoom = $(this).find("img").attr("data-zoom-image");
+                            var img_big = $(this).find("img").attr("data-img-big");
+
+                            $('.sys_img_big').attr('data-zoom-image', img_zoom);
+                            $('.sys_img_big').attr('src', img_big);
+                            $('#zoom-popup').attr('src', img_big);
+                        });
+
+                        // Click chon SIZE
+                        $('.v7_BD_SC_Size').click(function () {
+                            shop.cart.hideSizeColorCheck();
+                            var metaControlQuantity = $('#metaControlQuantity').val();
+                            var phaiChonSizeColor = $('#metaSizeColorRequire').val() == 1;
+                            var colorId = $('#metaColorId').val();
+                            var metaMaxQuantity = 0;
+                            var productMaxOrder = $('#productMaxOrder').val();
+                            var cQ = 0, sQ = 0, csQ = 0;
+
+                            if (phaiChonSizeColor && colorId == 0) {
+                                shop.cart.requireSelectColorFirst();
+                                return;
+                            }
+
+                            $('#metaSizeId').val($(this).attr('metaSizeId'));
+                            var sizeId = $('#metaSizeId').val();
+
+                            $('.v7_BD_SC_Size').removeClass('v7_BD_SC_Size_Active');
+                            $(this).addClass('v7_BD_SC_Size_Active');
+
+
+                            if (phaiChonSizeColor) {
+
+                                if (colorId > 0) { // Chon mau roi
+                                    // Co cap size/mau nay khong
+                                    if ($('#metaSizeColor-' + colorId + '-' + sizeId).length == 0) {
+                                        alert('Cỡ/màu này không có');
+                                        return;
+                                    }
+
+                                    if (metaControlQuantity == 1) {
+                                        csQ = parseInt($('#metaSizeColor-' + colorId + '-' + sizeId).val());
+                                        metaMaxQuantity = Math.max(0, csQ);
+                                        metaMaxQuantity = Math.min(productMaxOrder, metaMaxQuantity);
+                                    } else {
+                                        metaMaxQuantity = productMaxOrder;
+                                    }
+                                    var html = '', i = 0;
+                                    var metaMinQuantity = Math.max(1, $('#productMinOrder').val());
+                                    for (i = metaMinQuantity; i <= metaMaxQuantity; i++) {
+                                        html += '<option value="' + i + '">' + i + '</option>';
+                                    }
+                                    ;
+                                    $('#oneItemQuantity').html(html);
+                                    if (metaMaxQuantity < 1) {
+                                        alert('Cỡ/màu này đã hết');
+                                        return;
+                                    }
+                                    $('.poptip-cm').remove();
+                                } else {
+                                    if (metaControlQuantity == 1) {
+                                        // Disable cac color ma so luong <= 0
+                                        console.log('Disable cac color ma so luong ko duong');
+                                        $('.v7_BD_SC_Color').each(function (i, e) {
+                                            var colorId = $(e).attr('metaColorId');
+                                            var qColorSize = $('#metaSizeColor-' + colorId + '-' + sizeId).val();
+                                            if (qColorSize <= 0) {
+                                                $(e).css('border', '1px solid red');//disable
+                                            } else {
+                                                $(e).css('border', '1px solid #DBDBDB');//enable
+                                            }
+                                        });
+                                    }
+                                }
+                            } else {
+                                if (metaControlQuantity == 1) {
+                                    sQ = parseInt($('#metaSizeId-' + sizeId).attr('metaSizeQuantity'));
+                                    metaMaxQuantity = Math.max(0, sQ);
+                                    metaMaxQuantity = Math.min(productMaxOrder, metaMaxQuantity);
+                                } else {
+                                    metaMaxQuantity = productMaxOrder;
+                                }
+                                //alert(metaMaxQuantity);
+
+                                var html = '', i = 0;
+                                var metaMinQuantity = Math.max(1, $('#productMinOrder').val());
+                                for (i = metaMinQuantity; i <= metaMaxQuantity; i++) {
+                                    html += '<option value="' + i + '">' + i + '</option>';
+                                }
+                                ;
+                                $('#oneItemQuantity').html(html);
+
+                                if (metaMaxQuantity < 1) {
+                                    alert('Cỡ này đã hết');
+                                    return;
+                                }
+                                $('.poptip-cm').remove();
+                            }
+                        });
+                        // Click chon COLOR
+                        $('.v7_BD_SC_Color').on("click", function () {
+                            // Reset, chua chon size
+                            shop.cart.hideSizeColorCheck();
+                            $('#metaSizeId').val(0);
+
+                            var productMaxOrder = $('#productMaxOrder').val();
+                            var phaiChonSizeColor = $('#metaSizeColorRequire').val() == 1;
+
+                            $('.v7_BD_SC_Color').removeClass('v7_BD_SC_Color_Active');
+                            $(this).addClass('v7_BD_SC_Color_Active');
+                            $('#metaColorId').val($(this).find('img').attr('metaColorId'));
+
+                            var cQ = 0, sQ = 0, csQ = 0;
+                            var colorId = $('#metaColorId').val()
+                            var sizeId = $('#metaSizeId').val();
+                            var metaControlQuantity = $('#metaControlQuantity').val();
+                            $("#v7_Select_Color_id_" + colorId).trigger("click");
+                            if (phaiChonSizeColor) {
+                                $('span[id^="metaSizeId-"]').removeClass('v7_BD_SC_Size_Disable');
+                                $('span img[id^="metaColorId-"]').removeClass('v7_BD_SC_Color_Disable');
+
+                                // Disable cac size khong co tuong ung voi mau da chon
+                                $('span[id^="metaSizeId-"]').each(function (i, e) {
+                                    var sizeId = $(e).attr('id').replace('metaSizeId-', '');
+                                    if ($('#metaSizeColor-' + colorId + '-' + sizeId).length == 0) {
+                                        $(e).addClass('v7_BD_SC_Size_Disable');
+                                    }
+                                });
+
+
+                                if (sizeId > 0) { // Chon size roi
+                                    // Co cap size/mau nay khong
+                                    if ($('#metaSizeColor-' + colorId + '-' + sizeId).length == 0) {
+                                        alert('Cỡ/màu này không có');
+                                        return;
+                                    }
+
+                                    var metaMaxQuantity = 0;
+                                    if (metaControlQuantity == 1) {
+                                        if (phaiChonSizeColor) {
+                                            csQ = parseInt($('#metaSizeColor-' + colorId + '-' + sizeId).val());
+                                            metaMaxQuantity = Math.max(0, csQ);
+                                        } else {
+                                            cQ = parseInt($('#metaColorId-' + colorId).attr('metaColorQuantity'));
+                                            metaMaxQuantity = Math.max(0, cQ);
+                                        }
+                                        metaMaxQuantity = Math.min(productMaxOrder, metaMaxQuantity);
+                                    } else {
+                                        metaMaxQuantity = productMaxOrder;
+                                    }
+
+                                    var html = '', i = 0;
+                                    var metaMinQuantity = Math.max(1, $('#productMinOrder').val());
+                                    for (i = metaMinQuantity; i <= metaMaxQuantity; i++) {
+                                        html += '<option value="' + i + '">' + i + '</option>';
+                                    }
+                                    ;
+                                    $('#oneItemQuantity').html(html);
+
+                                    if (metaMaxQuantity < 1) {
+                                        alert('Cỡ/màu này đã hết');
+                                        return;
+                                    }
+                                    $('.poptip-cm').remove();
+                                } else {
+                                    if (metaControlQuantity == 1) {
+                                        // Disable cac size ma so luong <= 0
+                                        console.log('Disable cac size ma so luong ko duong');
+                                        $('.v7_BD_SC_Size').each(function (i, e) {
+
+                                            var sizeId = $(e).attr('metaSizeId');
+                                            var qColorSize = $('#metaSizeColor-' + colorId + '-' + sizeId).val();
+                                            if (qColorSize <= 0) {
+                                                $(e).css('background-color', 'silver');//disable
+                                            } else {
+                                                $(e).css('background-color', 'white');//enable
+                                            }
+                                        });
+                                    } else {
+
+                                    }
+                                }
+                            } else {
+                                if (metaControlQuantity == 1) {
+                                    sQ = parseInt($('#metaColorId-' + colorId).attr('metaColorQuantity'));
+                                    metaMaxQuantity = Math.max(0, sQ);
+                                    metaMaxQuantity = Math.min(productMaxOrder, metaMaxQuantity);
+                                } else {
+                                    metaMaxQuantity = productMaxOrder;
+                                }
+                                //alert(metaMaxQuantity);
+                                var html = '', i = 0;
+                                var metaMinQuantity = Math.max(1, $('#productMinOrder').val());
+                                for (i = metaMinQuantity; i <= metaMaxQuantity; i++) {
+                                    html += '<option value="' + i + '">' + i + '</option>';
+                                }
+                                ;
+                                $('#oneItemQuantity').html(html);
+
+                                if (metaMaxQuantity < 1) {
+                                    alert('Màu này đã hết');
+                                    return;
+                                }
+                                $('.poptip-cm').remove();
+                            }
+                        });
+                        shop.viewAds = function (obj, id) {
+                            if (jQuery(obj).hasClass('v7_BoxViewADSALL')) {
+                                jQuery(obj).removeClass('v7_BoxViewADSALL');
+                                jQuery('#viewAds' + id).hide();
+                            }
+                            else {
+                                //an cac cai dang chay
+                                jQuery('.v7_BoxViewADSALL').removeClass('v7_BoxViewADSALL');
+                                jQuery('.detailAds').hide();
+
+                                //show doi tuong hien tai
+                                jQuery(obj).addClass('v7_BoxViewADSALL');
+                                jQuery('#viewAds' + id).show();
+                            }
+                        };
+                        function view_office(obj, id) {
+                            jQuery('.officemapshow').addClass('hidden');
+                            jQuery('.stt').removeClass('active');
+                            jQuery(obj).addClass('active');
+                            jQuery('#v8_mapOffice' + id).removeClass('hidden');
+
+                        }
+
+
+                        var URL_LOGIN_FACEBOOK = 'https://www.facebook.com/dialog/oauth?client_id=155939254581685&redirect_uri=#%3FfromFB%3Dyes%26go%3D#&state=a06e8b0bb633f711e78b0fb2f1cb57a5&scope=email';
+                        var EMAIL_LOGIN_FACEBOOK = '';
+
+                        if (EMAIL_LOGIN_FACEBOOK != '') {
+                            shop.customer.stepEnterInfo('FACE_BOOK');
+                        }
+                        var $list_features = $(".list-features");
+                        if ($list_features.size() > 0) {
+                            $children = $list_features.find("> div, > p");
+                            if ($children.size() > 0) {
+                                $children.each(function () {
+                                    var $items = $(this).find("> p, > div");
+                                    if ($items.size() > 0) {
+                                        $(this).parent().html($(this).html());
+                                    }
+                                });
+                            }
+                        }
+                        $(function () {
+                            if ($(".show-popup-in-point").length > 0) {
+                                $(".sys_address_item_map").on("mouseover", function () {
+                                    var indexMap = $(this).siblings().removeClass("active").end().addClass("active").index();
+                                    $(this).parents(".col-address").find(".sys_address_map_wrapper").find("img").removeClass("active").eq(indexMap).addClass("active");
+                                });
+                            }
+                        });
+
+                    </script>
+                    <script>
+                        var li_item = [{ "id": "92511", "category_id": "9", "province_id": "22", "title": "B\u00f2 nh\u00fang d\u1ea5m H\u00e0 M\u00e8 \u2013 H\u01b0\u01a1ng v\u1ecb \u0111\u1ebfn t\u1eeb s\u1ef1 kh\u00e1c bi\u1ec7t, l\u00e0 s\u1ef1 k\u1ebft h\u1ee3p th\u00fa v\u1ecb gi\u1eefa m\u00f3n l\u1ea9u v\u00e0 m\u00f3n cu\u1ed1n.... v\u1edbi m\u1ee9c gi\u00e1 \u01b0u \u0111\u00e3i h\u1ea5p d\u1eabn cho 2 ng\u01b0\u1eddi", "title_short": "B\u00f2 nh\u00fang d\u1ea5m H\u00e0 M\u00e8 \u2013 H\u01b0\u01a1ng v\u1ecb \u0111\u1ebfn t\u1eeb s\u1ef1 kh\u00e1c bi\u1ec7t", "title_short2": "B\u00f2 nh\u00fang", "is_end": "0", "endTime": "1435553940", "buyer": "35", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "45", "price": "250.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "139.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/am-thuc-nha-hang\/bo-nhung-dam-ha-me-huong-vi-den-tu-su-khac-biet-92511.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=92511&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/93\/6\/eeubd\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/93\/6\/eeubd\/thumb.jpg", "price_k": 139 }, { "id": "92419", "category_id": "9", "province_id": "22", "title": "Buffet kem t\u01b0\u01a1i t\u1ea1i chu\u1ed7i nh\u00e0 h\u00e0ng Halloween Ice Cream", "title_short": "Buffet kem t\u01b0\u01a1i t\u1ea1i nh\u00e0 h\u00e0ng Halloween Ice Cream", "title_short2": "Buffet kem", "is_end": "0", "endTime": "1435467540", "buyer": "160", "buyer_need": "1000", "shop-name": "", "rateTotal": "2", "ratePoint": 0, "ratePercent": 0, "price_promotion": "61", "price": "150.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "59.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/am-thuc-nha-hang\/buffet-kem-tuoi-tai-chuoi-nha-hang-halloween-ice-cream-92419.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=92419&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/93\/5\/oofc4\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/93\/5\/oofc4\/thumb.jpg", "price_k": 59 }, { "id": "92893", "category_id": "9", "province_id": "22", "title": "Th\u01b0\u1edfng th\u1ee9c \u1ea9m th\u1ef1c Hu\u1ebf v\u1edbi set \u0103n cho 2 ng\u01b0\u1eddi t\u1ea1i Royal City", "title_short": "Th\u01b0\u1edfng th\u1ee9c \u1ea9m th\u1ef1c Hu\u1ebf v\u1edbi set \u0103n cho 2 ng\u01b0\u1eddi", "title_short2": "Th\u01b0\u1edfng th\u1ee9c", "is_end": "0", "endTime": "1435208340", "buyer": "261", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "59", "price": "227.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "95.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/am-thuc-nha-hang\/am-thuc-hue-92893.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=92893&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/93\/9\/jx08r\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/93\/9\/jx08r\/thumb.jpg", "price_k": 95 }, { "id": "97265", "category_id": "9", "province_id": "22", "title": "Ch\u1ecdn 1 trong 3 set l\u1ea9u: M\u1eb9t Th\u00e1i, m\u1eb9t n\u1ea5m, m\u1eb9t \u1ebfch duy nh\u1ea5t ch\u1ec9 c\u00f3 t\u1ea1i L\u1ea9u C\u1ed1c. H\u01b0\u01a1ng v\u1ecb n\u01b0\u1edbc l\u1ea9u tuy\u1ec7t h\u1ea3o v\u1edbi nhi\u1ec1u v\u1ecb kh\u00e1c nhau", "title_short": "Ch\u1ecdn 1 trong 3 set l\u1ea9u: M\u1eb9t Th\u00e1i, m\u1eb9t n\u1ea5m, m\u1eb9t \u1ebfch", "title_short2": "Ch\u1ecdn 1", "is_end": "0", "endTime": "1437800340", "buyer": "13", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "49", "price": "390.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "199.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/am-thuc-nha-hang\/lau-met-hap-dan-97265.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=97265&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/98\/3\/lzc7d\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/98\/3\/lzc7d\/thumb.jpg", "price_k": 199 }, { "id": "91205", "category_id": "16", "province_id": "0", "title": "M\u0169 r\u1ed9ng v\u00e0nh - Ph\u1ee5 ki\u1ec7n \u0111\u00e1ng y\u00eau c\u1ee7a m\u00f9a h\u00e8", "title_short": "M\u0169 r\u1ed9ng v\u00e0nh - Ph\u1ee5 ki\u1ec7n \u0111\u00e1ng y\u00eau c\u1ee7a m\u00f9a h\u00e8", "title_short2": "M\u0169 r\u1ed9ng", "is_end": "0", "endTime": "1435035540", "buyer": "53", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "63", "price": "200.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "75.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/phu-kien-my-pham\/mu-rong-vanh-phu-kien-dang-yeu-cua-mua-he-91205.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=91205&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/92\/3\/fqtyk\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/92\/3\/fqtyk\/thumb.jpg", "price_k": 75 }, { "id": "85010", "category_id": "7", "province_id": "22", "title": "Hai v\u00e9 xem phim 6D c\u1ef1c HOT Timescity v\u00e0 Royalcity", "title_short": "Hai v\u00e9 xem phim 6D c\u1ef1c HOT Timescity v\u00e0 Royalcity", "title_short2": "Hai v\u00e9", "is_end": "0", "endTime": "1435208340", "buyer": "309", "buyer_need": "1000", "shop-name": "", "rateTotal": "1", "ratePoint": 4, "ratePercent": 80, "price_promotion": "50", "price": "160.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "80.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/dao-tao-giai-tri\/hai-ve-xem-phim-6d-cuc-hot-timescity-va-royalcity-85010.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=85010&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/86\/1\/d9027\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/86\/1\/d9027\/thumb.jpg", "price_k": 80 }, { "id": "90975", "category_id": "9", "province_id": "22", "title": "Ch\u1ec9 198.000\u0111 l\u1ef1a ch\u1ecdn ngay 1 trong 2 set \u0103n H\u00e0n Qu\u1ed1c th\u01a1m ngon tr\u00f2n v\u1ecb, click Mua ngay t\u1ea1i Muachung \u0111\u1ec3 h\u01b0\u1edfng m\u1ee9c gi\u00e1 \u01b0u \u0111\u00e3i l\u00ean t\u1edbi 46%", "title_short": "Ch\u1ecdn 1 trong 2 set \u0103n H\u00e0n Qu\u1ed1c tr\u00f2n v\u1ecb 3 - 4 ng\u01b0\u1eddi", "title_short2": "Ch\u1ecdn 1", "is_end": "0", "endTime": "1435813140", "buyer": "84", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "46", "price": "365.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "198.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/am-thuc-nha-hang\/chon-1-trong-2-set-an-han-quoc-tron-vi-3-4-nguoi-90975.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=90975&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/91\/10\/x8jgo\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/91\/10\/x8jgo\/thumb.jpg", "price_k": 198 }, { "id": "92777", "category_id": "9", "province_id": "22", "title": "Buffet l\u1ea9u n\u01b0\u1edbng ko kh\u00f3i t\u1ea1i NH S\u01b0\u1eddn N\u01b0\u1edbng No 1 Royal city, ch\u1ec9 181.000\u0111 duy nh\u1ea5t t\u1ea1i Muachung&#33;", "title_short": "Buffet l\u1ea9u n\u01b0\u1edbng kh\u00f4ng kh\u00f3i - Nh\u00e0 h\u00e0ng S\u01b0\u1eddn No.1", "title_short2": "Buffet l\u1ea9u", "is_end": "0", "endTime": "1435640340", "buyer": "669", "buyer_need": "1000", "shop-name": "", "rateTotal": "2", "ratePoint": 4, "ratePercent": 80, "price_promotion": "31", "price": "259.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "179.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/am-thuc-nha-hang\/buffet-lau-nuong-ko-khoi-tai-nh-suonno-1-royal-city-92777.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=92777&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/93\/8\/f1avp\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/93\/8\/f1avp\/thumb.jpg", "price_k": 179 }, { "id": "92257", "category_id": "13", "province_id": "0", "title": "V\u00e1y voan hoa 3D thanh l\u1ecbch v\u00e0 quy\u1ebfn r\u0169 m\u00e0u s\u1eafc v\u00e0 h\u1ecda ti\u1ebft n\u1eef t\u00ednh", "title_short": "V\u00e1y voan hoa 3D thanh l\u1ecbch v\u00e0 quy\u1ebfn r\u0169", "title_short2": "V\u00e1y voan", "is_end": "0", "endTime": "1435726740", "buyer": "30", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "44", "price": "300.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "170.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/thoi-trang-nu\/vay-voan-hoa-3d-thanh-lich-va-quyen-ru-92257.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=92257&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/93\/3\/3am2n\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/93\/3\/3am2n\/thumb.jpg", "price_k": 170 }, { "id": "91504", "category_id": "17", "province_id": "0", "title": "Set 2 qu\u1ea7n sooc k\u1ebb cho nam", "title_short": "Set 2 qu\u1ea7n sooc k\u1ebb cho nam", "title_short2": "Set 2", "is_end": "0", "endTime": "1435078740", "buyer": "37", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "44", "price": "115.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "65.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/thoi-trang-nam\/set-2-quan-sooc-ke-cho-nam-91504.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=91504&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/92\/6\/fx978\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/92\/6\/fx978\/thumb.jpg", "price_k": 65 }, { "id": "91540", "category_id": "8", "province_id": "22", "title": "24 h\u0169 th\u1ee7y tinh \u0111\u1ef1ng s\u1eefa chua thi\u1ebft k\u1ebf xinh x\u1eafn v\u1edbi gi\u00e1 ch\u1ec9 122.000\u0111", "title_short": "24 h\u0169 th\u1ee7y tinh \u0111\u1ef1ng s\u1eefa chua xinh x\u1eafn", "title_short2": "24 h\u0169", "is_end": "0", "endTime": "1435121940", "buyer": "92", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "55", "price": "270.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "122.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/gia-dung-noi-that\/24-hu-thuy-tinh-dung-sua-chua-xinh-xan-91540.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=91540&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/92\/6\/f4tkz\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/92\/6\/f4tkz\/thumb.jpg", "price_k": 122 }, { "id": "92368", "category_id": "8", "province_id": "0", "title": "Set 2 balo d\u00e2y r\u00fat ch\u1ed1ng th\u1ea5m n\u01b0\u1edbc n\u0103ng \u0111\u1ed9ng", "title_short": "Set 2 balo d\u00e2y r\u00fat ch\u1ed1ng th\u1ea5m n\u01b0\u1edbc n\u0103ng \u0111\u1ed9ng", "title_short2": "Set 2", "is_end": "0", "endTime": "1435165140", "buyer": "105", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "45", "price": "120.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "67.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/gia-dung-noi-that\/set-2-balo-day-rut-chong-tham-nuoc-nang-dong-92368.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=92368&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/93\/4\/6swdz\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/93\/4\/6swdz\/thumb.jpg", "price_k": 67 }, { "id": "93315", "category_id": "9", "province_id": "22", "title": "Set b\u00e1nh x\u00e8o \u0111\u1eb7c s\u1ea3n t\u1ea1i Nh\u00e0 h\u00e0ng Ph\u01b0\u01a1ng Nam", "title_short": "\u0110\u1eb7c s\u1ea3n b\u00e1nh x\u00e8o NH Ph\u01b0\u01a1ng Nam - M\u00f3n ngon Mi\u1ec1n Nam", "title_short2": "\u0110\u1eb7c s\u1ea3n", "is_end": "0", "endTime": "1435208340", "buyer": "64", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "40", "price": "75.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "45.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/am-thuc-nha-hang\/set-banh-xeo-dac-san-tai-nha-hang-phuong-nam-93315.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=93315&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/94\/4\/wio10\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/94\/4\/wio10\/thumb.jpg", "price_k": 45 }, { "id": "95193", "category_id": "15", "province_id": "22", "title": "\u0110\u00f4ng tr\u00f9ng h\u1ea1 th\u1ea3o H\u00e0n Qu\u1ed1c - H\u1ed9p s\u1eaft 60 vi\u00ean", "title_short": "\u0110\u00f4ng tr\u00f9ng h\u1ea1 th\u1ea3o H\u00e0n Qu\u1ed1c - H\u1ed9p s\u1eaft 60 vi\u00ean", "title_short2": "\u0110\u00f4ng tr\u00f9ng", "is_end": "0", "endTime": "1435337940", "buyer": "12", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "45", "price": "450.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "251.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/thuc-pham\/dong-trung-ha-thao-han-quoc-hop-sat-60-vien-95193.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=95193&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/96\/2\/mds74\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/96\/2\/mds74\/thumb.jpg", "price_k": 251 }, { "id": "86499", "category_id": "9", "province_id": "22", "title": "Ch\u1ec9 188.000\u0111 cho b\u1eefa ti\u1ec7c buffet n\u01b0\u1edbng v\u00e0 l\u1ea9u Nh\u1eadt B\u1ea3n si\u00eau ngon - b\u1ed5 - r\u1ebb&#33; \u01afu \u0111\u00e3i \u0111\u1eb7c bi\u1ec7t \u0111\u1ebfn t\u1eeb Muachung&#33;", "title_short": "Buffet n\u01b0\u1edbng& l\u1ea9u Nh\u1eadt B\u1ea3n Yaki BBQ-Mi\u1ec5n ph\u00ed Pepsi", "title_short2": "Buffet n\u01b0\u1edbng&", "is_end": "0", "endTime": "1435208340", "buyer": "1390", "buyer_need": "10000", "shop-name": "", "rateTotal": "3", "ratePoint": 4, "ratePercent": 80, "price_promotion": "31", "price": "269.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "188.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/am-thuc-nha-hang\/buffet-nuong-lau-nhat-ban-yaki-bbq-86499.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=86499&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/87\/5\/x7lbk\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/87\/5\/x7lbk\/thumb.jpg", "price_k": 188 }, { "id": "86552", "category_id": "9", "province_id": "22", "title": "Buffet h\u1ea3i s\u1ea3n nhi\u1ec1u m\u00f3n ngon t\u01b0\u01a1i s\u1ed1ng ph\u1ee5c v\u1ee5 t\u1eadn b\u00e0n- Ch\u1ec9 199.000\u0111 duy nh\u1ea5t t\u1ea1i Muachung", "title_short": "Buffet h\u1ea3i s\u1ea3n cao c\u1ea5p t\u1ea1i nh\u00e0 h\u00e0ng Nam S\u01a1n", "title_short2": "Buffet h\u1ea3i", "is_end": "0", "endTime": "1436504340", "buyer": "752", "buyer_need": "4000", "shop-name": "", "rateTotal": "2", "ratePoint": 0, "ratePercent": 0, "price_promotion": "32", "price": "290.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "199.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/am-thuc-nha-hang\/buffet-hai-san-cao-cap-tai-nha-hang-nam-son-86552.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=86552&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/87\/6\/fdphj\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/87\/6\/fdphj\/thumb.jpg", "price_k": 199 }, { "id": "94091", "category_id": "9", "province_id": "22", "title": "2 su\u1ea5t c\u01a1m ni\u00eau b\u00f2 tr\u00ean ch\u1ea3o n\u00f3ng k\u00e8m salad t\u1ea1i NH Phin Minh, ti\u1ebft ki\u1ec7m t\u1edbi 48%, duy nh\u1ea5t t\u1ea1i Muachung&#33;", "title_short": "2 su\u1ea5t c\u01a1m ni\u00eau b\u00f2 tr\u00ean ch\u1ea3o n\u00f3ng k\u00e8m salad", "title_short2": "2 su\u1ea5t", "is_end": "0", "endTime": "1437368340", "buyer": "27", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "48", "price": "150.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "79.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/am-thuc-nha-hang\/2-suat-com-nieu-bo-tren-chao-nong-kem-salad-tai-nh-phin-minh-94091.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=94091&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/95\/1\/b5yls\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/95\/1\/b5yls\/thumb.jpg", "price_k": 79 }, { "id": "88371", "category_id": "12", "province_id": "0", "title": "M\u00e0n ch\u1ee5p ch\u1ed1ng mu\u1ed7i, b\u1ee5i cho xe \u0111\u1ea9y v\u1edbi gi\u00e1 ch\u1ec9 58.000\u0111", "title_short": "M\u00e0n ch\u1ee5p ch\u1ed1ng mu\u1ed7i, b\u1ee5i cho xe \u0111\u1ea9y", "title_short2": "M\u00e0n ch\u1ee5p", "is_end": "0", "endTime": "1434962280", "buyer": "136", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "32", "price": "85.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "58.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/me-be\/man-chup-chong-muoi-bui-cho-xe-day-88371.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=88371&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/89\/4\/xv74f\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/89\/4\/xv74f\/thumb.jpg", "price_k": 58 }, { "id": "88729", "category_id": "8", "province_id": "22", "title": "Gi\u1ea3m gi\u00e1 \u01b0u \u0111\u00e3i t\u1ea1i Muachung cho B\u1ed9 12 h\u0169 th\u1ee7y tinh l\u00e0m s\u1eefa chua. Click mua ngay \u0111\u1ec3 \u0111\u01b0\u1ee3c gi\u1ea3m gi\u00e1 c\u1ef1c HOT cho 12 h\u0169 th\u1ee7y tinh l\u00e0m s\u1eefa chua.", "title_short": "B\u1ed9 12 h\u0169 th\u1ee7y tinh l\u00e0m s\u1eefa chua h\u1ecda ti\u1ebft d\u1ec5 th\u01b0\u01a1ng", "title_short2": "B\u1ed9 12", "is_end": "0", "endTime": "1435208340", "buyer": "267", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "64", "price": "270.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "99.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/gia-dung-noi-that\/giam-gia-bo-12-hu-thuy-tinh-lam-sua-chua-88729.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=88729&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/89\/8\/jchc0\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/89\/8\/jchc0\/thumb.jpg", "price_k": 99 }, { "id": "93093", "category_id": "12", "province_id": "0", "title": "V\u00e1y th\u00f4 hoa vi\u1ec1n b\u00e8o d\u1ec5 th\u01b0\u01a1ng ki\u1ec3u d\u00e1ng d\u1ec5 th\u01b0\u01a1ng, ch\u1ea5t li\u1ec7u m\u00e1t m\u1ebb", "title_short": "V\u00e1y th\u00f4 hoa vi\u1ec1n b\u00e8o d\u1ec5 th\u01b0\u01a1ng", "title_short2": "V\u00e1y th\u00f4", "is_end": "0", "endTime": "1435121940", "buyer": "73", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "46", "price": "120.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "65.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/me-be\/vay-tho-hoa-vien-beo-de-thuong-93093.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=93093&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/94\/1\/yad3n\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/94\/1\/yad3n\/thumb.jpg", "price_k": 65 }, { "id": "93091", "category_id": "12", "province_id": "0", "title": "V\u00e1y lanh d\u00e1ng x\u00f2e \u0111ai n\u01a1 xinh x\u1eafn h\u1ecda ti\u1ebft hoa nhi\u1ec1u m\u00e0u d\u1ec5 th\u01b0\u01a1ng", "title_short": "V\u00e1y lanh d\u00e1ng x\u00f2e \u0111ai n\u01a1 xinh x\u1eafn", "title_short2": "V\u00e1y lanh", "is_end": "0", "endTime": "1435208340", "buyer": "67", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "42", "price": "145.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "85.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/me-be\/vay-lanh-dang-xoe-dai-no-xinh-xan-93091.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=93091&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/94\/1\/dlikh\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/94\/1\/dlikh\/thumb.jpg", "price_k": 85 }, { "id": "95999", "category_id": "9", "province_id": "22", "title": "Buffet l\u1ea9u N\u01b0\u1edbng Big Chiaki - Tr\u1ea3i nghi\u1ec7m \u1ea9m th\u1ef1c Nh\u1eadt B\u1ea3n", "title_short": "Buffet N\u01b0\u1edbng v\u00e0 L\u1ea9u Big Chiaki - \u1ea8m th\u1ef1c Nh\u1eadt B\u1ea3n", "title_short2": "Buffet N\u01b0\u1edbng", "is_end": "0", "endTime": "1437195540", "buyer": "131", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "33", "price": "339.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "229.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/am-thuc-nha-hang\/buffet-lau-nuong-big-chiaki-trai-nghiem-am-thuc-nhat-ban-95999.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=95999&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/96\/10\/es2fb\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/96\/10\/es2fb\/thumb.jpg", "price_k": 229 }, { "id": "94941", "category_id": "9", "province_id": "22", "title": "Buffet Kem \u00dd Cho 2 Ng\u01b0\u1eddi T\u1ea1i C\u1ecf May Caffe", "title_short": "Buffet kem \u00dd cho 2 ng\u01b0\u1eddi t\u1ea1i C\u1ecf May Caffe", "title_short2": "Buffet kem", "is_end": "0", "endTime": "1437541140", "buyer": "61", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "51", "price": "140.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "69.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/am-thuc-nha-hang\/buffet-kem-y-cho-2-nguoi-tai-co-may-caffe-94941.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=94941&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/95\/10\/gz6tl\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/95\/10\/gz6tl\/thumb.jpg", "price_k": 69 }, { "id": "93923", "category_id": "12", "province_id": "0", "title": "Combo 2 v\u00e1y lanh chun h\u1ecda ti\u00eat cho b\u00e9 y\u00eau", "title_short": "Combo 2 v\u00e1y lanh chun h\u1ecda ti\u00eat cho b\u00e9 y\u00eau", "title_short2": "Combo 2", "is_end": "0", "endTime": "1435337940", "buyer": "21", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "45", "price": "160.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "89.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/me-be\/combo-2-vay-lanh-chun-hoa-tiet-cho-be-yeu-93923.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=93923&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/94\/10\/gy0gv\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/94\/10\/gy0gv\/thumb.jpg", "price_k": 89 }, { "id": "94483", "category_id": "16", "province_id": "0", "title": "Qu\u1ea7n \u0111\u1ecbnh h\u00ecnh Slim Lift cho th\u00e2n h\u00ecnh g\u1ecdn g\u00e0ng", "title_short": "Qu\u1ea7n \u0111\u1ecbnh h\u00ecnh Slim Lift cho th\u00e2n h\u00ecnh g\u1ecdn g\u00e0ng", "title_short2": "Qu\u1ea7n \u0111\u1ecbnh", "is_end": "0", "endTime": "1434733140", "buyer": "18", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "49", "price": "160.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "82.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/phu-kien-my-pham\/quan-dinh-hinh-slim-lift-cho-than-hinh-gon-gang-94483.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=94483&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/95\/5\/hvrco\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/95\/5\/hvrco\/thumb.jpg", "price_k": 82 }, { "id": "86991", "category_id": "9", "province_id": "22", "title": "L\u1ea9u c\u00e1 k\u00e8o h\u01b0\u01a1ng v\u1ecb ph\u01b0\u01a1ng Nam cho 02 ng\u01b0\u1eddi", "title_short": "L\u1ea9u c\u00e1 k\u00e8o NH Ph\u01b0\u01a1ng Nam - M\u00f3n ngon Mi\u1ec1n Nam", "title_short2": "L\u1ea9u c\u00e1", "is_end": "0", "endTime": "1435208340", "buyer": "60", "buyer_need": "1000", "shop-name": "", "rateTotal": "1", "ratePoint": 0, "ratePercent": 0, "price_promotion": "40", "price": "250.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "150.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/am-thuc-nha-hang\/lau-ca-keo-huong-vi-phuong-nam-cho-02-nguoi-86991.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=86991&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/87\/10\/3gg7t\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/87\/10\/3gg7t\/thumb.jpg", "price_k": 150 }, { "id": "92662", "category_id": "12", "province_id": "0", "title": "X\u0103ng \u0111an c\u00f4ng ch\u00faa Frozen  ch\u1ea5t gi\u1ea3 da m\u1ec1m m\u1ea1i, h\u00ecnh in n\u1ed5i b\u1eadt v\u1edbi gi\u00e1 152.000\u0111", "title_short": "X\u0103ng \u0111an c\u00f4ng ch\u00faa Frozen", "title_short2": "X\u0103ng \u0111an", "is_end": "0", "endTime": "1434776340", "buyer": "50", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "40", "price": "250.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "152.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/me-be\/xang-dan-cong-chua-frozen-92662.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=92662&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/93\/7\/fpz1c\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/93\/7\/fpz1c\/thumb.jpg", "price_k": 152 }, { "id": "92649", "category_id": "15", "province_id": "22", "title": "N\u01b0\u1edbc h\u1ed3ng s\u00e2m H\u00e0n Qu\u1ed1c - T\u0103ng c\u01b0\u1eddng sinh l\u1ef1c", "title_short": "N\u01b0\u1edbc h\u1ed3ng s\u00e2m H\u00e0n Qu\u1ed1c - T\u0103ng c\u01b0\u1eddng sinh l\u1ef1c", "title_short2": "N\u01b0\u1edbc h\u1ed3ng", "is_end": "0", "endTime": "1435035540", "buyer": "34", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "44", "price": "240.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "135.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/thuc-pham\/nuoc-hong-sam-han-quoc-tang-cuong-sinh-luc-92649.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=92649&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/93\/7\/krnb8\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/93\/7\/krnb8\/thumb.jpg", "price_k": 135 }, { "id": "92809", "category_id": "9", "province_id": "22", "title": "Voucher gi\u1ea3m gi\u00e1 th\u01b0\u1edfng th\u1ee9c m\u00f3n Nh\u1eadt Mizuchi", "title_short": "Voucher gi\u1ea3m gi\u00e1 th\u01b0\u1edfng th\u1ee9c m\u00f3n Nh\u1eadt Mizuchi", "title_short2": "Voucher gi\u1ea3m", "is_end": "0", "endTime": "1436758740", "buyer": "220", "buyer_need": "1000", "shop-name": "", "rateTotal": "2", "ratePoint": 0, "ratePercent": 0, "price_promotion": "38", "price": "80.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "50.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/am-thuc-nha-hang\/voucher-giam-gia-thuong-thuc-mon-nhat-mizuchi-92809.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=92809&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/93\/9\/rmmaj\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/93\/9\/rmmaj\/thumb.jpg", "price_k": 50 }, { "id": "89296", "category_id": "12", "province_id": "0", "title": "B\u1ec3 b\u01a1i Winming Pool, 2 t\u1ea7ng b\u01a1m h\u01a1i ri\u00eang", "title_short": "B\u1ec3 b\u01a1i Winming Pool, 2 t\u1ea7ng b\u01a1m h\u01a1i ri\u00eang", "title_short2": "B\u1ec3 b\u01a1i", "is_end": "0", "endTime": "1434949140", "buyer": "161", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "37", "price": "400.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "255.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/me-be\/be-boi-winming-pool-2-tang-bom-hoi-rieng-89296.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=89296&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/90\/3\/d7t9e\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/90\/3\/d7t9e\/thumb.jpg", "price_k": 255 }, { "id": "89258", "category_id": "9", "province_id": "22", "title": "Ch\u1ec9 129.000\u0111 th\u01b0\u1edfng th\u1ee9c ngay l\u1ea9u n\u1ea5m Muru ngon l\u1ea1 v\u1edbi nhi\u1ec1u lo\u1ea1i n\u1ea5m qu\u00fd, ti\u1ebft ki\u1ec7m 42% do v\u1edbi gi\u00e1 g\u1ed1c l\u00e0 220.000\u0111", "title_short": "L\u1ea9u n\u1ea5m Muru 157 L\u00e1ng H\u1ea1- M\u00f3n ngon gi\u00e1 kh\u00f4ng \u0111\u1ed5i", "title_short2": "L\u1ea9u n\u1ea5m", "is_end": "0", "endTime": "1435208340", "buyer": "1967", "buyer_need": "10000", "shop-name": "", "rateTotal": "7", "ratePoint": 0, "ratePercent": 0, "price_promotion": "42", "price": "220.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "129.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/am-thuc-nha-hang\/lau-nam-muru-89258.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=89258&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/90\/3\/b4pk9\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/90\/3\/b4pk9\/thumb.jpg", "price_k": 129 }, { "id": "87191", "category_id": "9", "province_id": "22", "title": "Th\u01b0\u1edfng th\u1ee9c Set \u0103n H\u00e0n Qu\u1ed1c cho 02 ng\u01b0\u1eddi", "title_short": "Set \u0103n H\u00e0n Qu\u1ed1c cho 02 ng\u01b0\u1eddi", "title_short2": "Set \u0103n", "is_end": "0", "endTime": "1435208340", "buyer": "229", "buyer_need": "1000", "shop-name": "", "rateTotal": "2", "ratePoint": 0, "ratePercent": 0, "price_promotion": "44", "price": "175.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "99.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/am-thuc-nha-hang\/thuong-thuc-set-an-han-quoc-cho-02-nguoi-87191.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=87191&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/88\/2\/isc46\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/88\/2\/isc46\/thumb.jpg", "price_k": 99 }, { "id": "86658", "category_id": "12", "province_id": "0", "title": "B\u1ed9 Mic h\u00e1t Karaoke cho b\u00e9", "title_short": "B\u1ed9 Mic h\u00e1t Karaoke cho b\u00e9", "title_short2": "B\u1ed9 Mic", "is_end": "0", "endTime": "1435078740", "buyer": "174", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "35", "price": "200.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "130.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/me-be\/bo-mic-hat-karaoke-cho-be-86658.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=86658&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/87\/7\/9c9h8\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/87\/7\/9c9h8\/thumb.jpg", "price_k": 130 }, { "id": "85499", "category_id": "16", "province_id": "0", "title": "D\u1ea7u d\u1eeba nguy\u00ean ch\u1ea5t d\u01b0\u1ee1ng da v\u00e0 t\u00f3c (500ml),  t\u00e1c d\u1ee5ng gi\u1eef \u1ea9m cao, h\u1ea1n ch\u1ebf h\u00ecnh th\u00e0nh n\u1ebfp nh\u0103n", "title_short": "D\u1ea7u d\u1eeba nguy\u00ean ch\u1ea5t d\u01b0\u1ee1ng da v\u00e0 t\u00f3c (500ml)", "title_short2": "D\u1ea7u d\u1eeba", "is_end": "0", "endTime": "1435553940", "buyer": "325", "buyer_need": "1000", "shop-name": "", "rateTotal": "1", "ratePoint": 4, "ratePercent": 80, "price_promotion": "28", "price": "145.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "105.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/phu-kien-my-pham\/dau-dua-nguyen-chat-duong-da-va-toc-500ml-85499.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=85499&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/86\/5\/nk0cc\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/86\/5\/nk0cc\/thumb.jpg", "price_k": 105 }, { "id": "84385", "category_id": "8", "province_id": "22", "title": "H\u1ed9p m\u00e0ng b\u1ecdc th\u1ef1c ph\u1ea9m Th\u00e1i Lan Ringo 400", "title_short": "H\u1ed9p m\u00e0ng b\u1ecdc th\u1ef1c ph\u1ea9m Th\u00e1i Lan Ringo 400", "title_short2": "H\u1ed9p m\u00e0ng", "is_end": "0", "endTime": "1435035540", "buyer": "531", "buyer_need": "1000", "shop-name": "", "rateTotal": "3", "ratePoint": 4, "ratePercent": 80, "price_promotion": "30", "price": "200.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "140.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/gia-dung-noi-that\/hop-mang-boc-thuc-pham-thai-lan-ringo-400-84385.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=84385&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/85\/4\/it3zo\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/85\/4\/it3zo\/thumb.jpg", "price_k": 140 }, { "id": "82317", "category_id": "8", "province_id": "0", "title": "3 gi\u1ea5y d\u00e1n b\u1ebfp c\u00e1ch nhi\u1ec7t lo\u1ea1i to 60cm x 90cm", "title_short": "3 gi\u1ea5y d\u00e1n b\u1ebfp c\u00e1ch nhi\u1ec7t lo\u1ea1i to 60cm x 90cm", "title_short2": "3 gi\u1ea5y", "is_end": "0", "endTime": "1435381140", "buyer": "899", "buyer_need": "1000", "shop-name": "", "rateTotal": "1", "ratePoint": 4.5, "ratePercent": 90, "price_promotion": "47", "price": "110.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "59.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/gia-dung-noi-that\/3-giay-dan-bep-cach-nhiet-loai-to-60cm-x-90cm-82317.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=82317&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/83\/4\/th5cp\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/83\/4\/th5cp\/thumb.jpg", "price_k": 59 }, { "id": "89385", "category_id": "9", "province_id": "22", "title": "Ch\u1ec9 88.000\u0111 th\u01b0\u1edfng th\u1ee9c ngay \u1ea9m th\u1ef1c \u0111\u1ed3ng qu\u00ea gi\u1eefa l\u00f2ng H\u00e0 N\u1ed9i, ti\u1ebft ki\u1ec7m t\u1edbi 45% so v\u1edbi gi\u00e1 tr\u1ecb g\u1ed1c, duy nh\u1ea5t t\u1ea1i Muachung&#33;", "title_short": "Kh\u00e1m ph\u00e1 \u1ea8m th\u1ef1c \u0111\u1ed3ng qu\u00ea d\u00e2n d\u00e3 t\u1ea1i Aoo Qu\u00e1n", "title_short2": "Kh\u00e1m ph\u00e1", "is_end": "0", "endTime": "1435208340", "buyer": "136", "buyer_need": "1000", "shop-name": "", "rateTotal": "1", "ratePoint": 0, "ratePercent": 0, "price_promotion": "45", "price": "160.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "88.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/am-thuc-nha-hang\/am-thuc-dong-que-dan-da-tai-aoo-quan-89385.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=89385&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/90\/4\/xg7cs\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/90\/4\/xg7cs\/thumb.jpg", "price_k": 88 }, { "id": "89698", "category_id": "9", "province_id": "22", "title": "Ch\u1ec9 250.000\u0111 th\u01b0\u1edfng th\u1ee9c ngay m\u1eb9t l\u1ee3n m\u00e1n cho 04 ng\u01b0\u1eddi, \u01b0u \u0111\u00e3i l\u00ean t\u1edbi 65% duy nh\u1ea5t t\u1ea1i Muachung&#33;", "title_short": "No n\u00ea v\u1edbi m\u1eb9t l\u1ee3n m\u00e1n \u0111\u1ea7y \u0111\u1eb7n t\u1ea1i M\u1ed9c Qu\u00e1n", "title_short2": "No n\u00ea", "is_end": "0", "endTime": "1435208340", "buyer": "137", "buyer_need": "1000", "shop-name": "", "rateTotal": "1", "ratePoint": 0, "ratePercent": 0, "price_promotion": "65", "price": "700.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "250.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/am-thuc-nha-hang\/no-ne-voi-met-lon-man-day-dan-tai-moc-quan-89698.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=89698&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/90\/7\/4k8d3\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/90\/7\/4k8d3\/thumb.jpg", "price_k": 250 }, { "id": "91802", "category_id": "9", "province_id": "22", "title": "L\u1ea9u \u1ebfch m\u1eb9t v\u00e0 s\u1ee5n heo s\u1ed1t me, ch\u1ec9 v\u1edbi 250.000\u0111, gi\u1ea3m gi\u00e1 t\u1edbi 41% duy nh\u1ea5t t\u1ea1i Muachung&#33;", "title_short": "L\u1ea9u \u1ebfch m\u1eb9t, s\u1ee5n heo s\u1ed1t me & n\u1ed9m s\u1ee9a xo\u00e0i xanh", "title_short2": "L\u1ea9u \u1ebfch", "is_end": "0", "endTime": "1435640340", "buyer": "37", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "41", "price": "418.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "250.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/am-thuc-nha-hang\/lau-ech-met-va-sun-heo-sot-me-91802.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=91802&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/92\/9\/2k4cv\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/92\/9\/2k4cv\/thumb.jpg", "price_k": 250 }, { "id": "91737", "category_id": "9", "province_id": "22", "title": "Pizza + M\u1ef3 \u00dd k\u00e8m \u0111\u1ed3 u\u1ed1ng cho 2 ng\u01b0\u1eddi t\u1ea1i Pizza Box", "title_short": "Pizza + M\u1ef3 \u00dd k\u00e8m \u0111\u1ed3 u\u1ed1ng cho 2 ng\u01b0\u1eddi t\u1ea1i Pizza Box", "title_short2": "Pizza +", "is_end": "0", "endTime": "1434949140", "buyer": "63", "buyer_need": "1000", "shop-name": "", "rateTotal": 0, "ratePoint": 0, "ratePercent": 0, "price_promotion": "44", "price": "132.000<span class=\"price-unit\">\u0111<\/span>", "price_save": "75.000<span class=\"price-unit\">\u0111<\/span>", "link": "http:\/\/muachung.vn\/am-thuc-nha-hang\/pizza-my-y-kem-do-uong-cho-2-nguoi-tai-pizza-box-91737.html?_sc=mc&_tp=re&_zn=zone1&utm_deal=91737&ref_deal=92351", "image": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/220,90\/i:product\/92\/8\/01ow3\/thumb.jpg", "image_82": "http:\/\/muachung10.vcmedia.vn\/thumb_w\/82,90\/i:product\/92\/8\/01ow3\/thumb.jpg", "price_k": 75 }];
+                        var liList = [];
+                        var consta = 'http://static6.zamba.vn/';
+                        var y;
+                        var z = 0;
+                        for (y in li_item) {
+                            if (li_item[y].title) {
+                                temp = '<li>' +
+                                '<div class="deal-item suggest-type ">' +
+                                '<div class="inner-deal">' +
+                                '<div class="wrap-imgdesc">' +
+                                '<div class="clearfix">' +
+                                '<a class="img-thumb-deal" href="' + li_item[y].link + '">' +
+                                '<img class="img-overlay" alt="' + li_item[y].title + '" style="background-image: url(' + li_item[y].image + ')" src="' + consta + 'frontEnd/images/null.gif">' +
+                                '</a>' +
+                                '</div>' +
+                                '</div>' +
+                                '<div class="grp-bottom-content">' +
+                                '<h3 class="rs deal-name">' +
+                                '<a class="cl-trans" href="' + li_item[y].link + '">' + li_item[y].title_short + '</a>' +
+                                '</h3>' +
+                                '<div style="padding-top: 4px;" class="bottom-info clearfix">' +
+                                '<div class="price percent-left clearfix">' +
+                                '<span class="val valNew">' +
+                                '<span class="price-sale">' +
+                                '<span class="price-val fs-14">' +
+                                li_item[y].price_save +
+                                '<span class="fs-13" style="padding-left: 5px;">' +
+                                '<span class="fs-11">(</span>-' + li_item[y].price_promotion +
+                                '<span class="fs-11">%</span><span class="fs-11">)</span>' +
+                                '</span>' +
+                                '</span>' +
+                                '</span>' +
+                                '</span>' +
+                                '</div>' +
+                                '</div>' +
+                                '<div class="deal-rate">';
+                                temp +=
+                                (li_item[y].ratePercent > 0 ?
+                                '<i class="icon-star star-sm-yl"><i style="width:' + li_item[y].ratePercent + '%"></i></i>' +
+                                '<span class="fs-12" style="color: #777"> | </span>' : ''
+                                );
+                                temp +=
+                                '<span class="deal-buyer"><span>' + (li_item[y].buyer == '00' ? 'Deal mới lên' : li_item[y].buyer + ' đã mua') + '</span></span>' +
+                                '</div>' +
+                                (li_item[y].address_sub ? '<div titleli_item[y].buyer="' + li_item[y].address + '" class="deal-buyer make-left">' +
+                                '<span style="font-size: 11px;">' + li_item[y].address_sub + '</span></div>' : ''
+                                ) +
+                                '</div>' +
+                                '</div>' +
+                                '</div>' +
+                                '</li>';
+                                liList[z] = temp;
+                                z++;
+                            }
+                        }
+                        //console.log(data2);
+                        jQuery(document).ready(function () {
+                            initSlideSuggest("sys_deal_same_cate", liList);
+                            $(window).on("resize", function () {
+                                //delaySomethings(function () {
+                                initSlideSuggest("sys_deal_same_cate", liList);
+                                //}, 200);
+                            });
+                        });</script>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,44 @@
+﻿@model muachung.Models.HomeIndexViewModel
+@{
+    ViewBag.Title = "Trang chủ quản lý";
+    Layout = "~/Views/Shared/_LayoutMuaChung.cshtml";
+}
+
+@* Created by KhanhThietbi - www.fb.com/NeedleKane *@
+
+@*  ******** SẢN PHẨM HOT *********@
+
+    @{Html.RenderPartial("_LayoutMuaChung_Hot", Model.HotProduct);}
+
+<div style="font-size: 16px; margin-bottom: 10px;">
+    <span>Các deals nổi bật tại Hà Nội!</span>
+</div>
+
+
+
+    @*  ******** LIST SẢN PHẨM CHÍNH 1 *********@
+
+    @{Html.RenderPartial("_LayoutMuaChung_Main", Model.Product1);}
+
+    @*  ******** QUẢNG CÁO 1 *********@
+
+    @{Html.RenderPartial("_LayoutMuaChung_Adverts", Model.AdvertsRD1);}
+   
+    @*  ******** LIST SẢN PHẨM CHÍNH 2 *********@
+
+    @{Html.RenderPartial("_LayoutMuaChung_Main", Model.Product2);}
+
+    @*  ******** QUẢNG CÁO 2 *********@
+
+    @{Html.RenderPartial("_LayoutMuaChung_Adverts", Model.AdvertsRD2);}
+
+    @*  ******** LIST SẢN PHẨM CHÍNH 3 *********@
+
+    @{Html.RenderPartial("_LayoutMuaChung_Main", Model.Product3);}
+
+    @*  ******** QUẢNG CÁO 3 *********@
+
+    @{Html.RenderPartial("_LayoutMuaChung_Adverts", Model.AdvertsRD3);}
+
+
+    @* Created by Khanhthietbi@gmail.com - www.fb.com/NeedleKane *@

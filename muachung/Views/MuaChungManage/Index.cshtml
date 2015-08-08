@@ -1,0 +1,238 @@
+﻿@model IEnumerable<muachung.Models.SP_GET_PRODUCTS_ALL_Result>
+
+@{
+    ViewBag.Title = "Danh sách sản phẩm hiện hành";
+    Layout = "~/Views/Shared/_LayoutPortals.cshtml";
+}
+
+@* Created by KhanhThietbi - www.fb.com/NeedleKane *@
+
+@section SlideBar{
+    <li class="active">@ViewBag.Title</li>
+}
+
+<div class="col-xs-12" style="margin-bottom: 10px;">
+    <div class="col-xs-2 pull-right">
+        <button class="btn btn-block btn-danger btn-flat pull-right" id="xoadinao">Xóa</button>
+    </div>
+    <div class="col-xs-2 pull-right">
+        <a class="btn btn-block btn-info btn-flat pull-right" href="@Url.Action("Create" , "MuaChungManage")">Thêm mới</a>
+    </div>
+
+    <div class="col-xs-2 pull-right">
+        <a class="btn btn-block btn-success btn-flat pull-right kichhoat" href="javascript:void(0)">Kích hoạt/Hủy SP Hot</a>
+    </div>
+</div>
+<div class="col-xs-12">
+    <div class="box">
+        <div class="box-body">
+            <table id="example1" class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Chọn</th>
+                        <th>Mã sản phẩm</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Giá (gốc)</th>
+                        <th>Giá (hạ)</th>
+                        <th>Ảnh SP</th>
+                        <th>Hot</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Select((x, i) => new { Data = x, Index = i }))
+                    {
+                        <tr>
+                            <td><input type="checkbox" name="@item.Data.Name" value="@item.Data.Id" /></td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Data.ProductId)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Data.Name)
+                            </td>
+                            <td>
+                                @item.Data.Cost.ToString("#,##")
+                            </td>
+                            <td>
+                                @item.Data.CostSale.ToString("#,##")
+                            </td>
+                            <td>
+                                <img src="~/Content/Upload/@item.Data.Images1" alt="" height="50" width="50" style="border-radius: 25px;" />
+                            </td>
+                            <td>
+                                @if (item.Data.ProductHot == true)
+                                {
+                                    <a href="javascript:void(0)" giatri="@item.Data.Id" title="Sản phẩm hot" class="hoatdong"><i class="glyphicon glyphicon-ok-sign" style="color:green;"></i></a>
+
+                                }
+                                else
+                                {
+                                    <a href="javascript:void(0)" giatri="@item.Data.Id" title="Sản phẩm thường" class="khonghoatdong"><i class="glyphicon glyphicon-ok-sign" style="color:darkgray;"></i></a>
+                                }
+                            </td>
+                            <td style="width: 70px;">
+                                <a href="@Url.Action("Edit", "MuaChungManage", new { id = item.Data.Id })">Sửa</a> |
+                                <a href="@Url.Action("Delete", "MuaChungManage", new { id = item.Data.Id })" name="@item.Data.Name" class="Xoa" pkid="@item.Data.Id">Xóa</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Chọn</th>
+                        <th>Mã sản phẩm</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Giá (gốc)</th>
+                        <th>Giá (hạ)</th>
+                        <th>Ảnh SP</th>
+                        <th>Hot</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div><!-- /.box-body -->
+    </div><!-- /.box -->
+</div><!-- /.col -->
+
+<script src="/Content/plugins/jQuery/jQuery-2.1.3.min.js"></script>
+<script>
+    // Xóa nhiều sản phẩm trên trang
+
+    $('#xoadinao').on("click", function () {
+        var selected = [];
+        var selectedName = [];
+        $(':checkbox:checked').each(function () {
+            var data = jQuery(this).attr('value');
+            var name = jQuery(this).attr('name');
+            selected.push(data);
+            selectedName.push(name);
+        });
+        var arr = selected.join(',');
+        var nameArr = selectedName.join(', ');
+        console.log(arr);
+        bootbox.confirm("Bạn có thực sự muốn xóa sản phẩm ( " + nameArr + " ) ?", function (result) {
+            title: "Xác nhận xóa !";
+            if (result == true) {
+                $.post("/MuaChungManage/DeleteCheckAll", { ids: arr }, function (data) {
+                    if (data.result == true) {
+                        alert("Xóa thành công sản phẩm ");
+                        location.href = "/MuaChungManage/Index";
+                    }
+
+                });
+            }
+        });
+        return false;
+    });
+
+    // Xóa 1 sản phẩm
+
+    $(".Xoa").click(function () {
+        var data = jQuery(this).attr('pkid');
+        var name = jQuery(this).attr('name');
+        console.log(data);
+        bootbox.confirm("Bạn có thực sự muốn xóa sản phẩm " + name + "?", function (result) {
+            title: "Xác nhận xóa !";
+            if (result == true) {
+                $.post("/MuaChungManage/Delete/" + data, function (data) {
+                    if (data.result == true) {
+                        alert("Xóa thành công sản phẩm " + name);
+                        location.href = "/MuaChungManage/Index";
+                    }
+
+                });
+            }
+        });
+        return false;
+    });
+
+    $(".hoatdong").click(function () {
+        var userid = jQuery(this).attr("giatri");
+        console.log(userid);
+        $.ajax({
+            url: '@Url.Action("IsActive", "MuaChungManage")',
+            data: { userid: userid },
+            type: 'post'
+        }).success(function (data) {
+            if (data.result == true) {
+                $(".hoatdong").show();
+                $(".khonghoatdong").hide();
+                location.reload();
+            }
+
+        });
+    });
+
+    $(".khonghoatdong").click(function () {
+        var userid = jQuery(this).attr("giatri");
+        console.log(userid);
+        $.ajax({
+            url: '@Url.Action("UnActive", "MuaChungManage")',
+            data: { userid: userid },
+            type: 'post'
+        }).success(function (data) {
+            if (data.result == true) {
+                $(".hoatdong").hide();
+                $(".khonghoatdong").show();
+                location.reload();
+            }
+
+        });
+    });
+
+
+    $(".kichhoat").on("click", function () {
+        var selected = [];
+        $(':checkbox:checked').each(function () {
+            var data = jQuery(this).attr("value");
+            selected.push(data);
+            console.log(selected);
+        });
+        var arr = selected.join(',');
+        console.log(arr);
+        $.ajax({
+            url: '@Url.Action("IsActiveSeleted" , "MuaChungManage")',
+            data: { userids: arr },
+            type: 'post'
+        }).success(function (data) {
+            if (data.result == true) {
+                $(".hoatdong").show();
+                $(".khonghoatdong").hide();
+                location.reload();
+            } else {
+                $(".hoatdong").hide();
+                $(".khonghoatdong").show();
+                location.reload();
+            }
+
+        });
+    });
+
+    $(".bokichhoat").on("click", function () {
+        var selected = [];
+        $(':checkbox:checked').each(function () {
+            var data = jQuery(this).attr("value");
+            selected.push(data);
+            console.log(selected);
+        });
+        var arr = selected.join(',');
+        console.log(arr);
+        $.ajax({
+            url: '@Url.Action("IsActiveSeleted" , "MuaChungManage")',
+            data: { userids: arr },
+            type: 'post'
+        }).success(function (data) {
+            if (data.result == true) {
+                $(".hoatdong").show();
+                $(".khonghoatdong").hide();
+                location.reload();
+            } else {
+                $(".hoatdong").hide();
+                $(".khonghoatdong").show();
+                location.reload();
+            }
+
+        });
+    });
+
+</script>

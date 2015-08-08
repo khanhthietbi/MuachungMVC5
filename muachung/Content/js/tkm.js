@@ -1,0 +1,1 @@
+ADM_CHECKER.checkCk('__M','5_ _ _12_12_0'); ADM_CHECKER.checkCk('__MJB',-1); ADM_CHECKER.checkCk('__MDV','-1'); ADM_CHECKER.checkCk('__MSP','-1'); ADM_CHECKER.checkCk('__NM','-1'); ADM_CHECKER.checkCk('__R',1); ADM_CHECKER.checkCk('__RC',4); ADM_CHECKER.checkCk('__uid',1434507611307554852); ADM_CHECKER.checkCk('__IP','3075548524');
